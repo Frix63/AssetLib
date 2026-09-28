@@ -67,7 +67,7 @@ header {
   flex-shrink: 0;
 }
 .mobile-menu-btn {
-  display: none;
+  display: none !important;
 }
 .desktop-btn-label {
   display: inline;
@@ -202,10 +202,10 @@ aside {
   justify-content: space-between;
 }
 .sidebar-close-btn {
-  display: none;
+  display: none !important;
 }
 .mobile-nav-backdrop {
-  display: none;
+  display: none !important;
 }
 .sidebar-header {
   padding: 8px 12px;
@@ -811,7 +811,7 @@ main {
     gap: 8px;
   }
   .mobile-menu-btn {
-    display: inline-flex;
+    display: inline-flex !important;
     align-items: center;
     gap: 4px;
     padding: 4px 8px;
@@ -875,7 +875,7 @@ main {
     opacity: 0.8;
   }
   .sidebar-close-btn {
-    display: flex;
+    display: flex !important;
     align-items: center;
     justify-content: center;
     background: transparent;
