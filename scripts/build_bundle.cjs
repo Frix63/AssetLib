@@ -40,7 +40,7 @@ archive.pipe(output);
 // Add README.txt
 const readmeContent = `ASSETLIB MASTER VECTOR BUNDLE
 ==============================
-Total Assets: 2,069 Curated Procedural Vector SVGs
+Total Assets: 2,366 Curated Procedural Vector SVGs
 License: Creative Commons Zero (CC0 1.0 Universal)
 Website: https://assetlib.dev
 

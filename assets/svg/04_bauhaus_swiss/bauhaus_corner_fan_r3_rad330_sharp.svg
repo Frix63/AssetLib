@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none" data-title="Bauhaus Quarter-Circle Corner Fan" data-category="04_bauhaus_swiss" data-tags="bauhaus,fan,corner,arc,quarter-circle,sharp,poster">
+  <title>Bauhaus Quarter-Circle Corner Fan</title>
+  <path d="M 421.0 421.0 A 330.0 330.0 0 0 0 91.0 91.0" fill="none" stroke="currentColor" stroke-width="50" stroke-linecap="square" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 311.0 421.0 A 220.0 220.0 0 0 0 91.0 201.0" fill="none" stroke="currentColor" stroke-width="50" stroke-linecap="square" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 201.0 421.0 A 110.0 110.0 0 0 0 91.0 311.0" fill="none" stroke="currentColor" stroke-width="50" stroke-linecap="square" stroke-linejoin="round" fill-rule="evenodd" />
+</svg>

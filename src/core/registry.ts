@@ -5,7 +5,14 @@ import {
   generateBauhausArch,
   generateConcentricSemis,
   generateBauhausPills,
-  generateBauhausStripes
+  generateBauhausStripes,
+  generateBauhausTriangle,
+  generateBauhausSplitDisc,
+  generateBauhausCornerFan,
+  generateBauhausBotanical,
+  generateBauhausQuadFlower,
+  generateBauhausCrestBowl,
+  generateBauhausPipeRibbon
 } from './generators/bauhaus';
 import { generateRadialHalftone, generateMoireRings } from './generators/halftones';
 import {
@@ -77,7 +84,14 @@ export const OPTIMIZED_STUDIO_LABELS = new Set<string>([
   'BAUHAUS STADIUM PILL',
   'BAUHAUS CIRCULAR STRIPES',
   'BAUHAUS SQUARE STRIPES',
-  'HYPERSPACE SPIRAL VORTEX'
+  'HYPERSPACE SPIRAL VORTEX',
+  'BAUHAUS MODERNIST TRIANGLE',
+  'BAUHAUS SPLIT DISC',
+  'BAUHAUS CORNER FAN',
+  'BAUHAUS GEOMETRIC BOTANICAL',
+  'BAUHAUS QUAD STAR FLOWER',
+  'BAUHAUS SEMICIRCLE CREST BOWL',
+  'BAUHAUS PARALLEL PIPE RIBBON'
 ]);
 
 export function isOptimizedForEdits(item: any): boolean {
@@ -442,14 +456,17 @@ export function detectParametricFeatures(item: any): ParametricDescriptor | null
   // 25. Bauhaus Concentric Semicircles
   if (name.includes('bauhaus_concentric')) {
     const m = name.match(/_r(\d+)_rad(\d+)/);
+    const isSharp = name.includes('_sharp');
     const p = {
       rings: m ? parseInt(m[1], 10) : 3,
-      rad: m ? parseInt(m[2], 10) : 180
+      rad: m ? parseInt(m[2], 10) : 180,
+      rounded: isSharp ? 0 : 1
     };
     return createDescriptor('BAUHAUS CONCENTRIC SEMICIRCLES', p, [
       { key: 'rings', label: 'CONCENTRIC RINGS', type: 'range', min: 2, max: 8, step: 1 },
-      { key: 'rad', label: 'OUTER RADIUS', type: 'range', min: 120, max: 240, step: 10, unit: 'px' }
-    ], (params) => generateConcentricSemis(params.rings, params.rad));
+      { key: 'rad', label: 'OUTER RADIUS', type: 'range', min: 120, max: 240, step: 10, unit: 'px' },
+      { key: 'rounded', label: 'CAP STYLE (0:SHARP, 1:ROUND)', type: 'range', min: 0, max: 1, step: 1 }
+    ], (params) => generateConcentricSemis(params.rings, params.rad, !!params.rounded));
   }
 
   // 26. Perforated Postage Stamp
@@ -524,14 +541,21 @@ export function detectParametricFeatures(item: any): ParametricDescriptor | null
   // 31. Bauhaus Stadium Pill
   if (name.includes('bauhaus_pill')) {
     const m = name.match(/_l(\d+)_w(\d+)/);
+    let style = 'round';
+    if (name.includes('_sharp')) style = 'sharp';
+    else if (name.includes('_semi')) style = 'semi';
+    else if (name.includes('_chamfer')) style = 'chamfer';
     const p = {
       length: m ? parseInt(m[1], 10) : 300,
-      width: m ? parseInt(m[2], 10) : 160
+      width: m ? parseInt(m[2], 10) : 160,
+      style: style === 'sharp' ? 1 : style === 'semi' ? 2 : style === 'chamfer' ? 3 : 0
     };
+    const styleNames = ['round', 'sharp', 'semi', 'chamfer'];
     return createDescriptor('BAUHAUS STADIUM PILL', p, [
       { key: 'length', label: 'PILL LENGTH', type: 'range', min: 140, max: 440, step: 20, unit: 'px' },
-      { key: 'width', label: 'PILL WIDTH', type: 'range', min: 60, max: 280, step: 20, unit: 'px' }
-    ], (params) => generateBauhausPills(params.length, params.width));
+      { key: 'width', label: 'PILL WIDTH', type: 'range', min: 60, max: 280, step: 20, unit: 'px' },
+      { key: 'style', label: 'STYLE (0:RND, 1:SHARP, 2:SEMI, 3:CHAM)', type: 'range', min: 0, max: 3, step: 1 }
+    ], (params) => generateBauhausPills(params.length, params.width, styleNames[params.style] || 'round'));
   }
 
   // 32. Bauhaus Circular / Square Stripes
@@ -562,6 +586,155 @@ export function detectParametricFeatures(item: any): ParametricDescriptor | null
       { key: 'turns', label: 'TIGHTNESS / TURNS', type: 'range', min: 0.3, max: 2.5, step: 0.1 },
       { key: 'strokeW', label: 'STROKE WEIGHT', type: 'range', min: 2, max: 20, step: 1, unit: 'px' }
     ], (params) => generateHyperspaceVortex(params.arms, params.turns, params.strokeW));
+  }
+
+  // 34. Bauhaus Modernist Triangle
+  if (name.includes('bauhaus_triangle')) {
+    const m = name.match(/_l(\d+)_sz(\d+)_w(\d+)/);
+    const isRound = name.includes('rounded');
+    const p = {
+      levels: m ? parseInt(m[1], 10) : 3,
+      size: m ? parseInt(m[2], 10) : 360,
+      strokeWidth: m ? parseInt(m[3], 10) : 16,
+      rounded: isRound ? 1 : 0
+    };
+    return createDescriptor('BAUHAUS MODERNIST TRIANGLE', p, [
+      { key: 'levels', label: 'NESTED LAYERS', type: 'range', min: 2, max: 8, step: 1 },
+      { key: 'size', label: 'TRIANGLE SIZE', type: 'range', min: 200, max: 400, step: 20, unit: 'px' },
+      { key: 'strokeWidth', label: 'STROKE WIDTH', type: 'range', min: 0, max: 32, step: 4, unit: 'px' },
+      { key: 'rounded', label: 'CORNER STYLE (0:SHARP, 1:ROUND)', type: 'range', min: 0, max: 1, step: 1 }
+    ], (params) => generateBauhausTriangle(params.levels, params.size, params.strokeWidth, !!params.rounded));
+  }
+
+  // 35. Bauhaus Split Disc
+  if (name.includes('bauhaus_split_disc')) {
+    const m = name.match(/_r(\d+)_o(\d+)/);
+    const isRound = name.includes('rounded');
+    const isRing = name.includes('ring');
+    const p = {
+      radius: m ? parseInt(m[1], 10) : 175,
+      offset: m ? parseInt(m[2], 10) : 30,
+      isRing: isRing ? 1 : 0,
+      rounded: isRound ? 1 : 0
+    };
+    return createDescriptor('BAUHAUS SPLIT DISC', p, [
+      { key: 'radius', label: 'DISC RADIUS', type: 'range', min: 120, max: 200, step: 10, unit: 'px' },
+      { key: 'offset', label: 'OFFSET GAP', type: 'range', min: 10, max: 60, step: 5, unit: 'px' },
+      { key: 'isRing', label: 'STYLE (0:SOLID, 1:RING)', type: 'range', min: 0, max: 1, step: 1 },
+      { key: 'rounded', label: 'CORNER STYLE (0:SHARP, 1:ROUND)', type: 'range', min: 0, max: 1, step: 1 }
+    ], (params) => generateBauhausSplitDisc(params.radius, params.offset, !!params.isRing, !!params.rounded));
+  }
+
+  // 36. Bauhaus Corner Fan
+  if (name.includes('bauhaus_corner_fan')) {
+    const m = name.match(/_r(\d+)_rad(\d+)/);
+    const isRound = name.includes('rounded');
+    const p = {
+      rings: m ? parseInt(m[1], 10) : 4,
+      radius: m ? parseInt(m[2], 10) : 330,
+      rounded: isRound ? 1 : 0
+    };
+    return createDescriptor('BAUHAUS CORNER FAN', p, [
+      { key: 'rings', label: 'FAN RINGS', type: 'range', min: 2, max: 8, step: 1 },
+      { key: 'radius', label: 'OUTER RADIUS', type: 'range', min: 240, max: 380, step: 20, unit: 'px' },
+      { key: 'rounded', label: 'CAP STYLE (0:SHARP, 1:ROUND)', type: 'range', min: 0, max: 1, step: 1 }
+    ], (params) => generateBauhausCornerFan(params.rings, params.radius, !!params.rounded));
+  }
+
+  // 37. Bauhaus Geometric Botanical
+  if (name.includes('bauhaus_botanical')) {
+    const mPairs = name.match(/_p(\d+)/);
+    const mSpan = name.match(/_s(\d+)/);
+    let leafStyle = 'pointed';
+    if (name.includes('rounded')) leafStyle = 'rounded';
+    else if (name.includes('semicircle')) leafStyle = 'semicircle';
+    const headStyle = name.includes('_leaf') ? 'leaf' : 'circle';
+    const styleIdx = leafStyle === 'rounded' ? 1 : leafStyle === 'semicircle' ? 2 : 0;
+    const p = {
+      leafPairs: mPairs ? parseInt(mPairs[1], 10) : 3,
+      leafStyle: styleIdx,
+      headStyle: headStyle === 'leaf' ? 1 : 0,
+      leafSpan: mSpan ? parseInt(mSpan[1], 10) : 160,
+      stemW: 14
+    };
+    const styleNames = ['pointed', 'rounded', 'semicircle'];
+    return createDescriptor('BAUHAUS GEOMETRIC BOTANICAL', p, [
+      { key: 'leafPairs', label: 'LEAF PAIRS', type: 'range', min: 2, max: 5, step: 1 },
+      { key: 'leafStyle', label: 'LEAF STYLE (0:PT, 1:RND, 2:SEMI)', type: 'range', min: 0, max: 2, step: 1 },
+      { key: 'headStyle', label: 'HEAD (0:CIRC, 1:LEAF)', type: 'range', min: 0, max: 1, step: 1 },
+      { key: 'leafSpan', label: 'LEAF SPAN', type: 'range', min: 100, max: 190, step: 10, unit: 'px' },
+      { key: 'stemW', label: 'STEM WIDTH', type: 'range', min: 8, max: 24, step: 2, unit: 'px' }
+    ], (params) => generateBauhausBotanical(params.leafPairs, styleNames[params.leafStyle] || 'pointed', params.headStyle ? 'leaf' : 'circle', params.leafSpan, params.stemW));
+  }
+
+  // 38. Bauhaus Quad Star Flower
+  if (name.includes('bauhaus_quad_flower')) {
+    const mSz = name.match(/_sz(\d+)/);
+    const mHole = name.match(/_h(\d+)/);
+    let style = 'pointed';
+    if (name.includes('rounded')) style = 'rounded';
+    else if (name.includes('astroid')) style = 'astroid';
+    const styleIdx = style === 'rounded' ? 1 : style === 'astroid' ? 2 : 0;
+    const fullness = name.includes('_slim') ? 0.75 : 1.0;
+    const p = {
+      size: mSz ? parseInt(mSz[1], 10) : 380,
+      style: styleIdx,
+      centerHole: mHole ? parseInt(mHole[1], 10) : 0,
+      fullness
+    };
+    const styleNames = ['pointed', 'rounded', 'astroid'];
+    return createDescriptor('BAUHAUS QUAD STAR FLOWER', p, [
+      { key: 'style', label: 'STYLE (0:PT, 1:RND, 2:AST)', type: 'range', min: 0, max: 2, step: 1 },
+      { key: 'size', label: 'FLOWER SIZE', type: 'range', min: 260, max: 440, step: 20, unit: 'px' },
+      { key: 'centerHole', label: 'CENTER CUTOUT', type: 'range', min: 0, max: 80, step: 10, unit: 'px' },
+      { key: 'fullness', label: 'PETAL FULLNESS', type: 'range', min: 0.5, max: 1.2, step: 0.05 }
+    ], (params) => generateBauhausQuadFlower(params.size, styleNames[params.style] || 'pointed', params.centerHole, params.fullness));
+  }
+
+  // 39. Bauhaus Semicircle Crest Bowl
+  if (name.includes('bauhaus_crest_bowl')) {
+    const mCnt = name.match(/_c(\d+)/);
+    const isHollow = name.includes('hollow');
+    const isTeeth = name.includes('teeth');
+    const isRound = name.includes('rounded');
+    const p = {
+      radius: 160,
+      bowlStyle: isHollow ? 1 : 0,
+      crownStyle: isTeeth ? 1 : 0,
+      count: mCnt ? parseInt(mCnt[1], 10) : 5,
+      rounded: isRound ? 1 : 0
+    };
+    return createDescriptor('BAUHAUS SEMICIRCLE CREST BOWL', p, [
+      { key: 'radius', label: 'BOWL RADIUS', type: 'range', min: 120, max: 200, step: 10, unit: 'px' },
+      { key: 'bowlStyle', label: 'BOWL (0:SOLID, 1:HOLLOW)', type: 'range', min: 0, max: 1, step: 1 },
+      { key: 'crownStyle', label: 'CREST (0:DOTS, 1:TEETH)', type: 'range', min: 0, max: 1, step: 1 },
+      { key: 'count', label: 'CREST ELEMENTS', type: 'range', min: 2, max: 9, step: 1 },
+      { key: 'rounded', label: 'CORNER STYLE (0:SHARP, 1:ROUND)', type: 'range', min: 0, max: 1, step: 1 }
+    ], (params) => generateBauhausCrestBowl(params.radius, params.bowlStyle ? 'hollow' : 'solid', params.crownStyle ? 'teeth' : 'dots', params.count, !!params.rounded));
+  }
+
+  // 40. Bauhaus Parallel Pipe Ribbon
+  if (name.includes('bauhaus_pipe_ribbon')) {
+    const mTrk = name.match(/_t(\d+)/);
+    const mSw = name.match(/_w(\d+)/);
+    let topo = 'elbow';
+    if (name.includes('loop_eye')) topo = 'loop_eye';
+    else if (name.includes('serpentine')) topo = 'serpentine';
+    const topoIdx = topo === 'loop_eye' ? 1 : topo === 'serpentine' ? 2 : 0;
+    const isRound = name.includes('rounded');
+    const p = {
+      tracks: mTrk ? parseInt(mTrk[1], 10) : 4,
+      strokeW: mSw ? parseInt(mSw[1], 10) : 14,
+      topology: topoIdx,
+      rounded: isRound ? 1 : 0
+    };
+    const topoNames = ['elbow', 'loop_eye', 'serpentine'];
+    return createDescriptor('BAUHAUS PARALLEL PIPE RIBBON', p, [
+      { key: 'topology', label: 'TOPOLOGY (0:ELB, 1:LOOP, 2:SERP)', type: 'range', min: 0, max: 2, step: 1 },
+      { key: 'tracks', label: 'PARALLEL TRACKS', type: 'range', min: 2, max: 6, step: 1 },
+      { key: 'strokeW', label: 'STROKE WIDTH', type: 'range', min: 6, max: 22, step: 2, unit: 'px' },
+      { key: 'rounded', label: 'STYLE (0:SHARP, 1:ROUND)', type: 'range', min: 0, max: 1, step: 1 }
+    ], (params) => generateBauhausPipeRibbon(params.tracks, params.strokeW, topoNames[params.topology] || 'elbow', !!params.rounded));
   }
 
   return null;

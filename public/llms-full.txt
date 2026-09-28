@@ -1,6 +1,6 @@
 # AssetLib Full Group Index
 
-Generated on 2026-09-28. Total assets: 2101 across 59 archetype groups.
+Generated on 2026-09-28. Total assets: 2366 across 62 archetype groups.
 
 ## Archetype Groups Directory
 
@@ -112,7 +112,7 @@ Generated on 2026-09-28. Total assets: 2101 across 59 archetype groups.
 ### Hyperspace Spiral Vortexes
 - **URL**: https://www.chris-creative.com/assetlib/group/spiral_vortexes
 - **Category**: Acid & Cyber Sigils
-- **Styles**: 72
+- **Styles**: 40
 - **Description**: Multi-arm logarithmic spiral warps and black hole vortexes.
 - **Tags**: vortex, spiral, warp, hyperspace, blackhole, twirl
 
@@ -133,7 +133,7 @@ Generated on 2026-09-28. Total assets: 2101 across 59 archetype groups.
 ### Modernist Stadium & Pill Capsules
 - **URL**: https://www.chris-creative.com/assetlib/group/stadium_pills
 - **Category**: Bauhaus & Swiss Style
-- **Styles**: 9
+- **Styles**: 36
 - **Description**: Rounded stadium capsules in horizontal, vertical, and angled orientations.
 - **Tags**: pill, capsule, stadium, bauhaus, geometric
 
@@ -154,16 +154,37 @@ Generated on 2026-09-28. Total assets: 2101 across 59 archetype groups.
 ### Concentric Modernist Semicircles
 - **URL**: https://www.chris-creative.com/assetlib/group/concentric_semicircles
 - **Category**: Bauhaus & Swiss Style
-- **Styles**: 10
+- **Styles**: 20
 - **Description**: Nested concentric semicircle arcs in 4 orientations.
 - **Tags**: semicircle, rainbow, concentric, arcs, bauhaus
 
 ### Bauhaus Diagonal Striped Blocks
 - **URL**: https://www.chris-creative.com/assetlib/group/diagonal_stripes
 - **Category**: Bauhaus & Swiss Style
-- **Styles**: 8
+- **Styles**: 16
 - **Description**: Geometric diagonal hazard and composition stripe blocks.
 - **Tags**: stripes, bars, block, lines, hazard, bauhaus
+
+### Modernist Triangles & Delta Prisms
+- **URL**: https://www.chris-creative.com/assetlib/group/nested_triangles
+- **Category**: Bauhaus & Swiss Style
+- **Styles**: 60
+- **Description**: Concentric nested equilateral triangles and modernist delta prisms.
+- **Tags**: triangle, delta, prism, geometric, bauhaus, pyramid
+
+### Modernist Split Discs & Semicircle Offsets
+- **URL**: https://www.chris-creative.com/assetlib/group/split_discs
+- **Category**: Bauhaus & Swiss Style
+- **Styles**: 48
+- **Description**: Divided and offset circular geometry with modernist tension.
+- **Tags**: disc, circle, split, offset, semicircle, bauhaus, minimal
+
+### Bauhaus Quarter-Circle Corner Fans
+- **URL**: https://www.chris-creative.com/assetlib/group/corner_fans
+- **Category**: Bauhaus & Swiss Style
+- **Styles**: 36
+- **Description**: Concentric quarter-circle radians radiating from corner anchors.
+- **Tags**: fan, arc, quarter-circle, radial, bauhaus, poster
 
 ### Organic Fluid Blobs & River Pebbles
 - **URL**: https://www.chris-creative.com/assetlib/group/organic_blobs

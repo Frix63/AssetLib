@@ -84,6 +84,12 @@ COLLECTION_DEFINITIONS = [
      'Nested concentric semicircle arcs in 4 orientations.', ['semicircle', 'rainbow', 'concentric', 'arcs', 'bauhaus']),
     ('diagonal_stripes', r'^bauhaus_stripes', 'Bauhaus Diagonal Striped Blocks', '04_bauhaus_swiss',
      'Geometric diagonal hazard and composition stripe blocks.', ['stripes', 'bars', 'block', 'lines', 'hazard', 'bauhaus']),
+    ('nested_triangles', r'^bauhaus_triangle', 'Modernist Triangles & Delta Prisms', '04_bauhaus_swiss',
+     'Concentric nested equilateral triangles and modernist delta prisms.', ['triangle', 'delta', 'prism', 'geometric', 'bauhaus', 'pyramid']),
+    ('split_discs', r'^bauhaus_split_disc', 'Modernist Split Discs & Semicircle Offsets', '04_bauhaus_swiss',
+     'Divided and offset circular geometry with modernist tension.', ['disc', 'circle', 'split', 'offset', 'semicircle', 'bauhaus', 'minimal']),
+    ('corner_fans', r'^bauhaus_corner_fan', 'Bauhaus Quarter-Circle Corner Fans', '04_bauhaus_swiss',
+     'Concentric quarter-circle radians radiating from corner anchors.', ['fan', 'arc', 'quarter-circle', 'radial', 'bauhaus', 'poster']),
 
     # Organic & Botanical
     ('organic_blobs', r'^organic_blob', 'Organic Fluid Blobs & River Pebbles', '05_organic_botanical',

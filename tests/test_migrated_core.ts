@@ -47,8 +47,8 @@ console.log(`Unoptimized (Studio Disabled):      ${disabledCount} (${((disabledC
 console.log(`Live SVG Generation Errors:        ${errors.length}`);
 console.log('========================================================');
 
-if (errors.length === 0 && (optimizedCount + disabledCount) === manifest.assets.length && optimizedCount === 1175 && disabledCount === 894) {
-  console.log(`>>> VERIFIED: MIGRATED CORE ENGINE PASSES 100% (1,175 OPTIMIZED, 894 DISABLED, 0 ERRORS) <<<`);
+if (errors.length === 0 && (optimizedCount + disabledCount) === manifest.assets.length && optimizedCount === 1472 && disabledCount === 894) {
+  console.log(`>>> VERIFIED: MIGRATED CORE ENGINE PASSES 100% (1,472 OPTIMIZED, 894 DISABLED, 0 ERRORS) <<<`);
   process.exit(0);
 } else {
   console.error('Audit failed with errors:', errors.slice(0, 10));

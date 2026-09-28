@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none" data-title="Bauhaus Parallel Pipe Ribbon" data-category="04_bauhaus_swiss" data-tags="bauhaus,pipe,ribbon,tracks,loop_eye,rounded,streamline">
+  <title>Bauhaus Parallel Pipe Ribbon</title>
+  <path d="M 196.0 445.0 L 196.0 240.0 A 60.0 60.0 0 0 1 316.0 240.0 L 316.0 445.0" fill="none" stroke="currentColor" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 170.8 445.0 L 170.8 240.0 A 85.2 85.2 0 0 1 341.2 240.0 L 341.2 445.0" fill="none" stroke="currentColor" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 145.6 445.0 L 145.6 240.0 A 110.4 110.4 0 0 1 366.4 240.0 L 366.4 445.0" fill="none" stroke="currentColor" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 120.4 445.0 L 120.4 240.0 A 135.6 135.6 0 0 1 391.6 240.0 L 391.6 445.0" fill="none" stroke="currentColor" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 95.2 445.0 L 95.2 240.0 A 160.8 160.8 0 0 1 416.8 240.0 L 416.8 445.0" fill="none" stroke="currentColor" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" />
+  <circle cx="256" cy="240" r="25.2" fill="currentColor" />
+</svg>

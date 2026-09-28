@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none" data-title="Bauhaus Semicircle Crest Bowl" data-category="04_bauhaus_swiss" data-tags="bauhaus,bowl,semicircle,crest,dots,sharp">
+  <title>Bauhaus Semicircle Crest Bowl</title>
+  <path d="M 96.0 286.0 A 160.0 160.0 0 0 0 416.0 286.0 Z" fill="currentColor" fill-rule="evenodd" />
+  <circle cx="132" cy="246" r="15.71" fill="currentColor" />
+  <circle cx="173.33" cy="246" r="15.71" fill="currentColor" />
+  <circle cx="214.67" cy="246" r="15.71" fill="currentColor" />
+  <circle cx="256" cy="246" r="15.71" fill="currentColor" />
+  <circle cx="297.33" cy="246" r="15.71" fill="currentColor" />
+  <circle cx="338.67" cy="246" r="15.71" fill="currentColor" />
+  <circle cx="380" cy="246" r="15.71" fill="currentColor" />
+</svg>

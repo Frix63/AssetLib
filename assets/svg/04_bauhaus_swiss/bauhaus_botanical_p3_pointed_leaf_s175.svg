@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none" data-title="Bauhaus Geometric Botanical" data-category="04_bauhaus_swiss" data-tags="bauhaus,botanical,stem,leaves,pointed,leaf,flora">
+  <title>Bauhaus Geometric Botanical</title>
+  <rect x="249" y="130" width="14" height="318" fill="currentColor" />
+  <path d="M 256.0 130.0 Q 216.0 96.0 256.0 62.0 Q 296.0 96.0 256.0 130.0 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 249.0 403.0 Q 196.5 363.0 74.0 371.0 Q 126.5 413.0 249.0 403.0 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 263.0 403.0 Q 315.5 363.0 438.0 371.0 Q 385.5 413.0 263.0 403.0 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 249.0 322.4 Q 200.7 282.4 88.0 290.4 Q 136.3 332.4 249.0 322.4 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 263.0 322.4 Q 311.3 282.4 424.0 290.4 Q 375.7 332.4 263.0 322.4 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 249.0 241.8 Q 204.9 201.8 102.0 209.8 Q 146.1 251.8 249.0 241.8 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 263.0 241.8 Q 307.1 201.8 410.0 209.8 Q 365.9 251.8 263.0 241.8 Z" fill="currentColor" fill-rule="evenodd" />
+</svg>

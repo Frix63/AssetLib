@@ -2,14 +2,16 @@
  * Multi-threaded SVG to PNG batch rasterizer using @resvg/resvg-js & Node worker_threads.
  * Renders all shapes across multiple CPU cores in parallel.
  */
-const fs = require('fs');
-const path = require('path');
-const { Worker, isMainThread, parentPort, workerData } = require('worker_threads');
-const os = require('os');
+import fs from 'node:fs';
+import path from 'node:path';
+import { Worker, isMainThread, parentPort, workerData } from 'node:worker_threads';
+import os from 'node:os';
+import { fileURLToPath } from 'node:url';
+import { Resvg } from '@resvg/resvg-js';
 
-if (!isMainThread) {
-    // Worker Thread Logic
-    const { Resvg } = require('@resvg/resvg-js');
+const __filename = fileURLToPath(import.meta.url);
+
+function runWorker() {
     const { files, svgDir, pngDir, width } = workerData;
     const createdDirs = new Set();
     let renderedCount = 0;
@@ -41,10 +43,8 @@ if (!isMainThread) {
         }
     }
     parentPort.postMessage({ renderedCount });
-    return;
 }
 
-// Main Thread Logic
 function getAllSvgFiles(dir) {
     let results = [];
     if (!fs.existsSync(dir)) return results;
@@ -61,7 +61,7 @@ function getAllSvgFiles(dir) {
     return results;
 }
 
-async function runParallelRasterizer(svgDir = 'assets/svg', pngDir = 'assets/png', width = 1024) {
+export async function runParallelRasterizer(svgDir = 'assets/svg', pngDir = 'assets/png', width = 1024) {
     const allFiles = getAllSvgFiles(svgDir);
     const totalFiles = allFiles.length;
     const numWorkers = Math.min(Math.max(os.cpus().length - 2, 4), 12);
@@ -112,32 +112,35 @@ async function runParallelRasterizer(svgDir = 'assets/svg', pngDir = 'assets/png
     console.log(`\nAll ${totalRendered} PNGs rendered successfully in ${elapsed}s!`);
 }
 
-if (isMainThread && require.main === module) {
-    const args = process.argv.slice(2);
-    let svgDir = 'assets/svg';
-    let pngDir = 'assets/png';
-    let width = 1024;
+if (!isMainThread) {
+    runWorker();
+} else {
+    const isDirectRun = process.argv[1] && (path.resolve(process.argv[1]) === path.resolve(__filename));
+    if (isDirectRun) {
+        const args = process.argv.slice(2);
+        let svgDir = 'assets/svg';
+        let pngDir = 'assets/png';
+        let width = 1024;
 
-    for (let i = 0; i < args.length; i++) {
-        if (args[i] === '--category' && args[i + 1]) {
-            const cat = args[i + 1];
-            svgDir = path.join('assets/svg', cat);
-            pngDir = path.join('assets/png', cat);
-            i++;
-        } else if (args[i] === '--width' && args[i + 1]) {
-            width = parseInt(args[i + 1], 10);
-            i++;
-        } else if (!args[i].startsWith('--')) {
-            if (i === 0) svgDir = args[0];
-            else if (i === 1) pngDir = args[1];
-            else if (i === 2) width = parseInt(args[2], 10);
+        for (let i = 0; i < args.length; i++) {
+            if (args[i] === '--category' && args[i + 1]) {
+                const cat = args[i + 1];
+                svgDir = path.join('assets/svg', cat);
+                pngDir = path.join('assets/png', cat);
+                i++;
+            } else if (args[i] === '--width' && args[i + 1]) {
+                width = parseInt(args[i + 1], 10);
+                i++;
+            } else if (!args[i].startsWith('--')) {
+                if (i === 0) svgDir = args[0];
+                else if (i === 1) pngDir = args[1];
+                else if (i === 2) width = parseInt(args[2], 10);
+            }
         }
+
+        runParallelRasterizer(svgDir, pngDir, width).catch(err => {
+            console.error('Rasterization failed:', err);
+            process.exit(1);
+        });
     }
-
-    runParallelRasterizer(svgDir, pngDir, width).catch(err => {
-        console.error('Rasterization failed:', err);
-        process.exit(1);
-    });
 }
-
-module.exports = { runParallelRasterizer };
