@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "start": "vite",
-    "build": "tsc && vite build && node scripts/build_bundle.cjs && node scripts/generate_sitemap.cjs && node scripts/prerender.cjs",
+    "build": "tsc && vite build && node scripts/copy_assets.cjs && node scripts/build_bundle.cjs && node scripts/generate_sitemap.cjs && node scripts/prerender.cjs",
     "preview": "vite preview",
     "test": "npx tsx tests/test_migrated_core.ts && npx tsx tests/test_modal_selection.ts && npx tsx tests/test_router.ts"
   },

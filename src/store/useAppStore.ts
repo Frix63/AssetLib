@@ -13,7 +13,8 @@ import {
   navigateToGroup,
   navigateToCategory,
   navigateToAll,
-  navigateToHome
+  navigateToHome,
+  getAssetUrl
 } from '../core/router';
 
 const DEFAULT_TRANSFORMS: StudioTransformParams = {
@@ -141,13 +142,13 @@ export const useAppStore = create<AppState>((set, get) => ({
     if (typeof window === 'undefined') return;
     try {
       set({ isLoading: true });
-      const res = await fetch('/assets/data/manifest_summary.json');
+      const res = await fetch(getAssetUrl('assets/data/manifest_summary.json'));
       if (res.ok) {
         const data: ManifestSummary = await res.json();
         set({ summary: data, isLoading: false });
         await get().syncFromUrl(false);
       }
-      fetch('/manifest.json')
+      fetch(getAssetUrl('manifest.json'))
         .then(r => r.json())
         .then(full => {
           if (full && full.assets) {
@@ -200,7 +201,7 @@ export const useAppStore = create<AppState>((set, get) => ({
       return loadedCategories[categoryId];
     }
     try {
-      const res = await fetch(`/assets/data/categories/${categoryId}.json`);
+      const res = await fetch(getAssetUrl(`assets/data/categories/${categoryId}.json`));
       if (res.ok) {
         const data = await res.json();
         const shapes: AssetItem[] = data.assets || data.shapes || [];

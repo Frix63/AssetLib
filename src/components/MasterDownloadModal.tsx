@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useAppStore } from '../store/useAppStore';
+import { getAssetUrl } from '../core/router';
 
 export const MasterDownloadModal: React.FC = () => {
   const { isDownloadModalOpen, closeDownloadModal, showToast } = useAppStore();
@@ -33,7 +34,7 @@ export const MasterDownloadModal: React.FC = () => {
 
   const triggerDownload = () => {
     const a = document.createElement('a');
-    a.href = '/downloads/AssetLib-Vectors.zip';
+    a.href = getAssetUrl('downloads/AssetLib-Vectors.zip');
     a.download = 'AssetLib-Vectors.zip';
     document.body.appendChild(a);
     a.click();
@@ -50,7 +51,7 @@ export const MasterDownloadModal: React.FC = () => {
 
     // 1. Save to local CSV file via Vite / backend API endpoint
     try {
-      await fetch('/api/save-email', {
+      await fetch(getAssetUrl('api/save-email'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -105,7 +106,7 @@ export const MasterDownloadModal: React.FC = () => {
   const handleExportCsv = () => {
     // Try to download from server endpoint first, fallback to client-side localStorage CSV
     const a = document.createElement('a');
-    a.href = '/api/subscribers.csv';
+    a.href = getAssetUrl('api/subscribers.csv');
     a.download = 'subscribers.csv';
     document.body.appendChild(a);
     a.click();

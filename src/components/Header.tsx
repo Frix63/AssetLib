@@ -1,6 +1,6 @@
 import React from 'react';
 import { useAppStore } from '../store/useAppStore';
-
+import { getAssetUrl } from '../core/router';
 
 export const Header: React.FC = () => {
   const {
@@ -37,12 +37,12 @@ export const Header: React.FC = () => {
           >
             <span className="chris-creative-by">- by</span>
             <img
-              src="/assets/brand/chris-creative/White-full.svg"
+              src={getAssetUrl('assets/brand/chris-creative/White-full.svg')}
               alt="Chris Creative"
               className="chris-creative-logo dark-only"
             />
             <img
-              src="/assets/brand/chris-creative/Black-full.svg"
+              src={getAssetUrl('assets/brand/chris-creative/Black-full.svg')}
               alt="Chris Creative"
               className="chris-creative-logo light-only"
             />

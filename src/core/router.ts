@@ -9,6 +9,12 @@ export function getBasePath(): string {
   return window.location.pathname.startsWith('/assetlib') ? '/assetlib' : '';
 }
 
+export function getAssetUrl(relPath: string): string {
+  const clean = relPath.startsWith('/') ? relPath.slice(1) : relPath;
+  const base = getBasePath();
+  return base ? `${base}/${clean}` : `/${clean}`;
+}
+
 export function parseRoute(pathname: string = '', hash: string = '', search: string = ''): RouteState {
   // Strip optional /assetlib subfolder prefix if present
   const cleanPath = pathname.replace(/^\/assetlib(?:\/|$)/i, '/') || '/';
