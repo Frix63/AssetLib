@@ -82,16 +82,16 @@ let generatedCount = 0;
 // 1. Root Homepage (dist/index.html update)
 renderPage({
   relPath: '',
-  title: 'AssetLib — Free Procedural Vector & SVG Asset Library',
-  description: 'Curated library of 2,000+ procedural vector assets in SVG & transparent PNG across 12 aesthetics: Y2K Cyber Stars, HUD Reticles, Bauhaus, Cyber Sigils, Halftones, and more. 100% free for commercial use.',
-  keywords: 'svg library, vector assets, y2k stars, cyber sigils, hud crosshairs, bauhaus vectors, procedural svg, free svg download, graphic design assets',
+  title: 'AssetLib — 2,000+ Free Design Assets & Vector Shapes (SVG & PNG)',
+  description: 'Download 2,069+ curated free design assets, vector shapes, and graphic design elements in clean SVG & transparent PNG. Ready for Figma, Illustrator, and Photoshop. 100% free for commercial & personal projects.',
+  keywords: 'free design assets, free design vectors, free vector pack, free svg shapes, graphic design assets, y2k vector shapes, brutalist design elements, acid graphics, figma vector assets, illustrator vector pack, free commercial vectors, streetwear graphics, poster design assets, assetlib',
   canonicalUrl: `${domain}/`,
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'AssetLib',
+    name: 'AssetLib — Free Design Assets',
     url: domain,
-    description: 'Curated library of 2,000+ procedural vector assets in raw SVG and transparent PNG.',
+    description: 'Curated library of 2,000+ free design assets, vector shapes, and design elements in clean SVG & transparent PNG.',
     potentialAction: {
       '@type': 'SearchAction',
       target: `${domain}/?q={search_term_string}`,
@@ -99,7 +99,15 @@ renderPage({
     }
   },
   crawlerHtml: `
-    <header style="padding:16px;"><h1>AssetLib — Free Procedural Vector & SVG Asset Library</h1><p>Curated collection of 2,069+ vector shapes and procedural studio.</p></header>
+    <header style="padding:24px;">
+      <h1>Free Design Assets &amp; Vector Shapes for Graphic Designers</h1>
+      <p>Curated collection of 2,069+ authentic vector shapes and design assets across 12 aesthetic movements: Y2K Cyber Stars, Brutalist HUD, Acid Graphics, Bauhaus Modernism, Retro 70s Pop, Memphis 80s, Badges &amp; Seals, Sacred Geometry, and Halftones.</p>
+      <ul>
+        <li><strong>Format</strong>: Clean Scalable SVG &amp; High-Resolution Transparent PNG</li>
+        <li><strong>Compatibility</strong>: Figma, Adobe Illustrator, Photoshop, Canva, After Effects &amp; Web Code</li>
+        <li><strong>License</strong>: 100% Free for Commercial &amp; Personal Projects (CC0 Public Domain)</li>
+      </ul>
+    </header>
   `
 });
 generatedCount++;
@@ -107,19 +115,22 @@ generatedCount++;
 // 2. All Shapes page (/all)
 renderPage({
   relPath: 'all',
-  title: 'All Vector Assets & Shapes — AssetLib',
-  description: 'Browse all 2,069 individual procedural vector graphics. Search and export raw SVG or transparent PNG with customizable math parameters.',
-  keywords: 'all vectors, vector catalog, svg icons, procedural design, assetlib catalog',
+  title: 'All 2,069 Free Design Assets & Vector Shapes | AssetLib',
+  description: 'Browse the complete collection of 2,069 free vector assets and design shapes. Instant copy SVG, transparent PNG download, and live customization for Figma, Illustrator, and web projects.',
+  keywords: 'all design assets, free vectors, free design elements, svg shapes catalog, graphic design vectors, figma assets, illustrator vectors, assetlib catalog',
   canonicalUrl: `${domain}/all`,
   jsonLd: {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
-    name: 'All Vector Assets',
+    name: 'All Free Design Assets & Vector Shapes',
     url: `${domain}/all`,
-    description: 'Complete catalog of 2,069 procedural vector graphics.'
+    description: 'Complete catalog of 2,069 free vector assets and design elements.'
   },
   crawlerHtml: `
-    <main style="padding:16px;"><h1>All 2,069 Vector Shapes</h1><p>Browse individual shapes across all 12 aesthetic movements.</p></main>
+    <main style="padding:24px;">
+      <h1>All 2,069 Free Vector Shapes &amp; Design Assets</h1>
+      <p>Browse individual shapes across all 12 aesthetic movements. Instant SVG copy and PNG download.</p>
+    </main>
   `
 });
 generatedCount++;
@@ -132,23 +143,23 @@ Object.entries(summary.categories || {}).forEach(([catId, catInfo]) => {
 
   renderPage({
     relPath: `category/${catId}`,
-    title: `${catTitle} Vectors — Free SVG Asset Library | AssetLib`,
-    description: `Explore ${count} curated ${catTitle} vector assets in raw SVG and PNG. Editable procedural math controls, zero cost, unrestricted commercial use.`,
-    keywords: `${catTitle.toLowerCase()}, ${catTitle.toLowerCase()} vectors, ${catTitle.toLowerCase()} svg, assetlib ${catId}`,
+    title: `${catTitle} — Free Vector Shapes & Graphic Design Assets | AssetLib`,
+    description: `Download ${count} curated ${catTitle} vector shapes and design assets in clean SVG & transparent PNG. Free for commercial branding, posters, streetwear, and UI/UX design.`,
+    keywords: `free ${catTitle.toLowerCase()} assets, ${catTitle.toLowerCase()} vectors, ${catTitle.toLowerCase()} svg shapes, graphic design ${catTitle.toLowerCase()}, figma ${catTitle.toLowerCase()}, vector pack`,
     canonicalUrl: catUrl,
     jsonLd: {
       '@context': 'https://schema.org',
       '@type': 'CollectionPage',
-      name: `${catTitle} Vector Collection`,
+      name: `${catTitle} Vector Assets`,
       url: catUrl,
-      description: `Collection of ${count} ${catTitle} vector assets.`,
+      description: `Collection of ${count} free ${catTitle} vector shapes and design assets.`,
       license: 'https://creativecommons.org/publicdomain/zero/1.0/'
     },
     crawlerHtml: `
-      <main style="padding:16px;">
+      <main style="padding:24px;">
         <nav><a href="/">AssetLib</a> / <span>Categories</span></nav>
-        <h1>${escapeHtml(catTitle)} Vectors</h1>
-        <p>Curated collection of ${count} procedural vector assets.</p>
+        <h1>${escapeHtml(catTitle)} — Free Vector Assets</h1>
+        <p>Curated collection of ${count} authentic design shapes in clean SVG and transparent PNG. 100% free for commercial use in Figma, Illustrator, and client work.</p>
       </main>
     `
   });
@@ -175,9 +186,9 @@ Object.entries(summary.categories || {}).forEach(([catId, catInfo]) => {
 
   renderPage({
     relPath: `group/${col.id}`,
-    title: `${groupTitle} — Free SVG Vectors & PNG Assets | AssetLib`,
-    description: `Download ${count} customizable ${groupTitle} vector shapes in raw SVG and transparent PNG. Live procedural parametric editor, zero-cost commercial license.`,
-    keywords: `${tags.join(', ')}, ${groupTitle.toLowerCase()}, free svg vectors, procedural graphics, assetlib`,
+    title: `${groupTitle} — Free Vector Shapes & Design Assets (SVG & PNG) | AssetLib`,
+    description: `Download ${count} free ${groupTitle} vector shapes and design assets in clean SVG and transparent PNG. Compatible with Figma, Adobe Illustrator, and web code. 100% free commercial license.`,
+    keywords: `${tags.join(', ')}, ${groupTitle.toLowerCase()}, free design assets, free vector shapes, graphic design vectors, figma assets, svg download`,
     canonicalUrl: groupUrl,
     jsonLd: {
       '@context': 'https://schema.org',
@@ -188,17 +199,17 @@ Object.entries(summary.categories || {}).forEach(([catId, catInfo]) => {
       license: 'https://creativecommons.org/publicdomain/zero/1.0/',
       creator: {
         '@type': 'Organization',
-        name: 'AssetLib'
+        name: 'AssetLib by Chris Creative'
       }
     },
     crawlerHtml: `
-      <main style="padding:16px;">
+      <main style="padding:24px;">
         <nav><a href="/">AssetLib</a> / <a href="/category/${col.category}">${escapeHtml(catLabel)}</a> / <span>${escapeHtml(groupTitle)}</span></nav>
-        <h1>${escapeHtml(groupTitle)} Vector Assets</h1>
+        <h1>${escapeHtml(groupTitle)} — Free Vector Shapes</h1>
         <p>${escapeHtml(desc)}</p>
-        <p>Contains ${count} styles in raw SVG and transparent PNG. 100% free for commercial use.</p>
+        <p>Includes ${count} styles in raw SVG and transparent PNG. Ready for Figma, Illustrator, and commercial projects.</p>
         <section>
-          <h2>Sample Variants</h2>
+          <h2>Included Shape Variants</h2>
           ${previewListHtml}
         </section>
       </main>

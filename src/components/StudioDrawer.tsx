@@ -105,13 +105,13 @@ export const StudioDrawer: React.FC = () => {
                     {activeDescriptor.label}
                   </span>
                   <span style={{ opacity: 0.6, fontSize: '9px', marginLeft: '4px' }}>
-                    PARAMETRIC
+                    CUSTOMIZE
                   </span>
                 </div>
                 <button
                   className="btn"
                   style={{ fontSize: '10px', height: '22px', padding: '2px 6px' }}
-                  title="Randomize generator math parameters"
+                  title="Randomize shape variation"
                   onClick={randomizeParameters}
                 >
                   RANDOMIZE

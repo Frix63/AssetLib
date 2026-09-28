@@ -1,8 +1,8 @@
 # AssetLib
 
-> Free procedural SVG vector asset library and live parametric design studio.
+> 2,000+ Free Design Assets, Vector Shapes & Graphic Elements for Graphic Designers.
 
-AssetLib is an open collection of 2,069+ curated vector graphics spanning 12 distinct aesthetic movements, designed for graphic designers, creative coders, and UI/UX developers. Every asset is available as clean raw SVG, transparent PNG, and live editable procedural math parameters.
+AssetLib is an open-source collection of 2,069+ curated vector graphics spanning 12 distinct design movements, created for graphic designers, art directors, streetwear brands, and UI/UX developers. Every asset is available as clean scalable SVG and high-resolution transparent PNG.
 
 ## Core Aesthetics & Collections
 - **Y2K & Cyber Stars**: 4-point to 32-point pinch stars, cutout stars, faceted 3D stars, compass stars, lens flare sparkles. URL: `https://www.chris-creative.com/assetlib/category/01_y2k_cyber_stars`
@@ -19,13 +19,13 @@ AssetLib is an open collection of 2,069+ curated vector graphics spanning 12 dis
 - **Abstract Distortions**: Sliced wave bars, twisted polygon vortex tunnels, wave-warped ripple discs, moire interference rings, parabolic string art. URL: `https://www.chris-creative.com/assetlib/category/12_abstract_distortions`
 
 ## Key Capabilities
-- **Live Parametric Studio**: Over 1,175 shapes feature real-time procedural sliders (points, density, arms, frequency, twist, stroke weight).
-- **Export Options**: One-click Copy SVG, Copy JSX / React component, Download SVG, Download PNG (512x512 to 2048x2048).
-- **Zero Dependencies**: Generated directly from mathematical algorithms without external fonts or raster dependencies.
+- **Live Shape Customizer**: Over 1,175 shapes feature real-time visual adjustment sliders (points, density, arms, frequency, twist, stroke weight).
+- **Export Options**: One-click Copy SVG (paste directly into Figma & Illustrator), Download SVG, Download High-Res PNG (up to 2048x2048).
+- **Zero Raster Artifacts**: Ultra-clean vector curves ready for print, screen, and merchandise.
 
 ## Licensing
 - **License**: Creative Commons Zero (CC0 1.0 Universal) / Public Domain Dedication.
-- **Commercial Use**: 100% free for commercial and personal work with no attribution required.
+- **Commercial Use**: 100% free for commercial client projects, personal portfolios, apparel, posters, and web products. No attribution required.
 
 ## Full Catalog
 For the complete index of all 59 groups and archetype pages, see `https://www.chris-creative.com/assetlib/llms-full.txt`.
