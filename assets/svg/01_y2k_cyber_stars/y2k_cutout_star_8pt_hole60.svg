@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none" data-title="Cutout 8-Point Star" data-category="01_y2k_cyber_stars" data-tags="y2k,cutout,donut,star">
+  <title>Cutout 8-Point Star</title>
+  <path d="M 476 256 C 320.73 268.88 310.88 292.67 411.56 411.56 C 292.67 310.88 268.88 320.73 256 476 C 243.12 320.73 219.33 310.88 100.44 411.56 C 201.12 292.67 191.27 268.88 36 256 C 191.27 243.12 201.12 219.33 100.44 100.44 C 219.33 201.12 243.12 191.27 256 36 C 268.88 191.27 292.67 201.12 411.56 100.44 C 310.88 219.33 320.73 243.12 476 256 Z M 196.0 256.0 A 60 60 0 1 0 316.0 256.0 A 60 60 0 1 0 196.0 256.0 Z" fill="currentColor" fill-rule="evenodd" />
+</svg>

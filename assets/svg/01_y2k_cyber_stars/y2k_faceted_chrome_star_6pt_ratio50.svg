@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none" data-title="6-Point Faceted Chrome Star" data-category="01_y2k_cyber_stars" data-tags="y2k,faceted,chrome,3d,star,6-point">
+  <title>6-Point Faceted Chrome Star</title>
+  <path d="M 256.0 256.0 L 256.0 36.0 L 311.0 160.74 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 256.0 256.0 L 446.53 146.0 L 366.0 256.0 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 256.0 256.0 L 446.53 366.0 L 311.0 351.26 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 256.0 256.0 L 256.0 476.0 L 201.0 351.26 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 256.0 256.0 L 65.47 366.0 L 146.0 256.0 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 256.0 256.0 L 65.47 146.0 L 201.0 160.74 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 256.0 36.0 L 311.0 160.74 L 446.53 146.0 L 366.0 256.0 L 446.53 366.0 L 311.0 351.26 L 256.0 476.0 L 201.0 351.26 L 65.47 366.0 L 146.0 256.0 L 65.47 146.0 L 201.0 160.74 Z" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="10" fill-rule="evenodd" />
+  <path d="M 256.0 256.0 L 256.0 36.0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 256.0 256.0 L 311.0 160.74" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 256.0 256.0 L 446.53 146.0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 256.0 256.0 L 366.0 256.0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 256.0 256.0 L 446.53 366.0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 256.0 256.0 L 311.0 351.26" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 256.0 256.0 L 256.0 476.0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 256.0 256.0 L 201.0 351.26" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 256.0 256.0 L 65.47 366.0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 256.0 256.0 L 146.0 256.0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 256.0 256.0 L 65.47 146.0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 256.0 256.0 L 201.0 160.74" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="butt" stroke-linejoin="round" fill-rule="evenodd" />
+</svg>

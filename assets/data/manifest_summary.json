@@ -1,0 +1,1113 @@
+{
+  "total_shapes": 2101,
+  "total_collections": 59,
+  "categories": {
+    "01_y2k_cyber_stars": {
+      "title": "Y2K & Cyber Stars",
+      "count": 182
+    },
+    "02_neo_brutalist_hud": {
+      "title": "Neo-Brutalist HUD",
+      "count": 188
+    },
+    "03_acid_cyber_sigils": {
+      "title": "Acid & Cyber Sigils",
+      "count": 309
+    },
+    "04_bauhaus_swiss": {
+      "title": "Bauhaus & Swiss Style",
+      "count": 139
+    },
+    "05_organic_botanical": {
+      "title": "Organic & Botanical",
+      "count": 158
+    },
+    "06_retro_groovy_70s": {
+      "title": "Retro Groovy 70s",
+      "count": 184
+    },
+    "07_memphis_80s_90s": {
+      "title": "Memphis 80s/90s Pop",
+      "count": 200
+    },
+    "08_badges_seals_labels": {
+      "title": "Badges, Seals & Labels",
+      "count": 199
+    },
+    "09_arrows_pointers_accents": {
+      "title": "Arrows, Pointers & Accents",
+      "count": 82
+    },
+    "10_sacred_guilloche_geo": {
+      "title": "Sacred Geometry & Guilloche",
+      "count": 172
+    },
+    "11_halftones_optical_grids": {
+      "title": "Halftones & Matrix Grids",
+      "count": 134
+    },
+    "12_abstract_distortions": {
+      "title": "Abstract Distortions",
+      "count": 154
+    }
+  },
+  "collections": [
+    {
+      "id": "cutout_stars",
+      "title": "Negative Space Cutout Stars",
+      "category": "01_y2k_cyber_stars",
+      "category_label": "Y2K & Cyber Stars",
+      "count": 9,
+      "description": "Stars with circular and geometric negative space central cutouts.",
+      "tags": [
+        "star",
+        "cutout",
+        "donut",
+        "hole",
+        "y2k",
+        "cyber"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Cutout 4-Point Star\" data-category=\"01_y2k_cyber_stars\" data-tags=\"y2k,cutout,donut,star\">\n  <title>Cutout 4-Point Star</title>\n  <path d=\"M 476 256 C 316.98 281.26 281.26 316.98 256 476 C 230.74 316.98 195.02 281.26 36 256 C 195.02 230.74 230.74 195.02 256 36 C 281.26 195.02 316.98 230.74 476 256 Z M 221.0 256.0 A 35 35 0 1 0 291.0 256.0 A 35 35 0 1 0 221.0 256.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/01_y2k_cyber_stars/y2k_cutout_star_4pt_hole35.svg"
+    },
+    {
+      "id": "pinch_stars",
+      "title": "Y2K Cyber Pinch Stars",
+      "category": "01_y2k_cyber_stars",
+      "category_label": "Y2K & Cyber Stars",
+      "count": 72,
+      "description": "Curved pinch astroid cyber stars with inward curving flare edges.",
+      "tags": [
+        "star",
+        "pinch",
+        "astroid",
+        "sparkle",
+        "flare",
+        "y2k"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"12-Point Y2K Cyber Star\" data-category=\"01_y2k_cyber_stars\" data-tags=\"y2k,cyber,star,sparkle,12-point,pinch\">\n  <title>12-Point Y2K Cyber Star</title>\n  <path d=\"M 466 256 C 393.41 274.09 384.05 309.04 437.87 361 C 365.96 340.37 340.37 365.96 361 437.87 C 309.04 384.05 274.09 393.41 256 466 C 237.91 393.41 202.96 384.05 151 437.87 C 171.63 365.96 146.04 340.37 74.13 361 C 127.95 309.04 118.59 274.09 46 256 C 118.59 237.91 127.95 202.96 74.13 151 C 146.04 171.63 171.63 146.04 151 74.13 C 202.96 127.95 237.91 118.59 256 46 C 274.09 118.59 309.04 127.95 361 74.13 C 340.37 146.04 365.96 171.63 437.87 151 C 384.05 202.96 393.41 237.91 466 256 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/01_y2k_cyber_stars/y2k_pinch_star_12pt_p45_r210.svg"
+    },
+    {
+      "id": "sharp_stars",
+      "title": "Sharp Geometric Stars",
+      "category": "01_y2k_cyber_stars",
+      "category_label": "Y2K & Cyber Stars",
+      "count": 44,
+      "description": "Crisp straight-edged star polygons with varying point counts and inner ratios.",
+      "tags": [
+        "star",
+        "sharp",
+        "polygon",
+        "geometric",
+        "point"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"10-Point Sharp Star\" data-category=\"01_y2k_cyber_stars\" data-tags=\"y2k,sharp,star,10-point,geometric\">\n  <title>10-Point Sharp Star</title>\n  <path d=\"M 481 256 L 288.1 266.43 L 438.03 388.25 L 275.84 283.3 L 325.53 469.99 L 256 289.75 L 186.47 469.99 L 236.16 283.3 L 73.97 388.25 L 223.9 266.43 L 31 256 L 223.9 245.57 L 73.97 123.75 L 236.16 228.7 L 186.47 42.01 L 256 222.25 L 325.53 42.01 L 275.84 228.7 L 438.03 123.75 L 288.1 245.57 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/01_y2k_cyber_stars/y2k_sharp_star_10pt_ratio15.svg"
+    },
+    {
+      "id": "faceted_stars",
+      "title": "Faceted Chrome 3D Stars",
+      "category": "01_y2k_cyber_stars",
+      "category_label": "Y2K & Cyber Stars",
+      "count": 15,
+      "description": "3D metallic chrome stars with alternating shaded facets meeting at center.",
+      "tags": [
+        "star",
+        "chrome",
+        "3d",
+        "faceted",
+        "metallic"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"12-Point Faceted Chrome Star\" data-category=\"01_y2k_cyber_stars\" data-tags=\"y2k,faceted,chrome,3d,star,12-point\">\n  <title>12-Point Faceted Chrome Star</title>\n  <path d=\"M 256.0 256.0 L 256.0 36.0 L 268.53 209.25 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 366.0 65.47 L 290.22 221.78 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 446.53 146.0 L 302.75 243.47 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 476.0 256.0 L 302.75 268.53 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 446.53 366.0 L 290.22 290.22 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 366.0 446.53 L 268.53 302.75 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 256.0 476.0 L 243.47 302.75 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 146.0 446.53 L 221.78 290.22 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 65.47 366.0 L 209.25 268.53 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 36.0 256.0 L 209.25 243.47 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 65.47 146.0 L 221.78 221.78 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 146.0 65.47 L 243.47 209.25 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 36.0 L 268.53 209.25 L 366.0 65.47 L 290.22 221.78 L 446.53 146.0 L 302.75 243.47 L 476.0 256.0 L 302.75 268.53 L 446.53 366.0 L 290.22 290.22 L 366.0 446.53 L 268.53 302.75 L 256.0 476.0 L 243.47 302.75 L 146.0 446.53 L 221.78 290.22 L 65.47 366.0 L 209.25 268.53 L 36.0 256.0 L 209.25 243.47 L 65.47 146.0 L 221.78 221.78 L 146.0 65.47 L 243.47 209.25 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 256.0 36.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 268.53 209.25\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 366.0 65.47\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 290.22 221.78\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 446.53 146.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 302.75 243.47\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 476.0 256.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 302.75 268.53\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 446.53 366.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 290.22 290.22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 366.0 446.53\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 268.53 302.75\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 256.0 476.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 243.47 302.75\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 146.0 446.53\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 221.78 290.22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 65.47 366.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 209.25 268.53\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 36.0 256.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 209.25 243.47\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 65.47 146.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 221.78 221.78\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 146.0 65.47\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 243.47 209.25\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/01_y2k_cyber_stars/y2k_faceted_chrome_star_12pt_ratio22.svg"
+    },
+    {
+      "id": "compass_stars",
+      "title": "Compass Cyber Stars",
+      "category": "01_y2k_cyber_stars",
+      "category_label": "Y2K & Cyber Stars",
+      "count": 9,
+      "description": "8-point directional compass stars with primary and secondary arms.",
+      "tags": [
+        "star",
+        "compass",
+        "navigation",
+        "sparkle",
+        "8-point"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Compass Cyber Star\" data-category=\"01_y2k_cyber_stars\" data-tags=\"y2k,compass,star,8-point\">\n  <title>Compass Cyber Star</title>\n  <path d=\"M 486 256 L 281.5 266.56 L 321.05 321.05 L 266.56 281.5 L 256 486 L 245.44 281.5 L 190.95 321.05 L 230.5 266.56 L 26 256 L 230.5 245.44 L 190.95 190.95 L 245.44 230.5 L 256 26 L 266.56 230.5 L 321.05 190.95 L 281.5 245.44 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/01_y2k_cyber_stars/y2k_compass_star_s40_in12.svg"
+    },
+    {
+      "id": "lens_sparkles",
+      "title": "Anamorphic Lens Flare Sparkles",
+      "category": "01_y2k_cyber_stars",
+      "category_label": "Y2K & Cyber Stars",
+      "count": 15,
+      "description": "Asymmetrical anamorphic flares and horizontal sparkle crosses.",
+      "tags": [
+        "sparkle",
+        "lens",
+        "flare",
+        "anamorphic",
+        "star"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Lens Flare Sparkle\" data-category=\"01_y2k_cyber_stars\" data-tags=\"y2k,lens,sparkle,flare,stretched\">\n  <title>Lens Flare Sparkle</title>\n  <path d=\"M 409.33 256 C 291.42 270.67 270.67 291.42 256 486 C 241.33 291.42 220.58 270.67 102.67 256 C 220.58 241.33 241.33 220.58 256 26 C 270.67 220.58 291.42 241.33 409.33 256 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/01_y2k_cyber_stars/y2k_lens_sparkle_ratio15_p75.svg"
+    },
+    {
+      "id": "outline_stars",
+      "title": "Hollow Outline Cyber Stars",
+      "category": "01_y2k_cyber_stars",
+      "category_label": "Y2K & Cyber Stars",
+      "count": 18,
+      "description": "Contoured stroke wireframe cyber stars.",
+      "tags": [
+        "star",
+        "outline",
+        "stroke",
+        "hollow",
+        "cyber"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Hollow 4-Point Cyber Star\" data-category=\"01_y2k_cyber_stars\" data-tags=\"y2k,outline,stroke,star,4-point\">\n  <title>Hollow 4-Point Cyber Star</title>\n  <path d=\"M 476 256 C 341.37 291.36 291.36 341.37 256 476 C 220.64 341.37 170.63 291.36 36 256 C 170.63 220.64 220.64 170.63 256 36 C 291.36 170.63 341.37 220.64 476 256 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"16\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/01_y2k_cyber_stars/y2k_outline_star_4pt_p65_sw16.svg"
+    },
+    {
+      "id": "crosshairs",
+      "title": "HUD Targeting Reticles & Crosshairs",
+      "category": "02_neo_brutalist_hud",
+      "category_label": "Neo-Brutalist HUD",
+      "count": 48,
+      "description": "Precision crosshairs, mil-dot sniper sights, and concentric targeting reticles.",
+      "tags": [
+        "crosshair",
+        "reticle",
+        "cross",
+        "target",
+        "aim",
+        "hud"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Brutalist HUD Crosshair\" data-category=\"02_neo_brutalist_hud\" data-tags=\"brutalist,hud,reticle,crosshair,target\">\n  <title>Brutalist HUD Crosshair</title>\n  <circle cx=\"256\" cy=\"256\" r=\"180\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"6\" />\n  <path d=\"M 281.0 256.0 L 476.0 256.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"6\" stroke-linecap=\"square\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 243.5 277.65 L 146.0 446.53\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"6\" stroke-linecap=\"square\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 243.5 234.35 L 146.0 65.47\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"6\" stroke-linecap=\"square\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 456.0 256.0 L 476.0 256.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 449.19 307.76 L 468.5 312.94\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 429.21 356.0 L 446.53 366.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 397.42 397.42 L 411.56 411.56\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 356.0 429.21 L 366.0 446.53\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 307.76 449.19 L 312.94 468.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 456.0 L 256.0 476.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 204.24 449.19 L 199.06 468.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 156.0 429.21 L 146.0 446.53\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 114.58 397.42 L 100.44 411.56\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 82.79 356.0 L 65.47 366.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 62.81 307.76 L 43.5 312.94\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 56.0 256.0 L 36.0 256.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 62.81 204.24 L 43.5 199.06\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 82.79 156.0 L 65.47 146.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 114.58 114.58 L 100.44 100.44\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 156.0 82.79 L 146.0 65.47\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 204.24 62.81 L 199.06 43.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 56.0 L 256.0 36.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 307.76 62.81 L 312.94 43.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 356.0 82.79 L 366.0 65.47\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 397.42 114.58 L 411.56 100.44\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 429.21 156.0 L 446.53 146.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 449.19 204.24 L 468.5 199.06\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/02_neo_brutalist_hud/hud_crosshair_s3_c1_g25.svg"
+    },
+    {
+      "id": "viewfinders",
+      "title": "Viewfinder & Camera Corner Frames",
+      "category": "02_neo_brutalist_hud",
+      "category_label": "Neo-Brutalist HUD",
+      "count": 54,
+      "description": "Focus brackets, camera viewfinders, and chamfered border frames.",
+      "tags": [
+        "viewfinder",
+        "frame",
+        "brackets",
+        "camera",
+        "hud",
+        "corners"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Viewfinder Corner Frame\" data-category=\"02_neo_brutalist_hud\" data-tags=\"hud,viewfinder,brackets,frame,camera\">\n  <title>Viewfinder Corner Frame</title>\n  <path d=\"M 96.0 236.0 L 96.0 96.0 L 236.0 96.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"12\" stroke-linecap=\"square\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 276.0 96.0 L 416.0 96.0 L 416.0 236.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"12\" stroke-linecap=\"square\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 416.0 276.0 L 416.0 416.0 L 276.0 416.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"12\" stroke-linecap=\"square\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 236.0 416.0 L 96.0 416.0 L 96.0 276.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"12\" stroke-linecap=\"square\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 232.0 256.0 L 280.0 256.0 M 256.0 232.0 L 256.0 280.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"9\" stroke-linecap=\"square\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/02_neo_brutalist_hud/hud_viewfinder_s320_a140_w12_ch0.svg"
+    },
+    {
+      "id": "wireframe_globes",
+      "title": "Wireframe 3D Projection Globes",
+      "category": "02_neo_brutalist_hud",
+      "category_label": "Neo-Brutalist HUD",
+      "count": 32,
+      "description": "3D isometric latitude and longitude globe wireframes.",
+      "tags": [
+        "globe",
+        "sphere",
+        "wireframe",
+        "3d",
+        "grid",
+        "world",
+        "earth"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Wireframe Tech Globe\" data-category=\"02_neo_brutalist_hud\" data-tags=\"hud,wireframe,globe,sphere,3d,grid\">\n  <title>Wireframe Tech Globe</title>\n  <circle cx=\"256\" cy=\"256\" r=\"180\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"8\" />\n  <ellipse cx=\"256.0\" cy=\"256.0\" rx=\"180\" ry=\"90\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\" />\n  <ellipse cx=\"256.0\" cy=\"256.0\" rx=\"180\" ry=\"155.88\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\" />\n  <ellipse cx=\"256.0\" cy=\"256.0\" rx=\"90\" ry=\"180\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\" />\n  <ellipse cx=\"256.0\" cy=\"256.0\" rx=\"155.88\" ry=\"180\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\" />\n  <path d=\"M 76.0 256.0 L 436.0 256.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 76.0 L 256.0 436.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/02_neo_brutalist_hud/hud_wireframe_globe_r180_lat2_lon2.svg"
+    },
+    {
+      "id": "swiss_pluses",
+      "title": "Brutalist Swiss Crosses & Pluses",
+      "category": "02_neo_brutalist_hud",
+      "category_label": "Neo-Brutalist HUD",
+      "count": 18,
+      "description": "Heavy brutalist pluses, Swiss medical crosses, and plus clusters.",
+      "tags": [
+        "cross",
+        "plus",
+        "swiss",
+        "brutalist",
+        "medic",
+        "hud"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Brutalist Swiss Cross\" data-category=\"02_neo_brutalist_hud\" data-tags=\"brutalist,cross,plus,swiss,cluster\">\n  <title>Brutalist Swiss Cross</title>\n  <path d=\"M 227.4 126.0 L 284.6 126.0 L 284.6 227.4 L 386.0 227.4 L 386.0 284.6 L 284.6 284.6 L 284.6 386.0 L 227.4 386.0 L 227.4 284.6 L 126.0 284.6 L 126.0 227.4 L 227.4 227.4 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/02_neo_brutalist_hud/hud_swiss_plus_s260_w22_c1.svg"
+    },
+    {
+      "id": "radar_dials",
+      "title": "Segmented Radar Dials & Gauges",
+      "category": "02_neo_brutalist_hud",
+      "category_label": "Neo-Brutalist HUD",
+      "count": 12,
+      "description": "Circular segmented arc gauges and sci-fi telemetry dials.",
+      "tags": [
+        "radar",
+        "dial",
+        "gauge",
+        "hud",
+        "circle",
+        "speedometer"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Radar Gauge Dial\" data-category=\"02_neo_brutalist_hud\" data-tags=\"hud,radar,dial,gauge,circular\">\n  <title>Radar Gauge Dial</title>\n  <path d=\"M 425.64 267.12 A 170 170 0 0 1 408.47 331.19 L 365.78 310.14 A 122.39999999999999 122.39999999999999 0 0 0 378.14 264.01 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 397.35 350.45 A 170 170 0 0 1 350.45 397.35 L 324.0 357.77 A 122.39999999999999 122.39999999999999 0 0 0 357.77 324.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 331.19 408.47 A 170 170 0 0 1 267.12 425.64 L 264.01 378.14 A 122.39999999999999 122.39999999999999 0 0 0 310.14 365.78 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 244.88 425.64 A 170 170 0 0 1 180.81 408.47 L 201.86 365.78 A 122.39999999999999 122.39999999999999 0 0 0 247.99 378.14 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 161.55 397.35 A 170 170 0 0 1 114.65 350.45 L 154.23 324.0 A 122.39999999999999 122.39999999999999 0 0 0 188.0 357.77 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 103.53 331.19 A 170 170 0 0 1 86.36 267.12 L 133.86 264.01 A 122.39999999999999 122.39999999999999 0 0 0 146.22 310.14 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 86.36 244.88 A 170 170 0 0 1 103.53 180.81 L 146.22 201.86 A 122.39999999999999 122.39999999999999 0 0 0 133.86 247.99 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 114.65 161.55 A 170 170 0 0 1 161.55 114.65 L 188.0 154.23 A 122.39999999999999 122.39999999999999 0 0 0 154.23 188.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 180.81 103.53 A 170 170 0 0 1 244.88 86.36 L 247.99 133.86 A 122.39999999999999 122.39999999999999 0 0 0 201.86 146.22 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 267.12 86.36 A 170 170 0 0 1 331.19 103.53 L 310.14 146.22 A 122.39999999999999 122.39999999999999 0 0 0 264.01 133.86 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 350.45 114.65 A 170 170 0 0 1 397.35 161.55 L 357.77 188.0 A 122.39999999999999 122.39999999999999 0 0 0 324.0 154.23 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 408.47 180.81 A 170 170 0 0 1 425.64 244.88 L 378.14 247.99 A 122.39999999999999 122.39999999999999 0 0 0 365.78 201.86 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <circle cx=\"256\" cy=\"256\" r=\"34\" fill=\"currentColor\" />\n</svg>",
+      "primary_file": "assets/svg/02_neo_brutalist_hud/hud_radar_dial_seg12_r170.svg"
+    },
+    {
+      "id": "barcode_badges",
+      "title": "Tech Barcode & Data Badges",
+      "category": "02_neo_brutalist_hud",
+      "category_label": "Neo-Brutalist HUD",
+      "count": 24,
+      "description": "Industrial barcode stripes and cyber data identifier frames.",
+      "tags": [
+        "barcode",
+        "badge",
+        "tech",
+        "data",
+        "label",
+        "hud"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Tech Barcode Badge\" data-category=\"02_neo_brutalist_hud\" data-tags=\"hud,barcode,badge,tech,data\">\n  <title>Tech Barcode Badge</title>\n  <rect x=\"84\" y=\"184\" width=\"344\" height=\"144\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"6\" />\n  <rect x=\"96\" y=\"196\" width=\"16.84\" height=\"120\" fill=\"currentColor\" />\n  <rect x=\"119.58\" y=\"196\" width=\"26.95\" height=\"120\" fill=\"currentColor\" />\n  <rect x=\"156.63\" y=\"196\" width=\"40.42\" height=\"120\" fill=\"currentColor\" />\n  <rect x=\"210.53\" y=\"196\" width=\"20.21\" height=\"120\" fill=\"currentColor\" />\n  <rect x=\"240.84\" y=\"196\" width=\"50.53\" height=\"120\" fill=\"currentColor\" />\n  <rect x=\"298.11\" y=\"196\" width=\"26.95\" height=\"120\" fill=\"currentColor\" />\n  <rect x=\"338.53\" y=\"196\" width=\"20.21\" height=\"120\" fill=\"currentColor\" />\n  <rect x=\"365.47\" y=\"196\" width=\"33.68\" height=\"120\" fill=\"currentColor\" />\n</svg>",
+      "primary_file": "assets/svg/02_neo_brutalist_hud/hud_barcode_badge_p1_w320_h120.svg"
+    },
+    {
+      "id": "sigil_crests",
+      "title": "Gothic Cyber Sigils & Crests",
+      "category": "03_acid_cyber_sigils",
+      "category_label": "Acid & Cyber Sigils",
+      "count": 180,
+      "description": "Bilateral symmetrical cyber-sigilism emblems and gothic thorn wings.",
+      "tags": [
+        "sigil",
+        "crest",
+        "gothic",
+        "tribal",
+        "acid",
+        "wings",
+        "thorn"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Cyber Sigil Crest\" data-category=\"03_acid_cyber_sigils\" data-tags=\"acid,cyber,sigil,crest,tribal,gothic\">\n  <title>Cyber Sigil Crest</title>\n  <path d=\"M 256 46 L 396 61 L 281 123.5 L 384.8 156 L 281 218.5 L 373.6 251 L 281 313.5 L 256 466 L 256 466 L 231 313.5 L 138.4 251 L 231 218.5 L 127.2 156 L 231 123.5 L 116 61 L 256 46 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/03_acid_cyber_sigils/acid_sigil_crest_w3_r140_b-15_p20.svg"
+    },
+    {
+      "id": "liquid_talons",
+      "title": "Liquid Chrome Spikes & Molten Talons",
+      "category": "03_acid_cyber_sigils",
+      "category_label": "Acid & Cyber Sigils",
+      "count": 48,
+      "description": "Molten chrome liquid droplets, twisted spikes, and fluid talons.",
+      "tags": [
+        "chrome",
+        "liquid",
+        "talon",
+        "claw",
+        "spike",
+        "molten",
+        "acid"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Liquid Chrome Spike\" data-category=\"03_acid_cyber_sigils\" data-tags=\"acid,chrome,liquid,spikes,molten\">\n  <title>Liquid Chrome Spike</title>\n  <path d=\"M 296 256 C 376.46 240.14 439.71 189.14 464.45 158.8 C 428.49 254.19 358.89 288.84 288.36 279.51 C 362.78 313.97 443.93 309.89 481.77 299.89 C 396.61 355.93 319.94 343.04 268.36 294.04 C 308.31 365.66 376.36 410.06 412.86 424.21 C 311.02 419.49 256.57 364 243.64 294.04 C 233.86 375.47 262.82 451.38 284.03 484.29 C 204.42 420.61 192.98 343.71 223.64 279.51 C 167.87 339.64 146.68 418.08 144.49 457.16 C 117.51 358.85 153.46 289.91 216 256 C 135.54 271.86 72.29 322.86 47.55 353.2 C 83.51 257.81 153.11 223.16 223.64 232.49 C 149.22 198.03 68.07 202.11 30.23 212.11 C 115.39 156.07 192.06 168.96 243.64 217.96 C 203.69 146.34 135.64 101.94 99.14 87.79 C 200.98 92.51 255.43 148 268.36 217.96 C 278.14 136.53 249.18 60.62 227.97 27.71 C 307.58 91.39 319.02 168.29 288.36 232.49 C 344.13 172.36 365.32 93.92 367.51 54.84 C 394.49 153.15 358.54 222.09 296 256 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/03_acid_cyber_sigils/acid_liquid_chrome_spk10_c40_tw-25.svg"
+    },
+    {
+      "id": "spiral_vortexes",
+      "title": "Hyperspace Spiral Vortexes",
+      "category": "03_acid_cyber_sigils",
+      "category_label": "Acid & Cyber Sigils",
+      "count": 72,
+      "description": "Multi-arm logarithmic spiral warps and black hole vortexes.",
+      "tags": [
+        "vortex",
+        "spiral",
+        "warp",
+        "hyperspace",
+        "blackhole",
+        "twirl"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Hyperspace Spiral Vortex\" data-category=\"03_acid_cyber_sigils\" data-tags=\"acid,vortex,spiral,warp,hyperspace\">\n  <title>Hyperspace Spiral Vortex</title>\n  <path d=\"M 271 256 L 278.79 263.4 L 282.63 275.35 L 280.61 289.88 L 271.71 304.35 L 256 315.79 L 234.76 321.39 L 210.32 318.87 L 185.89 306.94 L 165.06 285.55 L 151.42 256 L 148.02 220.91 L 156.9 184 L 178.73 149.65 L 212.61 122.46 L 256 106.62 L 304.93 105.42 L 354.33 120.66 L 398.59 152.4 L 432.14 198.77 L 450.17 256 L 449.18 318.77 L 427.58 380.66 L 385.93 434.83 L 327.07 474.74 M 268.99 263.5 L 272.03 273.8 L 269.39 286.07 L 260.38 297.65 L 245.43 305.72 L 226.1 307.78 L 204.91 302 L 185.01 287.61 L 169.81 265.06 L 162.46 236.12 L 165.43 203.71 L 180.03 171.62 L 206.17 144.09 L 242.26 125.26 L 285.19 118.65 L 330.69 126.64 L 373.66 150.05 L 408.83 187.96 L 431.28 237.58 L 437.16 294.51 L 424.15 353.08 L 391.92 406.95 L 342.26 449.75 L 279.11 475.83 L 208.18 480.97 M 263.5 268.99 L 260.98 279.43 L 252.56 288.74 L 238.97 294.25 L 221.99 293.78 L 204.22 285.9 L 188.75 270.29 L 178.72 247.88 L 176.83 220.75 L 184.94 192.01 L 203.71 165.43 L 232.39 144.94 L 268.8 134.17 L 309.47 135.91 L 349.96 151.65 L 385.36 181.31 L 410.87 223.08 L 422.38 273.49 L 417.01 327.69 L 393.64 379.93 L 353.08 424.15 L 298.23 454.69 L 233.83 466.92 L 166.09 457.93 L 102.1 426.92 M 256 271 L 248.6 278.79 L 236.65 282.63 L 222.12 280.61 L 207.65 271.71 L 196.21 256 L 190.61 234.76 L 193.13 210.32 L 205.06 185.89 L 226.45 165.06 L 256 151.42 L 291.09 148.02 L 328 156.9 L 362.35 178.73 L 389.54 212.61 L 405.38 256 L 406.58 304.93 L 391.34 354.33 L 359.6 398.59 L 313.23 432.14 L 256 450.17 L 193.23 449.18 L 131.34 427.58 L 77.17 385.93 L 37.26 327.07 M 248.5 268.99 L 238.2 272.03 L 225.93 269.39 L 214.35 260.38 L 206.28 245.43 L 204.22 226.1 L 210 204.91 L 224.39 185.01 L 246.94 169.81 L 275.88 162.46 L 308.29 165.43 L 340.38 180.03 L 367.91 206.17 L 386.74 242.26 L 393.35 285.19 L 385.36 330.69 L 361.95 373.66 L 324.04 408.83 L 274.42 431.28 L 217.49 437.16 L 158.92 424.15 L 105.05 391.92 L 62.25 342.26 L 36.17 279.11 L 31.03 208.18 M 243.01 263.5 L 232.57 260.98 L 223.26 252.56 L 217.75 238.97 L 218.22 221.99 L 226.1 204.22 L 241.71 188.75 L 264.12 178.72 L 291.25 176.83 L 319.99 184.94 L 346.57 203.71 L 367.06 232.39 L 377.83 268.8 L 376.09 309.47 L 360.35 349.96 L 330.69 385.36 L 288.92 410.87 L 238.51 422.38 L 184.31 417.01 L 132.07 393.64 L 87.85 353.08 L 57.31 298.23 L 45.08 233.83 L 54.07 166.09 L 85.08 102.1 M 241 256 L 233.21 248.6 L 229.37 236.65 L 231.39 222.12 L 240.29 207.65 L 256 196.21 L 277.24 190.61 L 301.68 193.13 L 326.11 205.06 L 346.94 226.45 L 360.58 256 L 363.98 291.09 L 355.1 328 L 333.27 362.35 L 299.39 389.54 L 256 405.38 L 207.07 406.58 L 157.67 391.34 L 113.41 359.6 L 79.86 313.23 L 61.83 256 L 62.82 193.23 L 84.42 131.34 L 126.07 77.17 L 184.93 37.26 M 243.01 248.5 L 239.97 238.2 L 242.61 225.93 L 251.62 214.35 L 266.57 206.28 L 285.9 204.22 L 307.09 210 L 326.99 224.39 L 342.19 246.94 L 349.54 275.88 L 346.57 308.29 L 331.97 340.38 L 305.83 367.91 L 269.74 386.74 L 226.81 393.35 L 181.31 385.36 L 138.34 361.95 L 103.17 324.04 L 80.72 274.42 L 74.84 217.49 L 87.85 158.92 L 120.08 105.05 L 169.74 62.25 L 232.89 36.17 L 303.82 31.03 M 248.5 243.01 L 251.02 232.57 L 259.44 223.26 L 273.03 217.75 L 290.01 218.22 L 307.78 226.1 L 323.25 241.71 L 333.28 264.12 L 335.17 291.25 L 327.06 319.99 L 308.29 346.57 L 279.61 367.06 L 243.2 377.83 L 202.53 376.09 L 162.04 360.35 L 126.64 330.69 L 101.13 288.92 L 89.62 238.51 L 94.99 184.31 L 118.36 132.07 L 158.92 87.85 L 213.77 57.31 L 278.17 45.08 L 345.91 54.07 L 409.9 85.08 M 256 241 L 263.4 233.21 L 275.35 229.37 L 289.88 231.39 L 304.35 240.29 L 315.79 256 L 321.39 277.24 L 318.87 301.68 L 306.94 326.11 L 285.55 346.94 L 256 360.58 L 220.91 363.98 L 184 355.1 L 149.65 333.27 L 122.46 299.39 L 106.62 256 L 105.42 207.07 L 120.66 157.67 L 152.4 113.41 L 198.77 79.86 L 256 61.83 L 318.77 62.82 L 380.66 84.42 L 434.83 126.07 L 474.74 184.93 M 263.5 243.01 L 273.8 239.97 L 286.07 242.61 L 297.65 251.62 L 305.72 266.57 L 307.78 285.9 L 302 307.09 L 287.61 326.99 L 265.06 342.19 L 236.12 349.54 L 203.71 346.57 L 171.62 331.97 L 144.09 305.83 L 125.26 269.74 L 118.65 226.81 L 126.64 181.31 L 150.05 138.34 L 187.96 103.17 L 237.58 80.72 L 294.51 74.84 L 353.08 87.85 L 406.95 120.08 L 449.75 169.74 L 475.83 232.89 L 480.97 303.82 M 268.99 248.5 L 279.43 251.02 L 288.74 259.44 L 294.25 273.03 L 293.78 290.01 L 285.9 307.78 L 270.29 323.25 L 247.88 333.28 L 220.75 335.17 L 192.01 327.06 L 165.43 308.29 L 144.94 279.61 L 134.17 243.2 L 135.91 202.53 L 151.65 162.04 L 181.31 126.64 L 223.08 101.13 L 273.49 89.62 L 327.69 94.99 L 379.93 118.36 L 424.15 158.92 L 454.69 213.77 L 466.92 278.17 L 457.93 345.91 L 426.92 409.9\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"14\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/03_acid_cyber_sigils/acid_vortex_arm12_t12_w14.svg"
+    },
+    {
+      "id": "neo_tribal_barbs",
+      "title": "Neo-Tribal Razor Barbs",
+      "category": "03_acid_cyber_sigils",
+      "category_label": "Acid & Cyber Sigils",
+      "count": 9,
+      "description": "Barbed razor blades and neo-tribal cross emblems.",
+      "tags": [
+        "tribal",
+        "barb",
+        "blade",
+        "razor",
+        "acid",
+        "cyber"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Neo-Tribal Razor Barb\" data-category=\"03_acid_cyber_sigils\" data-tags=\"acid,tribal,barb,blade,cyber-tribal\">\n  <title>Neo-Tribal Razor Barb</title>\n  <path d=\"M 276.0 256.0 L 322.45 261.33 L 344.82 278.68 L 322.65 257.33 L 368.97 265.06 L 390.03 290.22 L 369.31 258.27 L 416.0 256.0 L 369.31 253.73 L 390.03 221.78 L 368.97 246.94 L 322.65 254.67 L 344.82 233.32 L 322.45 250.67 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 276.0 L 250.67 322.45 L 233.32 344.82 L 254.67 322.65 L 246.94 368.97 L 221.78 390.03 L 253.73 369.31 L 256.0 416.0 L 258.27 369.31 L 290.22 390.03 L 265.06 368.97 L 257.33 322.65 L 278.68 344.82 L 261.33 322.45 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 236.0 256.0 L 189.55 250.67 L 167.18 233.32 L 189.35 254.67 L 143.03 246.94 L 121.97 221.78 L 142.69 253.73 L 96.0 256.0 L 142.69 258.27 L 121.97 290.22 L 143.03 265.06 L 189.35 257.33 L 167.18 278.68 L 189.55 261.33 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 236.0 L 261.33 189.55 L 278.68 167.18 L 257.33 189.35 L 265.06 143.03 L 290.22 121.97 L 258.27 142.69 L 256.0 96.0 L 253.73 142.69 L 221.78 121.97 L 246.94 143.03 L 254.67 189.35 L 233.32 167.18 L 250.67 189.55 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/03_acid_cyber_sigils/acid_neo_tribal_barb_l140_b2.svg"
+    },
+    {
+      "id": "cathedral_arches",
+      "title": "Modernist Cathedral & Tunnel Arches",
+      "category": "04_bauhaus_swiss",
+      "category_label": "Bauhaus & Swiss Style",
+      "count": 36,
+      "description": "Solid and cutout portal arches with modernist proportions.",
+      "tags": [
+        "arch",
+        "cathedral",
+        "portal",
+        "tunnel",
+        "bauhaus",
+        "architecture"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Bauhaus Modernist Arch\" data-category=\"04_bauhaus_swiss\" data-tags=\"bauhaus,swiss,arch,portal,tunnel,minimal\">\n  <title>Bauhaus Modernist Arch</title>\n  <path d=\"M 166.0 376.0 L 166.0 226.0 A 90.0 90.0 0 0 1 346.0 226.0 L 346.0 376.0 Z\" fill=\"currentColor\" />\n</svg>",
+      "primary_file": "assets/svg/04_bauhaus_swiss/bauhaus_arch_w180_h240_t0.svg"
+    },
+    {
+      "id": "stadium_pills",
+      "title": "Modernist Stadium & Pill Capsules",
+      "category": "04_bauhaus_swiss",
+      "category_label": "Bauhaus & Swiss Style",
+      "count": 9,
+      "description": "Rounded stadium capsules in horizontal, vertical, and angled orientations.",
+      "tags": [
+        "pill",
+        "capsule",
+        "stadium",
+        "bauhaus",
+        "geometric"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Modernist Stadium Pill\" data-category=\"04_bauhaus_swiss\" data-tags=\"bauhaus,pill,capsule,stadium,geometric\">\n  <title>Modernist Stadium Pill</title>\n  <path d=\"M 196.0 186.0 L 316.0 186.0 A 70.0 70.0 0 0 1 316.0 326.0 L 196.0 326.0 A 70.0 70.0 0 0 1 196.0 186.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/04_bauhaus_swiss/bauhaus_pill_l260_w140.svg"
+    },
+    {
+      "id": "stepped_pyramids",
+      "title": "Stepped Ziggurats & Pyramids",
+      "category": "04_bauhaus_swiss",
+      "category_label": "Bauhaus & Swiss Style",
+      "count": 40,
+      "description": "Multi-level geometric stepped pyramids and inverse ziggurats.",
+      "tags": [
+        "pyramid",
+        "ziggurat",
+        "stepped",
+        "stairs",
+        "bauhaus"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Stepped Ziggurat Pyramid\" data-category=\"04_bauhaus_swiss\" data-tags=\"bauhaus,pyramid,ziggurat,stepped,geometric\">\n  <title>Stepped Ziggurat Pyramid</title>\n  <path d=\"M 202.66666666666669 386.0 L 202.66666666666669 299.3333333333333 L 149.33333333333334 299.3333333333333 L 149.33333333333334 212.66666666666663 L 96.0 212.66666666666666 L 96.0 125.99999999999999 L 416.0 125.99999999999999 L 416.0 212.66666666666666 L 362.66666666666663 212.66666666666663 L 362.66666666666663 299.3333333333333 L 309.3333333333333 299.3333333333333 L 309.3333333333333 386.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/04_bauhaus_swiss/bauhaus_stepped_pyr_l3_w320_h260_inv.svg"
+    },
+    {
+      "id": "quadrant_grids",
+      "title": "Modular Bauhaus Quadrant Grids",
+      "category": "04_bauhaus_swiss",
+      "category_label": "Bauhaus & Swiss Style",
+      "count": 36,
+      "description": "Modular compositions combining quarter-circles, diagonal slices, and blocks.",
+      "tags": [
+        "grid",
+        "modular",
+        "quadrant",
+        "bauhaus",
+        "composition"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Modular Bauhaus Grid\" data-category=\"04_bauhaus_swiss\" data-tags=\"bauhaus,modular,grid,quadrant,swiss\">\n  <title>Modular Bauhaus Grid</title>\n  <path d=\"M 46.0 46.0 L 256.0 46.0 A 210.0 210.0 0 0 1 46.0 256.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 466.0 256.0 L 256.0 256.0 A 210.0 210.0 0 0 1 466.0 46.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <rect x=\"46\" y=\"256\" width=\"210\" height=\"210\" fill=\"currentColor\" />\n  <path d=\"M 256.0 256.0 L 466.0 256.0 L 256.0 466.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/04_bauhaus_swiss/bauhaus_quadrant_grid_2x2_var1.svg"
+    },
+    {
+      "id": "concentric_semicircles",
+      "title": "Concentric Modernist Semicircles",
+      "category": "04_bauhaus_swiss",
+      "category_label": "Bauhaus & Swiss Style",
+      "count": 10,
+      "description": "Nested concentric semicircle arcs in 4 orientations.",
+      "tags": [
+        "semicircle",
+        "rainbow",
+        "concentric",
+        "arcs",
+        "bauhaus"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Concentric Modernist Semicircles\" data-category=\"04_bauhaus_swiss\" data-tags=\"bauhaus,concentric,semicircle,rainbow,arcs\">\n  <title>Concentric Modernist Semicircles</title>\n  <path d=\"M 436.0 256.0 A 180.0 180.0 0 0 1 76.0 256.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"27\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 376.0 256.0 A 120.0 120.0 0 0 1 136.0 256.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"27\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 316.0 256.0 A 60.0 60.0 0 0 1 196.0 256.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"27\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/04_bauhaus_swiss/bauhaus_concentric_semi_r3_rad180.svg"
+    },
+    {
+      "id": "diagonal_stripes",
+      "title": "Bauhaus Diagonal Striped Blocks",
+      "category": "04_bauhaus_swiss",
+      "category_label": "Bauhaus & Swiss Style",
+      "count": 8,
+      "description": "Geometric diagonal hazard and composition stripe blocks.",
+      "tags": [
+        "stripes",
+        "bars",
+        "block",
+        "lines",
+        "hazard",
+        "bauhaus"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Bauhaus Striped Block\" data-category=\"04_bauhaus_swiss\" data-tags=\"bauhaus,stripes,block,swiss,geometric\">\n  <title>Bauhaus Striped Block</title>\n  <rect x=\"46\" y=\"46\" width=\"420\" height=\"35\" fill=\"currentColor\" />\n  <rect x=\"46\" y=\"116\" width=\"420\" height=\"35\" fill=\"currentColor\" />\n  <rect x=\"46\" y=\"186\" width=\"420\" height=\"35\" fill=\"currentColor\" />\n  <rect x=\"46\" y=\"256\" width=\"420\" height=\"35\" fill=\"currentColor\" />\n  <rect x=\"46\" y=\"326\" width=\"420\" height=\"35\" fill=\"currentColor\" />\n  <rect x=\"46\" y=\"396\" width=\"420\" height=\"35\" fill=\"currentColor\" />\n</svg>",
+      "primary_file": "assets/svg/04_bauhaus_swiss/bauhaus_stripes_b12_circle.svg"
+    },
+    {
+      "id": "organic_blobs",
+      "title": "Organic Fluid Blobs & River Pebbles",
+      "category": "05_organic_botanical",
+      "category_label": "Organic & Botanical",
+      "count": 36,
+      "description": "Smooth Fourier harmonic amoebas and natural river stone silhouettes.",
+      "tags": [
+        "blob",
+        "amoeba",
+        "pebble",
+        "stone",
+        "fluid",
+        "organic",
+        "smooth"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Organic Fluid Blob\" data-category=\"05_organic_botanical\" data-tags=\"organic,blob,pebble,fluid,modernist,amoeba\">\r\n  <title>Organic Fluid Blob</title>\r\n  <path d=\"M 384.52 256 C 395.97 262.76 406.06 270.81 409.47 279.13 C 412.88 287.45 410.39 295.56 403.12 301.38 C 395.85 307.19 382.83 309.6 369.85 310.83 C 356.88 312.05 343.07 308.69 332.35 308.05 C 321.63 307.42 315.6 304.67 311.38 307.39 C 307.16 310.11 309.25 314.58 309.33 322.88 C 309.41 331.18 312.8 342.53 311.81 352.67 C 310.83 362.81 308.98 373.09 303.96 378.2 C 298.94 383.31 291.81 384.09 284.43 380.53 C 277.05 376.97 269.96 367.58 263.7 358.76 C 257.44 349.93 254.56 338.64 250.27 332.39 C 245.99 326.14 245.45 322.93 240.33 324.64 C 235.22 326.34 231.27 333.88 222.36 341.7 C 213.45 349.52 203.31 360.77 191.73 367.3 C 180.16 373.83 168.15 378.55 159.23 377.34 C 150.32 376.13 144.54 369.91 143.14 360.72 C 141.74 351.52 146.16 339.04 151.59 327.19 C 157.02 315.34 166.83 305.06 172.74 296.09 C 178.65 287.12 184.05 283.28 183.81 278.27 C 183.56 273.26 178.64 272.83 171.41 268.75 C 164.18 264.67 152.67 261.92 144.38 256 C 136.08 250.08 128.11 243.33 126.19 236.43 C 124.28 229.53 127.16 222.96 133.94 218.35 C 140.72 213.73 152.38 212.29 163.15 211.29 C 173.93 210.28 185.15 213.43 192.71 212.85 C 200.27 212.26 203.31 213.4 204.39 208.12 C 205.47 202.83 200.92 195.65 198.6 184.02 C 196.28 172.39 191.6 157.99 191.73 144.7 C 191.87 131.4 193.8 118.64 199.3 111.53 C 204.8 104.41 213.08 102.52 221.74 105.9 C 230.41 109.28 239.01 119.36 246.56 129.98 C 254.11 140.61 258.09 154.26 262.91 163.85 C 267.73 173.45 268.34 180.05 272.81 182.34 C 277.28 184.64 280.11 180.59 287.25 176.37 C 294.4 172.15 302.54 163.55 311.81 159.33 C 321.09 155.11 330.91 151.58 337.84 153.37 C 344.77 155.16 349.03 160.94 349.63 169.12 C 350.24 177.29 345.65 188.11 341.14 197.95 C 336.63 207.79 328.3 215.93 325.02 222.76 C 321.74 229.6 319.24 231.67 323.27 235.25 C 327.31 238.82 335.81 238.47 347.04 242.28 C 358.27 246.08 373.08 249.24 384.52 256 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\r\n</svg>",
+      "primary_file": "assets/svg/05_organic_botanical/organic_blob_h10_r150.svg"
+    },
+    {
+      "id": "botanical_leaves",
+      "title": "Matisse Botanical Leaf Cutouts",
+      "category": "05_organic_botanical",
+      "category_label": "Organic & Botanical",
+      "count": 32,
+      "description": "Stylized multi-lobed foliage and Matisse-inspired organic leaves.",
+      "tags": [
+        "leaf",
+        "botanical",
+        "matisse",
+        "plant",
+        "foliage",
+        "flora",
+        "cutout"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Matisse Botanical Leaf\" data-category=\"05_organic_botanical\" data-tags=\"botanical,matisse,leaf,plant,organic,cutout\">\n  <title>Matisse Botanical Leaf</title>\n  <path d=\"M 256 86 C 277.21 86 313.28 136.29 319.64 154 C 326 171.71 289.79 178.08 294.18 192.25 C 298.58 206.42 343.36 224.83 346 239 C 348.64 253.17 314.39 263.08 310 277.25 C 305.61 291.42 322.28 309.83 319.64 324 C 317 338.17 304.79 345.25 294.18 362.25 C 283.58 379.25 268.73 426 256 426 C 243.27 426 228.42 379.25 217.82 362.25 C 207.21 345.25 195 338.17 192.36 324 C 189.72 309.83 206.39 291.42 202 277.25 C 197.61 263.08 163.36 253.17 166 239 C 168.64 224.83 213.42 206.42 217.82 192.25 C 222.21 178.08 186 171.71 192.36 154 C 198.72 136.29 234.79 86 256 86 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/05_organic_botanical/botanical_leaf_l3_len340_w180_r40.svg"
+    },
+    {
+      "id": "ginkgo_leaves",
+      "title": "Ginkgo Biloba Fan Leaves",
+      "category": "05_organic_botanical",
+      "category_label": "Organic & Botanical",
+      "count": 18,
+      "description": "Notched ginkgo biloba fan fronds with natural stem lines.",
+      "tags": [
+        "ginkgo",
+        "leaf",
+        "fan",
+        "botanical",
+        "plant",
+        "nature"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Ginkgo Fan Leaf Cutout\" data-category=\"05_organic_botanical\" data-tags=\"botanical,ginkgo,leaf,fan,organic\">\n  <title>Ginkgo Fan Leaf Cutout</title>\n  <path d=\"M 256 456 C 227.75 417.16 128.54 285.44 101.93 244.15 C 75.32 202.86 107.36 235.5 110.83 230.78 C 114.3 226.06 117.01 222.75 120.88 218.43 C 124.75 214.11 127.73 211.1 131.95 207.21 C 136.17 203.32 139.38 200.64 143.91 197.2 C 148.44 193.76 151.86 191.42 156.65 188.46 C 161.44 185.5 165.03 183.52 170.03 181.06 C 175.03 178.6 178.75 176.98 183.91 175.03 C 189.07 173.08 192.89 171.84 198.16 170.4 C 203.43 168.96 207.31 168.11 212.63 167.19 C 217.95 166.27 221.85 165.8 227.18 165.4 C 232.51 165 236.4 164.9 241.68 165.01 C 246.96 165.12 250.75 166 256 166 C 261.25 166 265.04 165.12 270.32 165.01 C 275.6 164.9 279.49 165 284.82 165.4 C 290.15 165.8 294.05 166.27 299.37 167.19 C 304.69 168.11 308.57 168.96 313.84 170.4 C 319.11 171.84 322.93 173.08 328.09 175.03 C 333.25 176.98 336.97 178.6 341.97 181.06 C 346.97 183.52 350.56 185.5 355.35 188.46 C 360.14 191.42 363.56 193.76 368.09 197.2 C 372.62 200.64 375.83 203.32 380.05 207.21 C 384.27 211.1 387.25 214.11 391.12 218.43 C 394.99 222.75 397.7 226.06 401.17 230.78 C 404.64 235.5 436.68 202.86 410.07 244.15 C 383.46 285.44 284.25 417.16 256 456 C 227.75 494.84 284.25 494.84 256 456 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/05_organic_botanical/botanical_ginkgo_r170_sp130_n20.svg"
+    },
+    {
+      "id": "wavy_ribbons",
+      "title": "Fluid Organic Ribbons & Streamers",
+      "category": "05_organic_botanical",
+      "category_label": "Organic & Botanical",
+      "count": 72,
+      "description": "Wavy sinusoidal fluid ribbons in horizontal and vertical flows.",
+      "tags": [
+        "ribbon",
+        "wave",
+        "streamer",
+        "fluid",
+        "organic",
+        "strip"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Fluid Organic Ribbon\" data-category=\"05_organic_botanical\" data-tags=\"organic,ribbon,wave,fluid,streamer\">\n  <title>Fluid Organic Ribbon</title>\n  <path d=\"M 66 256 C 68.49 257.99 74.6 263.26 79.57 266.85 C 84.55 270.43 88.17 273.07 93.14 275.55 C 98.12 278.03 101.74 279.49 106.71 280.37 C 111.69 281.26 115.31 281.26 120.29 280.37 C 125.26 279.49 128.88 278.03 133.86 275.55 C 138.83 273.07 142.45 270.43 147.43 266.85 C 152.4 263.26 156.02 259.98 161 256 C 165.98 252.02 169.6 248.74 174.57 245.15 C 179.55 241.57 183.17 238.93 188.14 236.45 C 193.12 233.97 196.74 232.51 201.71 231.63 C 206.69 230.74 210.31 230.74 215.29 231.63 C 220.26 232.51 223.88 233.97 228.86 236.45 C 233.83 238.93 237.45 241.57 242.43 245.15 C 247.4 248.74 251.02 252.02 256 256 C 260.98 259.98 264.6 263.26 269.57 266.85 C 274.55 270.43 278.17 273.07 283.14 275.55 C 288.12 278.03 291.74 279.49 296.71 280.37 C 301.69 281.26 305.31 281.26 310.29 280.37 C 315.26 279.49 318.88 278.03 323.86 275.55 C 328.83 273.07 332.45 270.43 337.43 266.85 C 342.4 263.26 346.02 259.98 351 256 C 355.98 252.02 359.6 248.74 364.57 245.15 C 369.55 241.57 373.17 238.93 378.14 236.45 C 383.12 233.97 386.74 232.51 391.71 231.63 C 396.69 230.74 400.31 230.74 405.29 231.63 C 410.26 232.51 413.88 233.97 418.86 236.45 C 423.83 238.93 427.45 241.57 432.43 245.15 C 437.4 248.74 443.51 254.01 446 256\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"20\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/05_organic_botanical/organic_ribbon_w2_a25_t20_h.svg"
+    },
+    {
+      "id": "groovy_daisies",
+      "title": "Retro Groovy Daisy Flowers",
+      "category": "06_retro_groovy_70s",
+      "category_label": "Retro Groovy 70s",
+      "count": 84,
+      "description": "Iconic 70s cartoon flower daisies with rounded petals and central discs.",
+      "tags": [
+        "flower",
+        "daisy",
+        "petal",
+        "retro",
+        "groovy",
+        "70s",
+        "sunflower"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Retro Groovy Daisy\" data-category=\"06_retro_groovy_70s\" data-tags=\"retro,groovy,flower,daisy,70s,psychedelic\">\n  <title>Retro Groovy Daisy</title>\n  <path d=\"M 300.75 244.51 C 309.03 269.98 456.39 249.82 456 256 C 455.61 262.18 307.24 247.54 298.96 273.01 C 290.68 298.48 421.74 368.79 417.8 373.56 C 413.86 378.33 302.43 279.27 280.76 295.01 C 259.09 310.75 323.79 444.67 317.8 446.21 C 311.81 447.75 279.88 302.11 253.1 302.11 C 226.32 302.11 199.95 448.49 194.2 446.21 C 188.45 443.93 248.22 307.34 226.55 291.6 C 204.88 275.86 97.52 378.78 94.2 373.56 C 90.89 368.34 219.53 292.96 211.25 267.49 C 202.97 242.02 55.61 262.18 56 256 C 56.39 249.82 204.76 264.46 213.04 238.99 C 221.32 213.52 90.26 143.21 94.2 138.44 C 98.14 133.67 209.57 232.73 231.24 216.99 C 252.91 201.25 188.21 67.33 194.2 65.79 C 200.19 64.25 232.12 209.89 258.9 209.89 C 285.68 209.89 312.05 63.51 317.8 65.79 C 323.55 68.07 263.78 204.66 285.45 220.4 C 307.12 236.14 414.49 133.22 417.8 138.44 C 421.12 143.66 292.47 219.04 300.75 244.51 Z M 212.0 256.0 A 44.0 44.0 0 1 0 300.0 256.0 A 44.0 44.0 0 1 0 212.0 256.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <circle cx=\"256\" cy=\"256\" r=\"26.4\" fill=\"currentColor\" />\n</svg>",
+      "primary_file": "assets/svg/06_retro_groovy_70s/retro_daisy_10petals_r200_c22_rnd35.svg"
+    },
+    {
+      "id": "starburst_badges",
+      "title": "Retro Starburst Sale Badges",
+      "category": "06_retro_groovy_70s",
+      "category_label": "Retro Groovy 70s",
+      "count": 48,
+      "description": "Scalloped and pointed starburst explosion discount stickers (12 to 32 points).",
+      "tags": [
+        "starburst",
+        "badge",
+        "sale",
+        "sticker",
+        "discount",
+        "retro",
+        "burst"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Starburst Badge\" data-category=\"06_retro_groovy_70s\" data-tags=\"retro,starburst,badge,sticker,sale,70s\">\n  <title>Starburst Badge</title>\n  <path d=\"M 486 256 C 486 275.52 444.33 281.81 438.17 304.81 C 432.01 327.81 464.95 354.09 455.19 371 C 445.43 387.91 406.2 372.52 389.36 389.36 C 372.52 406.2 387.91 445.43 371 455.19 C 354.09 464.95 327.81 432.01 304.81 438.17 C 281.81 444.33 275.52 486 256 486 C 236.48 486 230.19 444.33 207.19 438.17 C 184.19 432.01 157.91 464.95 141 455.19 C 124.09 445.43 139.48 406.2 122.64 389.36 C 105.8 372.52 66.57 387.91 56.81 371 C 47.05 354.09 79.99 327.81 73.83 304.81 C 67.67 281.81 26 275.52 26 256 C 26 236.48 67.67 230.19 73.83 207.19 C 79.99 184.19 47.05 157.91 56.81 141 C 66.57 124.09 105.8 139.48 122.64 122.64 C 139.48 105.8 124.09 66.57 141 56.81 C 157.91 47.05 184.19 79.99 207.19 73.83 C 230.19 67.67 236.48 26 256 26 C 275.52 26 281.81 67.67 304.81 73.83 C 327.81 79.99 354.09 47.05 371 56.81 C 387.91 66.57 372.52 105.8 389.36 122.64 C 406.2 139.48 445.43 124.09 455.19 141 C 464.95 157.91 432.01 184.19 438.17 207.19 C 444.33 230.19 486 236.48 486 256 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/06_retro_groovy_70s/retro_starburst_12pt_d82_round.svg"
+    },
+    {
+      "id": "motel_lozenges",
+      "title": "Roadside Motel Sign Lozenges",
+      "category": "06_retro_groovy_70s",
+      "category_label": "Retro Groovy 70s",
+      "count": 12,
+      "description": "Vintage diamond lozenges and double-bordered retro roadside signs.",
+      "tags": [
+        "motel",
+        "lozenge",
+        "badge",
+        "diamond",
+        "retro",
+        "vintage"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Retro Motel Badge\" data-category=\"06_retro_groovy_70s\" data-tags=\"retro,motel,lozenge,badge,diamond,vintage\">\n  <title>Retro Motel Badge</title>\n  <path d=\"M 256 146 C 358 146 426 190 426 256 C 426 322 358 366 256 366 C 154 366 86 322 86 256 C 86 190 154 146 256 146 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 256 162.5 C 342.7 162.5 400.5 199.9 400.5 256 C 400.5 312.1 342.7 349.5 256 349.5 C 169.3 349.5 111.5 312.1 111.5 256 C 111.5 199.9 169.3 162.5 256 162.5 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/06_retro_groovy_70s/retro_motel_badge_w340_h220_v1.svg"
+    },
+    {
+      "id": "melting_badges",
+      "title": "Melting Psychedelic Badges",
+      "category": "06_retro_groovy_70s",
+      "category_label": "Retro Groovy 70s",
+      "count": 24,
+      "description": "Liquid melting circle badges with gravity sag distortion.",
+      "tags": [
+        "melting",
+        "psychedelic",
+        "liquid",
+        "wavy",
+        "badge",
+        "retro"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Melting Psychedelic Badge\" data-category=\"06_retro_groovy_70s\" data-tags=\"retro,psychedelic,melting,liquid,wavy\">\n  <title>Melting Psychedelic Badge</title>\n  <path d=\"M 436 256 C 437.91 268.95 439.52 278.99 438.76 292.35 C 438 305.71 436.69 316.34 431.88 328.85 C 427.07 341.36 421.43 350.61 412.52 360.59 C 403.61 370.57 394.63 376.5 383.28 383.28 C 371.93 390.06 362.33 392.88 350.61 397.59 C 338.89 402.3 330.64 404.45 319.36 408.97 C 308.08 413.49 300.69 417.28 289.07 422.24 C 277.45 427.2 268.88 432.22 256 436 C 243.12 439.78 232.47 442.91 218.83 442.84 C 205.19 442.77 194.11 440.96 181.6 435.63 C 169.09 430.3 160.29 423.34 150.6 413.74 C 140.91 404.14 135.58 394.71 128.72 383.28 C 121.86 371.85 118.59 362.85 113.19 351.42 C 107.79 339.99 104.33 332.19 99.28 320.91 C 94.23 309.63 89.94 301.78 85.67 289.88 C 81.4 277.98 77.91 268.8 76 256 C 74.09 243.2 73.54 233 75.27 220.05 C 77 207.1 80.08 197.33 85.42 185.35 C 90.76 173.37 96.44 165.07 104.38 154.69 C 112.32 144.31 119.17 137.45 128.72 128.72 C 138.27 119.99 145.74 114.14 156.49 107.08 C 167.24 100.02 175.53 95.28 187.34 90.23 C 199.15 85.18 208.31 82.17 220.9 79.56 C 233.49 76.95 243.12 76.04 256 76 C 268.88 75.96 278.47 76.95 291.14 79.36 C 303.81 81.77 313.12 84.36 325.1 89.17 C 337.08 93.98 345.83 98.34 356.5 105.59 C 367.17 112.84 374.63 119.24 383.28 128.72 C 391.93 138.2 397.33 146.28 403.7 157.31 C 410.07 168.34 413.5 177.08 418.02 188.89 C 422.54 200.7 425.05 209.42 428.35 221.72 C 431.65 234.02 434.09 243.05 436 256 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/06_retro_groovy_70s/retro_melting_badge_w4_a15_r180.svg"
+    },
+    {
+      "id": "rainbow_arches",
+      "title": "Retro 70s Concentric Rainbow Arches",
+      "category": "06_retro_groovy_70s",
+      "category_label": "Retro Groovy 70s",
+      "count": 16,
+      "description": "Multi-band groovy rainbow arches.",
+      "tags": [
+        "rainbow",
+        "arch",
+        "retro",
+        "70s",
+        "groovy",
+        "stripes"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Retro 70s Rainbow Arch\" data-category=\"06_retro_groovy_70s\" data-tags=\"retro,rainbow,arch,70s,groovy\">\n  <title>Retro 70s Rainbow Arch</title>\n  <path d=\"M 76.0 396.0 L 76.0 256.0 A 180.0 180.0 0 0 1 436.0 256.0 L 436.0 396.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"14\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 122.66666666666666 396.0 L 122.66666666666666 256.0 A 133.33333333333334 133.33333333333334 0 0 1 389.33333333333337 256.0 L 389.33333333333337 396.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"14\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 169.33333333333331 396.0 L 169.33333333333331 256.0 A 86.66666666666667 86.66666666666667 0 0 1 342.6666666666667 256.0 L 342.6666666666667 396.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"14\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/06_retro_groovy_70s/retro_rainbow_a3_w14_r180.svg"
+    },
+    {
+      "id": "zigzag_shockwaves",
+      "title": "Memphis Zigzag Shockwaves",
+      "category": "07_memphis_80s_90s",
+      "category_label": "Memphis 80s/90s Pop",
+      "count": 72,
+      "description": "80s pop geometric jagged shockwave stripes.",
+      "tags": [
+        "zigzag",
+        "shockwave",
+        "jagged",
+        "memphis",
+        "80s",
+        "90s"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Memphis Zigzag Shockwave\" data-category=\"07_memphis_80s_90s\" data-tags=\"memphis,zigzag,shockwave,80s,90s,retro\">\n  <title>Memphis Zigzag Shockwave</title>\n  <path d=\"M 96.0 176.0 L 128.0 336.0 L 160.0 176.0 L 192.0 336.0 L 224.0 176.0 L 256.0 336.0 L 288.0 176.0 L 320.0 336.0 L 352.0 176.0 L 384.0 336.0 L 416.0 176.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"10\" stroke-linecap=\"square\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/07_memphis_80s_90s/memphis_zigzag_z10_w320_h160_sw10.svg"
+    },
+    {
+      "id": "squiggle_noodles",
+      "title": "Memphis Squiggle Noodles",
+      "category": "07_memphis_80s_90s",
+      "category_label": "Memphis 80s/90s Pop",
+      "count": 72,
+      "description": "Playful 90s squiggle snakes and wavy vector noodles.",
+      "tags": [
+        "squiggle",
+        "noodle",
+        "wave",
+        "snake",
+        "memphis",
+        "80s"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Memphis Squiggle Noodle\" data-category=\"07_memphis_80s_90s\" data-tags=\"memphis,squiggle,noodle,wave,80s,90s\">\n  <title>Memphis Squiggle Noodle</title>\n  <path d=\"M 86 256 C 89.54 258.95 100.17 269.51 107.25 273.68 C 114.33 277.84 121.42 281 128.5 281 C 135.58 281 142.67 277.84 149.75 273.68 C 156.83 269.51 163.92 261.89 171 256 C 178.08 250.11 185.17 242.49 192.25 238.32 C 199.33 234.16 206.42 231 213.5 231 C 220.58 231 227.67 234.16 234.75 238.32 C 241.83 242.49 248.92 250.11 256 256 C 263.08 261.89 270.17 269.51 277.25 273.68 C 284.33 277.84 291.42 281 298.5 281 C 305.58 281 312.67 277.84 319.75 273.68 C 326.83 269.51 333.92 261.89 341 256 C 348.08 250.11 355.17 242.49 362.25 238.32 C 369.33 234.16 376.42 231 383.5 231 C 390.58 231 397.67 234.16 404.75 238.32 C 411.83 242.49 422.46 253.05 426 256\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"12\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/07_memphis_80s_90s/memphis_noodle_w2_a25_sw12_l340.svg"
+    },
+    {
+      "id": "isometric_cubes",
+      "title": "Isometric 3D Memphis Cubes",
+      "category": "07_memphis_80s_90s",
+      "category_label": "Memphis 80s/90s Pop",
+      "count": 16,
+      "description": "Isometric 3-facet shaded geometric pop cubes.",
+      "tags": [
+        "cube",
+        "isometric",
+        "3d",
+        "memphis",
+        "box",
+        "geometric"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Isometric Memphis Cube\" data-category=\"07_memphis_80s_90s\" data-tags=\"memphis,isometric,cube,3d,geometric,pop\">\n  <title>Isometric Memphis Cube</title>\n  <path d=\"M 256.0 256.0 L 359.92304845413264 196.0 L 256.0 136.0 L 152.07695154586736 196.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 273.3205080756888 266.0 L 273.3205080756888 366.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 290.6410161513775 276.0 L 290.6410161513775 356.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 307.9615242270663 286.0 L 307.9615242270663 346.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 325.28203230275506 296.0 L 325.28203230275506 336.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 342.6025403784439 306.0 L 342.6025403784439 326.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 136.0 L 359.92304845413264 196.0 L 359.92304845413264 316.0 L 256.0 376.0 L 152.07695154586736 316.0 L 152.07695154586736 196.0 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 256.0 136.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"6\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 152.07695154586736 316.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"6\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 359.92304845413264 316.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"6\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/07_memphis_80s_90s/memphis_isocube_s120_hatched.svg"
+    },
+    {
+      "id": "confetti_clusters",
+      "title": "Floating Geometric Confetti Clusters",
+      "category": "07_memphis_80s_90s",
+      "category_label": "Memphis 80s/90s Pop",
+      "count": 40,
+      "description": "Scatter bursts of geometric confetti shapes.",
+      "tags": [
+        "confetti",
+        "scatter",
+        "burst",
+        "pop",
+        "memphis",
+        "party"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Memphis Confetti Cluster\" data-category=\"07_memphis_80s_90s\" data-tags=\"memphis,confetti,burst,scatter,pop\">\n  <title>Memphis Confetti Cluster</title>\n  <circle cx=\"296.62\" cy=\"256\" r=\"15.93\" fill=\"currentColor\" />\n  <rect x=\"176.59\" y=\"204.22\" width=\"74.09\" height=\"25.93\" fill=\"currentColor\" rx=\"12.97\" ry=\"12.97\" />\n  <path d=\"M 282.92 330.91 L 247.59 341.67 L 255.94 305.69 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <rect x=\"292.01\" y=\"188.57\" width=\"26.85\" height=\"5.91\" fill=\"currentColor\" />\n  <rect x=\"302.48\" y=\"178.1\" width=\"5.91\" height=\"26.85\" fill=\"currentColor\" />\n  <rect x=\"152.4\" y=\"268.71\" width=\"28.3\" height=\"6.23\" fill=\"currentColor\" />\n  <rect x=\"163.44\" y=\"257.67\" width=\"6.23\" height=\"28.3\" fill=\"currentColor\" />\n  <path d=\"M 320.47 315.64 L 344.31 289.42 L 355.1 323.17 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 239.94 177.51 L 200.26 149.8 L 244.09 129.29 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <rect x=\"178.64\" y=\"349.43\" width=\"48.79\" height=\"17.08\" fill=\"currentColor\" rx=\"8.54\" ry=\"8.54\" />\n  <path d=\"M 361.44 231.7 L 359.83 197.6 L 390.17 213.26 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <circle cx=\"137.26\" cy=\"206.98\" r=\"15.76\" fill=\"currentColor\" />\n  <path d=\"M 292.94 379.43 L 321.99 359.87 L 324.4 394.8 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <rect x=\"282.45\" y=\"118.28\" width=\"31.33\" height=\"6.89\" fill=\"currentColor\" />\n  <rect x=\"294.67\" y=\"106.06\" width=\"6.89\" height=\"31.33\" fill=\"currentColor\" />\n  <rect x=\"105.76\" y=\"321.21\" width=\"47.02\" height=\"16.46\" fill=\"currentColor\" rx=\"8.23\" ry=\"8.23\" />\n  <circle cx=\"404.45\" cy=\"288.64\" r=\"15.63\" fill=\"currentColor\" />\n</svg>",
+      "primary_file": "assets/svg/07_memphis_80s_90s/memphis_confetti_e14_r160_s1.svg"
+    },
+    {
+      "id": "scalloped_seals",
+      "title": "Scalloped Certificate Seals",
+      "category": "08_badges_seals_labels",
+      "category_label": "Badges, Seals & Labels",
+      "count": 144,
+      "description": "Circular certificate flower seals with 8 to 48 flutes.",
+      "tags": [
+        "seal",
+        "scallop",
+        "certificate",
+        "stamp",
+        "badge",
+        "rosette"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Scalloped Certificate Seal\" data-category=\"08_badges_seals_labels\" data-tags=\"seal,scallop,certificate,badge,stamp,label\">\n  <title>Scalloped Certificate Seal</title>\n  <path d=\"M 436 256 C 436 272.32 412.38 287.32 406.65 304.95 C 400.92 322.58 411.21 348.6 401.62 361.8 C 392.03 375 364.11 373.25 349.11 384.15 C 334.11 395.05 327.14 422.15 311.62 427.19 C 296.1 432.23 274.54 414.4 256 414.4 C 237.46 414.4 215.9 432.23 200.38 427.19 C 184.86 422.15 177.89 395.05 162.89 384.15 C 147.89 373.25 119.97 375 110.38 361.8 C 100.79 348.6 111.08 322.58 105.35 304.95 C 99.62 287.32 76 272.32 76 256 C 76 239.68 99.62 224.68 105.35 207.05 C 111.08 189.42 100.79 163.4 110.38 150.2 C 119.97 137 147.89 138.75 162.89 127.85 C 177.89 116.95 184.86 89.85 200.38 84.81 C 215.9 79.77 237.46 97.6 256 97.6 C 274.54 97.6 296.1 79.77 311.62 84.81 C 327.14 89.85 334.11 116.95 349.11 127.85 C 364.11 138.75 392.03 137 401.62 150.2 C 411.21 163.4 400.92 189.42 406.65 207.05 C 412.38 224.68 436 239.68 436 256 Z\" fill=\"currentColor\" />\n</svg>",
+      "primary_file": "assets/svg/08_badges_seals_labels/seal_scallop_10flute_r180_d12_h0.svg"
+    },
+    {
+      "id": "postage_stamps",
+      "title": "Perforated Postage Stamps",
+      "category": "08_badges_seals_labels",
+      "category_label": "Badges, Seals & Labels",
+      "count": 15,
+      "description": "Perforated postal stamps with edge teeth in various aspect ratios.",
+      "tags": [
+        "stamp",
+        "postage",
+        "perforated",
+        "mail",
+        "letter",
+        "vintage",
+        "badge"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Perforated Postage Stamp\" data-category=\"08_badges_seals_labels\" data-tags=\"stamp,postage,perforated,mail,badge,vintage\">\n  <title>Perforated Postage Stamp</title>\n  <path d=\"M 106.0 66.0 L 144.0 66.0 A 12 12 0 0 0 168.0 66.0 L 194.0 66.0 A 12 12 0 0 0 218.0 66.0 L 244.0 66.0 A 12 12 0 0 0 268.0 66.0 L 294.0 66.0 A 12 12 0 0 0 318.0 66.0 L 344.0 66.0 A 12 12 0 0 0 368.0 66.0 L 406.0 66.0 L 406.0 101.5 A 12 12 0 0 0 406.0 125.5 L 406.0 149.0 A 12 12 0 0 0 406.0 173.0 L 406.0 196.5 A 12 12 0 0 0 406.0 220.5 L 406.0 244.0 A 12 12 0 0 0 406.0 268.0 L 406.0 291.5 A 12 12 0 0 0 406.0 315.5 L 406.0 339.0 A 12 12 0 0 0 406.0 363.0 L 406.0 386.5 A 12 12 0 0 0 406.0 410.5 L 406.0 446.0 L 368.0 446.0 A 12 12 0 0 0 344.0 446.0 L 318.0 446.0 A 12 12 0 0 0 294.0 446.0 L 268.0 446.0 A 12 12 0 0 0 244.0 446.0 L 218.0 446.0 A 12 12 0 0 0 194.0 446.0 L 168.0 446.0 A 12 12 0 0 0 144.0 446.0 L 106.0 446.0 L 106.0 410.5 A 12 12 0 0 0 106.0 386.5 L 106.0 363.0 A 12 12 0 0 0 106.0 339.0 L 106.0 315.5 A 12 12 0 0 0 106.0 291.5 L 106.0 268.0 A 12 12 0 0 0 106.0 244.0 L 106.0 220.5 A 12 12 0 0 0 106.0 196.5 L 106.0 173.0 A 12 12 0 0 0 106.0 149.0 L 106.0 125.5 A 12 12 0 0 0 106.0 101.5 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <rect x=\"130\" y=\"90\" width=\"252\" height=\"332\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"6\" />\n</svg>",
+      "primary_file": "assets/svg/08_badges_seals_labels/postage_stamp_w300_h380_r12.svg"
+    },
+    {
+      "id": "rosette_ribbons",
+      "title": "Award Rosette Ribbons",
+      "category": "08_badges_seals_labels",
+      "category_label": "Badges, Seals & Labels",
+      "count": 16,
+      "description": "Award rosettes with pleated heads and dual notched ribbon tails.",
+      "tags": [
+        "rosette",
+        "ribbon",
+        "award",
+        "medal",
+        "winner",
+        "badge"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Award Rosette Ribbon\" data-category=\"08_badges_seals_labels\" data-tags=\"rosette,ribbon,award,badge,medal\">\n  <title>Award Rosette Ribbon</title>\n  <path d=\"M 203.38 278.35 L 252.00 278.35 L 226.00 397.35 L 201.69 377.90 L 177.38 397.35 Z\" fill=\"currentColor\" />\n  <path d=\"M 260.00 278.35 L 308.62 278.35 L 334.62 397.35 L 310.31 377.90 L 286.00 397.35 Z\" fill=\"currentColor\" />\n  <path d=\"M 366.50 195.00 C 366.50 205.91 353.13 208.20 349.93 220.17 C 346.72 232.14 357.15 240.81 351.70 250.25 C 346.24 259.69 333.52 255.00 324.76 263.76 C 316.00 272.52 320.69 285.24 311.25 290.70 C 301.81 296.15 293.14 285.72 281.17 288.93 C 269.20 292.13 266.91 305.50 256.00 305.50 C 245.09 305.50 242.80 292.13 230.83 288.93 C 218.86 285.72 210.19 296.15 200.75 290.70 C 191.31 285.24 196.00 272.52 187.24 263.76 C 178.48 255.00 165.76 259.69 160.30 250.25 C 154.85 240.81 165.28 232.14 162.07 220.17 C 158.87 208.20 145.50 205.91 145.50 195.00 C 145.50 184.09 158.87 181.80 162.07 169.83 C 165.28 157.86 154.85 149.19 160.30 139.75 C 165.76 130.31 178.48 135.00 187.24 126.24 C 196.00 117.48 191.31 104.76 200.75 99.30 C 210.19 93.85 218.86 104.28 230.83 101.07 C 242.80 97.87 245.09 84.50 256.00 84.50 C 266.91 84.50 269.20 97.87 281.17 101.07 C 293.14 104.28 301.81 93.85 311.25 99.30 C 320.69 104.76 316.00 117.48 324.76 126.24 C 333.52 135.00 346.24 130.31 351.70 139.75 C 357.15 149.19 346.72 157.86 349.93 169.83 C 353.13 181.80 366.50 184.09 366.50 195.00 Z M 178.65 195.00 A 77.35 77.35 0 1 0 333.35 195.00 A 77.35 77.35 0 1 0 178.65 195.00 Z M 191.91 195.00 A 64.09 64.09 0 1 0 320.09 195.00 A 64.09 64.09 0 1 0 191.91 195.00 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/08_badges_seals_labels/rosette_ribbon_f12_hr130_l140.svg"
+    },
+    {
+      "id": "ticket_stubs",
+      "title": "Admission Ticket Stubs & Coupons",
+      "category": "08_badges_seals_labels",
+      "category_label": "Badges, Seals & Labels",
+      "count": 24,
+      "description": "Admit-one coupon tickets with circular cutout notches.",
+      "tags": [
+        "ticket",
+        "stub",
+        "coupon",
+        "admission",
+        "pass",
+        "voucher"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Admission Ticket Stub\" data-category=\"08_badges_seals_labels\" data-tags=\"ticket,stub,coupon,admission,badge\">\n  <title>Admission Ticket Stub</title>\n  <path d=\"M 76.0 166.0 L 436.0 166.0 L 436.0 238.0 A 18 18 0 0 0 436.0 274.0 L 436.0 346.0 L 76.0 346.0 L 76.0 274.0 A 18 18 0 0 0 76.0 238.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/08_badges_seals_labels/ticket_stub_w360_h180_n18_hori.svg"
+    },
+    {
+      "id": "brutalist_arrows",
+      "title": "Chunky Brutalist Arrows",
+      "category": "09_arrows_pointers_accents",
+      "category_label": "Arrows, Pointers & Accents",
+      "count": 18,
+      "description": "Heavy editorial navigation block arrows with sharp triangular heads.",
+      "tags": [
+        "arrow",
+        "pointer",
+        "direction",
+        "navigation",
+        "brutalist",
+        "cursor"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Brutalist Arrow\" data-category=\"09_arrows_pointers_accents\" data-tags=\"arrow,pointer,direction,brutalist,navigation\">\n  <title>Brutalist Arrow</title>\n  <path d=\"M 96.0 206.0 L 320.0 206.0 L 320.0 196.0 L 416.0 256.0 L 320.0 316.0 L 320.0 306.0 L 96.0 306.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/09_arrows_pointers_accents/arrow_brutalist_l320_s100_h120.svg"
+    },
+    {
+      "id": "swoosh_arrows",
+      "title": "Curved Flow & Swoosh Arrows",
+      "category": "09_arrows_pointers_accents",
+      "category_label": "Arrows, Pointers & Accents",
+      "count": 36,
+      "description": "Circular arc directional arrows, loops, and flow indicators.",
+      "tags": [
+        "arrow",
+        "swoosh",
+        "curve",
+        "loop",
+        "cycle",
+        "flow",
+        "pointer"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Curved Flow Swoosh Arrow\" data-category=\"09_arrows_pointers_accents\" data-tags=\"arrow,swoosh,curve,flow,loop,cycle\">\n  <title>Curved Flow Swoosh Arrow</title>\n  <path d=\"M 396.0 256.0 A 140 140 0 0 1 116.0 256.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"12\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 116.0 218.0 L 94.0 265.5 L 116.0 254.1 L 138.0 265.5 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/09_arrows_pointers_accents/arrow_swoosh_r140_sw180_w12.svg"
+    },
+    {
+      "id": "speech_bubbles",
+      "title": "Modern Speech & Dialog Bubbles",
+      "category": "09_arrows_pointers_accents",
+      "category_label": "Arrows, Pointers & Accents",
+      "count": 24,
+      "description": "Rounded speech balloons and message callout bubbles.",
+      "tags": [
+        "speech",
+        "bubble",
+        "callout",
+        "chat",
+        "message",
+        "dialog",
+        "quote"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Speech Bubble Callout\" data-category=\"09_arrows_pointers_accents\" data-tags=\"speech,bubble,callout,dialog,chat,message\">\n  <title>Speech Bubble Callout</title>\n  <path d=\"M 96.0 156.0 L 416.0 156.0 A 0 0 0 0 1 416.0 156.0 L 416.0 356.0 A 0 0 0 0 1 416.0 356.0 L 243.0 356.0 L 208.0 391.0 L 190.5 356.0 L 96.0 356.0 A 0 0 0 0 1 96.0 356.0 L 96.0 156.0 A 0 0 0 0 1 96.0 156.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/09_arrows_pointers_accents/callout_speech_w320_h200_r0_t35.svg"
+    },
+    {
+      "id": "compass_needles",
+      "title": "Faceted 3D Compass Needles",
+      "category": "09_arrows_pointers_accents",
+      "category_label": "Arrows, Pointers & Accents",
+      "count": 4,
+      "description": "Faceted 3D navigation pointers and compass needles.",
+      "tags": [
+        "compass",
+        "needle",
+        "pointer",
+        "navigation",
+        "faceted",
+        "north"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Compass Pointer Needle\" data-category=\"09_arrows_pointers_accents\" data-tags=\"compass,needle,pointer,navigation,faceted,3d\">\n  <title>Compass Pointer Needle</title>\n  <path d=\"M 256.0 256.0 L 256.0 86.0 L 201.0 256.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 256.0 426.0 L 311.0 256.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 86.0 L 311.0 256.0 L 256.0 426.0 L 201.0 256.0 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 86.0 L 256.0 426.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 201.0 256.0 L 311.0 256.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"butt\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/09_arrows_pointers_accents/compass_needle_l340_w110.svg"
+    },
+    {
+      "id": "rhodonea_roses",
+      "title": "Mathematical Rhodonea Rose Curves",
+      "category": "10_sacred_guilloche_geo",
+      "category_label": "Sacred Geometry & Guilloche",
+      "count": 57,
+      "description": "Harmonic rose curves generated by polar equations r = cos(k theta).",
+      "tags": [
+        "rose",
+        "curve",
+        "rhodonea",
+        "guilloche",
+        "math",
+        "flower"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Rhodonea Rose Curve\" data-category=\"10_sacred_guilloche_geo\" data-tags=\"guilloche,rose,curve,rhodonea,mathematical,spirograph\">\n  <title>Rhodonea Rose Curve</title>\n  <path d=\"M 476.0 256.0 L 465.42 285.43 L 435.34 307.43 L 390.48 315.88 L 337.79 307.11 L 285.26 280.56 L 240.61 238.91 L 209.91 187.68 L 196.62 134.26 L 201.0 86.73 L 220.1 52.41 L 248.34 36.67 L 278.49 41.99 L 302.99 67.52 L 315.28 109.27 L 311.0 160.74 L 288.77 214.06 L 250.48 261.33 L 201.0 295.96 L 147.38 313.76 L 97.63 313.64 L 59.41 297.79 L 38.67 271.2 L 38.67 240.8 L 59.41 214.21 L 97.63 198.36 L 147.38 198.24 L 201.0 216.04 L 250.48 250.67 L 288.77 297.94 L 311.0 351.26 L 315.28 402.73 L 302.99 444.48 L 278.49 470.01 L 248.34 475.33 L 220.1 459.59 L 201.0 425.27 L 196.62 377.74 L 209.91 324.32 L 240.61 273.09 L 285.26 231.44 L 337.79 204.89 L 390.48 196.12 L 435.34 204.57 L 465.42 226.57 L 476.0 256.0 L 465.42 285.43 L 435.34 307.43 L 390.48 315.88 L 337.79 307.11 L 285.26 280.56 L 240.61 238.91 L 209.91 187.68 L 196.62 134.26 L 201.0 86.73 L 220.1 52.41 L 248.34 36.67 L 278.49 41.99 L 302.99 67.52 L 315.28 109.27 L 311.0 160.74 L 288.77 214.06 L 250.48 261.33 L 201.0 295.96 L 147.38 313.76 L 97.63 313.64 L 59.41 297.79 L 38.67 271.2 L 38.67 240.8 L 59.41 214.21 L 97.63 198.36 L 147.38 198.24 L 201.0 216.04 L 250.48 250.67 L 288.77 297.94 L 311.0 351.26 L 315.28 402.73 L 302.99 444.48 L 278.49 470.01 L 248.34 475.33 L 220.1 459.59 L 201.0 425.27 L 196.62 377.74 L 209.91 324.32 L 240.61 273.09 L 285.26 231.44 L 337.79 204.89 L 390.48 196.12 L 435.34 204.57 L 465.42 226.57 L 476.0 256.0 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"14\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/10_sacred_guilloche_geo/rose_rhodonea_k2_1_w14.svg"
+    },
+    {
+      "id": "spirographs",
+      "title": "Hypotrochoid Spirographs",
+      "category": "10_sacred_guilloche_geo",
+      "category_label": "Sacred Geometry & Guilloche",
+      "count": 24,
+      "description": "Mathematical guilloche roulettes traced by rolling circles.",
+      "tags": [
+        "spirograph",
+        "guilloche",
+        "hypotrochoid",
+        "roulette",
+        "generative"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Hypotrochoid Spirograph\" data-category=\"10_sacred_guilloche_geo\" data-tags=\"spirograph,guilloche,hypotrochoid,curve,generative\">\n  <title>Hypotrochoid Spirograph</title>\n  <path d=\"M 386.0 256.0 L 385.82 256.84 L 385.28 257.66 L 384.39 258.47 L 383.13 259.25 L 381.53 259.99 L 379.59 260.68 L 377.3 261.31 L 374.68 261.88 L 371.74 262.38 L 368.49 262.8 L 364.93 263.12 L 361.08 263.35 L 356.95 263.48 L 352.55 263.49 L 347.9 263.4 L 343.01 263.18 L 337.89 262.84 L 332.57 262.37 L 327.06 261.77 L 321.38 261.04 L 315.54 260.18 L 309.56 259.18 L 303.47 258.05 L 297.28 256.78 L 291.0 255.38 L 284.66 253.85 L 278.28 252.19 L 271.88 250.41 L 265.48 248.51 L 259.09 246.49 L 252.74 244.37 L 246.44 242.14 L 240.21 239.82 L 234.08 237.41 L 228.05 234.92 L 222.15 232.37 L 216.39 229.75 L 210.8 227.09 L 205.37 224.38 L 200.14 221.65 L 195.11 218.9 L 190.3 216.15 L 185.73 213.4 L 181.39 210.67 L 177.31 207.97 L 173.48 205.31 L 169.94 202.71 L 166.67 200.18 L 163.69 197.73 L 161.0 195.38 L 158.61 193.13 L 156.52 191.0 L 154.74 189.0 L 153.27 187.14 L 152.1 185.44 L 151.24 183.9 L 150.68 182.53 L 150.43 181.36 L 150.48 180.37 L 150.83 179.59 L 151.46 179.02 L 152.39 178.67 L 153.59 178.54 L 155.05 178.64 L 156.78 178.99 L 158.77 179.57 L 160.99 180.4 L 163.44 181.48 L 166.11 182.81 L 168.99 184.38 L 172.06 186.21 L 175.31 188.29 L 178.73 190.62 L 182.29 193.19 L 186.0 196.0 L 189.83 199.05 L 193.77 202.33 L 197.79 205.84 L 201.9 209.56 L 206.07 213.49 L 210.29 217.62 L 214.53 221.94 L 218.8 226.44 L 223.07 231.11 L 227.32 235.93 L 231.55 240.89 L 235.73 245.98 L 239.86 251.19 L 243.93 256.49 L 247.91 261.88 L 251.8 267.33 L 255.59 272.83 L 259.26 278.37 L 262.81 283.93 L 266.22 289.48 L 269.5 295.01 L 272.62 300.51 L 275.58 305.96 L 278.37 311.34 L 281.0 316.62 L 283.45 321.8 L 285.72 326.86 L 287.81 331.77 L 289.71 336.53 L 291.43 341.11 L 292.96 345.51 L 294.31 349.7 L 295.46 353.67 L 296.43 357.4 L 297.22 360.88 L 297.84 364.11 L 298.27 367.06 L 298.54 369.72 L 298.64 372.09 L 298.58 374.16 L 298.38 375.91 L 298.02 377.34 L 297.53 378.44 L 296.91 379.21 L 296.17 379.64 L 295.32 379.72 L 294.37 379.47 L 293.32 378.86 L 292.2 377.92 L 291.0 376.62 L 289.74 374.98 L 288.43 373.01 L 287.08 370.69 L 285.7 368.05 L 284.3 365.08 L 282.89 361.8 L 281.48 358.21 L 280.08 354.32 L 278.71 350.14 L 277.36 345.69 L 276.06 340.97 L 274.8 336.0 L 273.6 330.8 L 272.47 325.37 L 271.41 319.74 L 270.42 313.92 L 269.53 307.93 L 268.72 301.78 L 268.01 295.5 L 267.41 289.09 L 266.9 282.6 L 266.51 276.02 L 266.23 269.38 L 266.06 262.7 L 266.0 256.0 L 266.06 249.3 L 266.23 242.62 L 266.51 235.98 L 266.9 229.4 L 267.41 222.91 L 268.01 216.5 L 268.72 210.22 L 269.53 204.07 L 270.42 198.08 L 271.41 192.26 L 272.47 186.63 L 273.6 181.2 L 274.8 176.0 L 276.06 171.03 L 277.36 166.31 L 278.71 161.86 L 280.08 157.68 L 281.48 153.79 L 282.89 150.2 L 284.3 146.92 L 285.7 143.95 L 287.08 141.31 L 288.43 138.99 L 289.74 137.02 L 291.0 135.38 L 292.2 134.08 L 293.32 133.14 L 294.37 132.53 L 295.32 132.28 L 296.17 132.36 L 296.91 132.79 L 297.53 133.56 L 298.02 134.66 L 298.38 136.09 L 298.58 137.84 L 298.64 139.91 L 298.54 142.28 L 298.27 144.94 L 297.84 147.89 L 297.22 151.12 L 296.43 154.6 L 295.46 158.33 L 294.31 162.3 L 292.96 166.49 L 291.43 170.89 L 289.71 175.47 L 287.81 180.23 L 285.72 185.14 L 283.45 190.2 L 281.0 195.38 L 278.37 200.66 L 275.58 206.04 L 272.62 211.49 L 269.5 216.99 L 266.22 222.52 L 262.81 228.07 L 259.26 233.63 L 255.59 239.17 L 251.8 244.67 L 247.91 250.12 L 243.93 255.51 L 239.86 260.81 L 235.73 266.02 L 231.55 271.11 L 227.32 276.07 L 223.07 280.89 L 218.8 285.56 L 214.53 290.06 L 210.29 294.38 L 206.07 298.51 L 201.9 302.44 L 197.79 306.16 L 193.77 309.67 L 189.83 312.95 L 186.0 316.0 L 182.29 318.81 L 178.73 321.38 L 175.31 323.71 L 172.06 325.79 L 168.99 327.62 L 166.11 329.19 L 163.44 330.52 L 160.99 331.6 L 158.77 332.43 L 156.78 333.01 L 155.05 333.36 L 153.59 333.46 L 152.39 333.33 L 151.46 332.98 L 150.83 332.41 L 150.48 331.63 L 150.43 330.64 L 150.68 329.47 L 151.24 328.1 L 152.1 326.56 L 153.27 324.86 L 154.74 323.0 L 156.52 321.0 L 158.61 318.87 L 161.0 316.62 L 163.69 314.27 L 166.67 311.82 L 169.94 309.29 L 173.48 306.69 L 177.31 304.03 L 181.39 301.33 L 185.73 298.6 L 190.3 295.85 L 195.11 293.1 L 200.14 290.35 L 205.37 287.62 L 210.8 284.91 L 216.39 282.25 L 222.15 279.63 L 228.05 277.08 L 234.08 274.59 L 240.21 272.18 L 246.44 269.86 L 252.74 267.63 L 259.09 265.51 L 265.48 263.49 L 271.88 261.59 L 278.28 259.81 L 284.66 258.15 L 291.0 256.62 L 297.28 255.22 L 303.47 253.95 L 309.56 252.82 L 315.54 251.82 L 321.38 250.96 L 327.06 250.23 L 332.57 249.63 L 337.89 249.16 L 343.01 248.82 L 347.9 248.6 L 352.55 248.51 L 356.95 248.52 L 361.08 248.65 L 364.93 248.88 L 368.49 249.2 L 371.74 249.62 L 374.68 250.12 L 377.3 250.69 L 379.59 251.32 L 381.53 252.01 L 383.13 252.75 L 384.39 253.53 L 385.28 254.34 L 385.82 255.16 L 386.0 256.0 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"12\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/10_sacred_guilloche_geo/spiro_hypotrochoid_R150_r90_d70_w12.svg"
+    },
+    {
+      "id": "lissajous_curves",
+      "title": "Lissajous Harmonic Curves",
+      "category": "10_sacred_guilloche_geo",
+      "category_label": "Sacred Geometry & Guilloche",
+      "count": 84,
+      "description": "Complex harmonic frequency knots and oscilloscope waveforms.",
+      "tags": [
+        "lissajous",
+        "curve",
+        "knot",
+        "harmonic",
+        "math",
+        "wave"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Lissajous Curve\" data-category=\"10_sacred_guilloche_geo\" data-tags=\"lissajous,harmonic,curve,knot,mathematical\">\n  <title>Lissajous Curve</title>\n  <path d=\"M 256.0 256.0 L 260.4 264.79 L 264.79 273.57 L 269.19 282.32 L 273.57 291.02 L 277.95 299.66 L 282.32 308.22 L 286.68 316.7 L 291.02 325.06 L 295.35 333.31 L 299.66 341.41 L 303.95 349.37 L 308.22 357.17 L 312.47 364.79 L 316.7 372.21 L 320.89 379.43 L 325.06 386.44 L 329.2 393.22 L 333.31 399.75 L 337.38 406.04 L 341.41 412.06 L 345.41 417.81 L 349.37 423.27 L 353.29 428.44 L 357.17 433.31 L 361.0 437.87 L 364.79 442.1 L 368.52 446.01 L 372.21 449.59 L 375.85 452.83 L 379.43 455.72 L 382.97 458.26 L 386.44 460.45 L 389.86 462.28 L 393.22 463.75 L 396.52 464.85 L 399.75 465.59 L 402.93 465.95 L 406.04 465.95 L 409.08 465.59 L 412.06 464.85 L 414.97 463.75 L 417.81 462.28 L 420.58 460.45 L 423.27 458.26 L 425.89 455.72 L 428.44 452.83 L 430.91 449.59 L 433.31 446.01 L 435.63 442.1 L 437.87 437.87 L 440.02 433.31 L 442.1 428.44 L 444.1 423.27 L 446.01 417.81 L 447.84 412.06 L 449.59 406.04 L 451.25 399.75 L 452.83 393.22 L 454.32 386.44 L 455.72 379.43 L 457.04 372.21 L 458.26 364.79 L 459.4 357.17 L 460.45 349.37 L 461.41 341.41 L 462.28 333.31 L 463.06 325.06 L 463.75 316.7 L 464.34 308.22 L 464.85 299.66 L 465.26 291.02 L 465.59 282.32 L 465.82 273.57 L 465.95 264.79 L 466.0 256.0 L 465.95 247.21 L 465.82 238.43 L 465.59 229.68 L 465.26 220.98 L 464.85 212.34 L 464.34 203.78 L 463.75 195.3 L 463.06 186.94 L 462.28 178.69 L 461.41 170.59 L 460.45 162.63 L 459.4 154.83 L 458.26 147.21 L 457.04 139.79 L 455.72 132.57 L 454.32 125.56 L 452.83 118.78 L 451.25 112.25 L 449.59 105.96 L 447.84 99.94 L 446.01 94.19 L 444.1 88.73 L 442.1 83.56 L 440.02 78.69 L 437.87 74.13 L 435.63 69.9 L 433.31 65.99 L 430.91 62.41 L 428.44 59.17 L 425.89 56.28 L 423.27 53.74 L 420.58 51.55 L 417.81 49.72 L 414.97 48.25 L 412.06 47.15 L 409.08 46.41 L 406.04 46.05 L 402.93 46.05 L 399.75 46.41 L 396.52 47.15 L 393.22 48.25 L 389.86 49.72 L 386.44 51.55 L 382.97 53.74 L 379.43 56.28 L 375.85 59.17 L 372.21 62.41 L 368.52 65.99 L 364.79 69.9 L 361.0 74.13 L 357.17 78.69 L 353.29 83.56 L 349.37 88.73 L 345.41 94.19 L 341.41 99.94 L 337.38 105.96 L 333.31 112.25 L 329.2 118.78 L 325.06 125.56 L 320.89 132.57 L 316.7 139.79 L 312.47 147.21 L 308.22 154.83 L 303.95 162.63 L 299.66 170.59 L 295.35 178.69 L 291.02 186.94 L 286.68 195.3 L 282.32 203.78 L 277.95 212.34 L 273.57 220.98 L 269.19 229.68 L 264.79 238.43 L 260.4 247.21 L 256.0 256.0 L 251.6 264.79 L 247.21 273.57 L 242.81 282.32 L 238.43 291.02 L 234.05 299.66 L 229.68 308.22 L 225.32 316.7 L 220.98 325.06 L 216.65 333.31 L 212.34 341.41 L 208.05 349.37 L 203.78 357.17 L 199.53 364.79 L 195.3 372.21 L 191.11 379.43 L 186.94 386.44 L 182.8 393.22 L 178.69 399.75 L 174.62 406.04 L 170.59 412.06 L 166.59 417.81 L 162.63 423.27 L 158.71 428.44 L 154.83 433.31 L 151.0 437.87 L 147.21 442.1 L 143.48 446.01 L 139.79 449.59 L 136.15 452.83 L 132.57 455.72 L 129.03 458.26 L 125.56 460.45 L 122.14 462.28 L 118.78 463.75 L 115.48 464.85 L 112.25 465.59 L 109.07 465.95 L 105.96 465.95 L 102.92 465.59 L 99.94 464.85 L 97.03 463.75 L 94.19 462.28 L 91.42 460.45 L 88.73 458.26 L 86.11 455.72 L 83.56 452.83 L 81.09 449.59 L 78.69 446.01 L 76.37 442.1 L 74.13 437.87 L 71.98 433.31 L 69.9 428.44 L 67.9 423.27 L 65.99 417.81 L 64.16 412.06 L 62.41 406.04 L 60.75 399.75 L 59.17 393.22 L 57.68 386.44 L 56.28 379.43 L 54.96 372.21 L 53.74 364.79 L 52.6 357.17 L 51.55 349.37 L 50.59 341.41 L 49.72 333.31 L 48.94 325.06 L 48.25 316.7 L 47.66 308.22 L 47.15 299.66 L 46.74 291.02 L 46.41 282.32 L 46.18 273.57 L 46.05 264.79 L 46.0 256.0 L 46.05 247.21 L 46.18 238.43 L 46.41 229.68 L 46.74 220.98 L 47.15 212.34 L 47.66 203.78 L 48.25 195.3 L 48.94 186.94 L 49.72 178.69 L 50.59 170.59 L 51.55 162.63 L 52.6 154.83 L 53.74 147.21 L 54.96 139.79 L 56.28 132.57 L 57.68 125.56 L 59.17 118.78 L 60.75 112.25 L 62.41 105.96 L 64.16 99.94 L 65.99 94.19 L 67.9 88.73 L 69.9 83.56 L 71.98 78.69 L 74.13 74.13 L 76.37 69.9 L 78.69 65.99 L 81.09 62.41 L 83.56 59.17 L 86.11 56.28 L 88.73 53.74 L 91.42 51.55 L 94.19 49.72 L 97.03 48.25 L 99.94 47.15 L 102.92 46.41 L 105.96 46.05 L 109.07 46.05 L 112.25 46.41 L 115.48 47.15 L 118.78 48.25 L 122.14 49.72 L 125.56 51.55 L 129.03 53.74 L 132.57 56.28 L 136.15 59.17 L 139.79 62.41 L 143.48 65.99 L 147.21 69.9 L 151.0 74.13 L 154.83 78.69 L 158.71 83.56 L 162.63 88.73 L 166.59 94.19 L 170.59 99.94 L 174.62 105.96 L 178.69 112.25 L 182.8 118.78 L 186.94 125.56 L 191.11 132.57 L 195.3 139.79 L 199.53 147.21 L 203.78 154.83 L 208.05 162.63 L 212.34 170.59 L 216.65 178.69 L 220.98 186.94 L 225.32 195.3 L 229.68 203.78 L 234.05 212.34 L 238.43 220.98 L 242.81 229.68 L 247.21 238.43 L 251.6 247.21 L 256.0 256.0 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"12\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/10_sacred_guilloche_geo/lissajous_ratio_1_2_p0_w12.svg"
+    },
+    {
+      "id": "sacred_flower",
+      "title": "Sacred Flower & Seed of Life",
+      "category": "10_sacred_guilloche_geo",
+      "category_label": "Sacred Geometry & Guilloche",
+      "count": 4,
+      "description": "Overlapping circular geometric mandalas and sacred lattices.",
+      "tags": [
+        "sacred",
+        "geometry",
+        "flower_of_life",
+        "seed_of_life",
+        "mandala"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Sacred Flower of Life\" data-category=\"10_sacred_guilloche_geo\" data-tags=\"sacred,geometry,flower_of_life,seed_of_life,mandala\">\n  <title>Sacred Flower of Life</title>\n  <circle cx=\"256\" cy=\"256\" r=\"60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\" />\n  <circle cx=\"316\" cy=\"256\" r=\"60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\" />\n  <circle cx=\"286\" cy=\"307.96\" r=\"60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\" />\n  <circle cx=\"226\" cy=\"307.96\" r=\"60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\" />\n  <circle cx=\"196\" cy=\"256\" r=\"60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\" />\n  <circle cx=\"226\" cy=\"204.04\" r=\"60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\" />\n  <circle cx=\"286\" cy=\"204.04\" r=\"60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\" />\n  <circle cx=\"256\" cy=\"256\" r=\"180\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"8\" />\n</svg>",
+      "primary_file": "assets/svg/10_sacred_guilloche_geo/sacred_flower_of_life_r180_l1.svg"
+    },
+    {
+      "id": "metatron_cube",
+      "title": "Metatron's Cube Sacred Geometry",
+      "category": "10_sacred_guilloche_geo",
+      "category_label": "Sacred Geometry & Guilloche",
+      "count": 3,
+      "description": "13-node Metatron's cube wireframe projections.",
+      "tags": [
+        "metatron",
+        "cube",
+        "sacred",
+        "geometry",
+        "mandala",
+        "wireframe"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Metatron's Cube Sacred Geometry\" data-category=\"10_sacred_guilloche_geo\" data-tags=\"sacred,geometry,metatron,cube,mandala,wireframe\">\n  <title>Metatron's Cube Sacred Geometry</title>\n  <path d=\"M 256.0 256.0 L 337.0 256.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 296.5 326.15\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 215.5 326.15\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 175.0 256.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 215.5 185.85\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 296.5 185.85\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 409.0 256.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 332.5 388.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 179.5 388.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 103.0 256.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 179.5 123.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 256.0 L 332.5 123.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 337.0 256.0 L 296.5 326.15\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 337.0 256.0 L 215.5 326.15\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 337.0 256.0 L 175.0 256.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 337.0 256.0 L 215.5 185.85\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 337.0 256.0 L 296.5 185.85\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 337.0 256.0 L 409.0 256.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 337.0 256.0 L 332.5 388.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 337.0 256.0 L 179.5 388.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 337.0 256.0 L 103.0 256.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 337.0 256.0 L 179.5 123.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 337.0 256.0 L 332.5 123.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 296.5 326.15 L 215.5 326.15\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 296.5 326.15 L 175.0 256.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 296.5 326.15 L 215.5 185.85\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 296.5 326.15 L 296.5 185.85\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 296.5 326.15 L 409.0 256.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 296.5 326.15 L 332.5 388.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 296.5 326.15 L 179.5 388.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 296.5 326.15 L 103.0 256.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 296.5 326.15 L 179.5 123.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 296.5 326.15 L 332.5 123.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 215.5 326.15 L 175.0 256.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 215.5 326.15 L 215.5 185.85\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 215.5 326.15 L 296.5 185.85\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 215.5 326.15 L 409.0 256.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 215.5 326.15 L 332.5 388.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 215.5 326.15 L 179.5 388.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 215.5 326.15 L 103.0 256.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 215.5 326.15 L 179.5 123.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 215.5 326.15 L 332.5 123.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 175.0 256.0 L 215.5 185.85\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 175.0 256.0 L 296.5 185.85\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 175.0 256.0 L 409.0 256.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 175.0 256.0 L 332.5 388.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 175.0 256.0 L 179.5 388.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 175.0 256.0 L 103.0 256.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 175.0 256.0 L 179.5 123.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 175.0 256.0 L 332.5 123.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 215.5 185.85 L 296.5 185.85\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 215.5 185.85 L 409.0 256.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 215.5 185.85 L 332.5 388.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 215.5 185.85 L 179.5 388.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 215.5 185.85 L 103.0 256.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 215.5 185.85 L 179.5 123.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 215.5 185.85 L 332.5 123.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 296.5 185.85 L 409.0 256.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 296.5 185.85 L 332.5 388.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 296.5 185.85 L 179.5 388.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 296.5 185.85 L 103.0 256.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 296.5 185.85 L 179.5 123.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 296.5 185.85 L 332.5 123.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 409.0 256.0 L 332.5 388.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 409.0 256.0 L 179.5 388.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 409.0 256.0 L 103.0 256.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 409.0 256.0 L 179.5 123.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 409.0 256.0 L 332.5 123.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 332.5 388.5 L 179.5 388.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 332.5 388.5 L 103.0 256.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 332.5 388.5 L 179.5 123.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 332.5 388.5 L 332.5 123.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 179.5 388.5 L 103.0 256.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 179.5 388.5 L 179.5 123.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 179.5 388.5 L 332.5 123.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 103.0 256.0 L 179.5 123.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 103.0 256.0 L 332.5 123.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 179.5 123.5 L 332.5 123.5\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <circle cx=\"256\" cy=\"256\" r=\"21.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"337\" cy=\"256\" r=\"21.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"296.5\" cy=\"326.15\" r=\"21.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"215.5\" cy=\"326.15\" r=\"21.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"175\" cy=\"256\" r=\"21.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"215.5\" cy=\"185.85\" r=\"21.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"296.5\" cy=\"185.85\" r=\"21.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"409\" cy=\"256\" r=\"21.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"332.5\" cy=\"388.5\" r=\"21.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"179.5\" cy=\"388.5\" r=\"21.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"103\" cy=\"256\" r=\"21.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"179.5\" cy=\"123.5\" r=\"21.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"332.5\" cy=\"123.5\" r=\"21.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n</svg>",
+      "primary_file": "assets/svg/10_sacred_guilloche_geo/sacred_metatron_cube_r180.svg"
+    },
+    {
+      "id": "radial_halftones",
+      "title": "Radial Dot Halftones",
+      "category": "11_halftones_optical_grids",
+      "category_label": "Halftones & Matrix Grids",
+      "count": 79,
+      "description": "Concentric radial screens with distance-scaled dot gradients.",
+      "tags": [
+        "halftone",
+        "radial",
+        "dots",
+        "screen",
+        "gradient",
+        "circle"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Radial Halftone\" data-category=\"11_halftones_optical_grids\" data-tags=\"halftone,radial,dots,screen,optical,matrix\">\n  <title>Radial Halftone</title>\n  <circle cx=\"256\" cy=\"256\" r=\"1.5\" fill=\"currentColor\" />\n  <circle cx=\"270.85\" cy=\"270.85\" r=\"2.08\" fill=\"currentColor\" />\n  <circle cx=\"241.15\" cy=\"270.85\" r=\"2.08\" fill=\"currentColor\" />\n  <circle cx=\"241.15\" cy=\"241.15\" r=\"2.08\" fill=\"currentColor\" />\n  <circle cx=\"270.85\" cy=\"241.15\" r=\"2.08\" fill=\"currentColor\" />\n  <circle cx=\"298\" cy=\"256\" r=\"2.96\" fill=\"currentColor\" />\n  <circle cx=\"256\" cy=\"298\" r=\"2.96\" fill=\"currentColor\" />\n  <circle cx=\"214\" cy=\"256\" r=\"2.96\" fill=\"currentColor\" />\n  <circle cx=\"256\" cy=\"214\" r=\"2.96\" fill=\"currentColor\" />\n  <circle cx=\"300.55\" cy=\"300.55\" r=\"3.84\" fill=\"currentColor\" />\n  <circle cx=\"211.45\" cy=\"300.55\" r=\"3.84\" fill=\"currentColor\" />\n  <circle cx=\"211.45\" cy=\"211.45\" r=\"3.84\" fill=\"currentColor\" />\n  <circle cx=\"300.55\" cy=\"211.45\" r=\"3.84\" fill=\"currentColor\" />\n  <circle cx=\"340\" cy=\"256\" r=\"4.72\" fill=\"currentColor\" />\n  <circle cx=\"315.4\" cy=\"315.4\" r=\"4.72\" fill=\"currentColor\" />\n  <circle cx=\"256\" cy=\"340\" r=\"4.72\" fill=\"currentColor\" />\n  <circle cx=\"196.6\" cy=\"315.4\" r=\"4.72\" fill=\"currentColor\" />\n  <circle cx=\"172\" cy=\"256\" r=\"4.72\" fill=\"currentColor\" />\n  <circle cx=\"196.6\" cy=\"196.6\" r=\"4.72\" fill=\"currentColor\" />\n  <circle cx=\"256\" cy=\"172\" r=\"4.72\" fill=\"currentColor\" />\n  <circle cx=\"315.4\" cy=\"196.6\" r=\"4.72\" fill=\"currentColor\" />\n  <circle cx=\"353.01\" cy=\"296.18\" r=\"5.6\" fill=\"currentColor\" />\n  <circle cx=\"296.18\" cy=\"353.01\" r=\"5.6\" fill=\"currentColor\" />\n  <circle cx=\"215.82\" cy=\"353.01\" r=\"5.6\" fill=\"currentColor\" />\n  <circle cx=\"158.99\" cy=\"296.18\" r=\"5.6\" fill=\"currentColor\" />\n  <circle cx=\"158.99\" cy=\"215.82\" r=\"5.6\" fill=\"currentColor\" />\n  <circle cx=\"215.82\" cy=\"158.99\" r=\"5.6\" fill=\"currentColor\" />\n  <circle cx=\"296.18\" cy=\"158.99\" r=\"5.6\" fill=\"currentColor\" />\n  <circle cx=\"353.01\" cy=\"215.82\" r=\"5.6\" fill=\"currentColor\" />\n  <circle cx=\"382\" cy=\"256\" r=\"6.48\" fill=\"currentColor\" />\n  <circle cx=\"345.1\" cy=\"345.1\" r=\"6.48\" fill=\"currentColor\" />\n  <circle cx=\"256\" cy=\"382\" r=\"6.48\" fill=\"currentColor\" />\n  <circle cx=\"166.9\" cy=\"345.1\" r=\"6.48\" fill=\"currentColor\" />\n  <circle cx=\"130\" cy=\"256\" r=\"6.48\" fill=\"currentColor\" />\n  <circle cx=\"166.9\" cy=\"166.9\" r=\"6.48\" fill=\"currentColor\" />\n  <circle cx=\"256\" cy=\"130\" r=\"6.48\" fill=\"currentColor\" />\n  <circle cx=\"345.1\" cy=\"166.9\" r=\"6.48\" fill=\"currentColor\" />\n  <circle cx=\"397.99\" cy=\"294.05\" r=\"7.36\" fill=\"currentColor\" />\n  <circle cx=\"359.94\" cy=\"359.94\" r=\"7.36\" fill=\"currentColor\" />\n  <circle cx=\"294.05\" cy=\"397.99\" r=\"7.36\" fill=\"currentColor\" />\n  <circle cx=\"217.95\" cy=\"397.99\" r=\"7.36\" fill=\"currentColor\" />\n  <circle cx=\"152.06\" cy=\"359.94\" r=\"7.36\" fill=\"currentColor\" />\n  <circle cx=\"114.01\" cy=\"294.05\" r=\"7.36\" fill=\"currentColor\" />\n  <circle cx=\"114.01\" cy=\"217.95\" r=\"7.36\" fill=\"currentColor\" />\n  <circle cx=\"152.06\" cy=\"152.06\" r=\"7.36\" fill=\"currentColor\" />\n  <circle cx=\"217.95\" cy=\"114.01\" r=\"7.36\" fill=\"currentColor\" />\n  <circle cx=\"294.05\" cy=\"114.01\" r=\"7.36\" fill=\"currentColor\" />\n  <circle cx=\"359.94\" cy=\"152.06\" r=\"7.36\" fill=\"currentColor\" />\n  <circle cx=\"397.99\" cy=\"217.95\" r=\"7.36\" fill=\"currentColor\" />\n  <circle cx=\"424\" cy=\"256\" r=\"8.24\" fill=\"currentColor\" />\n  <circle cx=\"401.49\" cy=\"340\" r=\"8.24\" fill=\"currentColor\" />\n  <circle cx=\"340\" cy=\"401.49\" r=\"8.24\" fill=\"currentColor\" />\n  <circle cx=\"256\" cy=\"424\" r=\"8.24\" fill=\"currentColor\" />\n  <circle cx=\"172\" cy=\"401.49\" r=\"8.24\" fill=\"currentColor\" />\n  <circle cx=\"110.51\" cy=\"340\" r=\"8.24\" fill=\"currentColor\" />\n  <circle cx=\"88\" cy=\"256\" r=\"8.24\" fill=\"currentColor\" />\n  <circle cx=\"110.51\" cy=\"172\" r=\"8.24\" fill=\"currentColor\" />\n  <circle cx=\"172\" cy=\"110.51\" r=\"8.24\" fill=\"currentColor\" />\n  <circle cx=\"256\" cy=\"88\" r=\"8.24\" fill=\"currentColor\" />\n  <circle cx=\"340\" cy=\"110.51\" r=\"8.24\" fill=\"currentColor\" />\n  <circle cx=\"401.49\" cy=\"172\" r=\"8.24\" fill=\"currentColor\" />\n  <circle cx=\"441.37\" cy=\"292.87\" r=\"9.12\" fill=\"currentColor\" />\n  <circle cx=\"413.15\" cy=\"361\" r=\"9.12\" fill=\"currentColor\" />\n  <circle cx=\"361\" cy=\"413.15\" r=\"9.12\" fill=\"currentColor\" />\n  <circle cx=\"292.87\" cy=\"441.37\" r=\"9.12\" fill=\"currentColor\" />\n  <circle cx=\"219.13\" cy=\"441.37\" r=\"9.12\" fill=\"currentColor\" />\n  <circle cx=\"151\" cy=\"413.15\" r=\"9.12\" fill=\"currentColor\" />\n  <circle cx=\"98.85\" cy=\"361\" r=\"9.12\" fill=\"currentColor\" />\n  <circle cx=\"70.63\" cy=\"292.87\" r=\"9.12\" fill=\"currentColor\" />\n  <circle cx=\"70.63\" cy=\"219.13\" r=\"9.12\" fill=\"currentColor\" />\n  <circle cx=\"98.85\" cy=\"151\" r=\"9.12\" fill=\"currentColor\" />\n  <circle cx=\"151\" cy=\"98.85\" r=\"9.12\" fill=\"currentColor\" />\n  <circle cx=\"219.13\" cy=\"70.63\" r=\"9.12\" fill=\"currentColor\" />\n  <circle cx=\"292.87\" cy=\"70.63\" r=\"9.12\" fill=\"currentColor\" />\n  <circle cx=\"361\" cy=\"98.85\" r=\"9.12\" fill=\"currentColor\" />\n  <circle cx=\"413.15\" cy=\"151\" r=\"9.12\" fill=\"currentColor\" />\n  <circle cx=\"441.37\" cy=\"219.13\" r=\"9.12\" fill=\"currentColor\" />\n  <circle cx=\"466\" cy=\"256\" r=\"10\" fill=\"currentColor\" />\n  <circle cx=\"450.01\" cy=\"336.36\" r=\"10\" fill=\"currentColor\" />\n  <circle cx=\"404.49\" cy=\"404.49\" r=\"10\" fill=\"currentColor\" />\n  <circle cx=\"336.36\" cy=\"450.01\" r=\"10\" fill=\"currentColor\" />\n  <circle cx=\"256\" cy=\"466\" r=\"10\" fill=\"currentColor\" />\n  <circle cx=\"175.64\" cy=\"450.01\" r=\"10\" fill=\"currentColor\" />\n  <circle cx=\"107.51\" cy=\"404.49\" r=\"10\" fill=\"currentColor\" />\n  <circle cx=\"61.99\" cy=\"336.36\" r=\"10\" fill=\"currentColor\" />\n  <circle cx=\"46\" cy=\"256\" r=\"10\" fill=\"currentColor\" />\n  <circle cx=\"61.99\" cy=\"175.64\" r=\"10\" fill=\"currentColor\" />\n  <circle cx=\"107.51\" cy=\"107.51\" r=\"10\" fill=\"currentColor\" />\n  <circle cx=\"175.64\" cy=\"61.99\" r=\"10\" fill=\"currentColor\" />\n  <circle cx=\"256\" cy=\"46\" r=\"10\" fill=\"currentColor\" />\n  <circle cx=\"336.36\" cy=\"61.99\" r=\"10\" fill=\"currentColor\" />\n  <circle cx=\"404.49\" cy=\"107.51\" r=\"10\" fill=\"currentColor\" />\n  <circle cx=\"450.01\" cy=\"175.64\" r=\"10\" fill=\"currentColor\" />\n</svg>",
+      "primary_file": "assets/svg/11_halftones_optical_grids/halftone_radial_r10_d16_m10_inv.svg"
+    },
+    {
+      "id": "linear_halftones",
+      "title": "Linear Halftone Screens",
+      "category": "11_halftones_optical_grids",
+      "category_label": "Halftones & Matrix Grids",
+      "count": 10,
+      "description": "Directional gradient halftone screens in horizontal, vertical, and diagonal.",
+      "tags": [
+        "halftone",
+        "linear",
+        "screen",
+        "dots",
+        "gradient",
+        "print"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Linear Halftone Screen\" data-category=\"11_halftones_optical_grids\" data-tags=\"halftone,linear,screen,dots,gradient\">\n  <title>Linear Halftone Screen</title>\n  <circle cx=\"109\" cy=\"67\" r=\"1.5\" fill=\"currentColor\" />\n  <circle cx=\"151\" cy=\"67\" r=\"2.5\" fill=\"currentColor\" />\n  <circle cx=\"193\" cy=\"67\" r=\"3.5\" fill=\"currentColor\" />\n  <circle cx=\"235\" cy=\"67\" r=\"4.5\" fill=\"currentColor\" />\n  <circle cx=\"277\" cy=\"67\" r=\"5.5\" fill=\"currentColor\" />\n  <circle cx=\"319\" cy=\"67\" r=\"6.5\" fill=\"currentColor\" />\n  <circle cx=\"361\" cy=\"67\" r=\"7.5\" fill=\"currentColor\" />\n  <circle cx=\"403\" cy=\"67\" r=\"8.5\" fill=\"currentColor\" />\n  <circle cx=\"445\" cy=\"67\" r=\"9.5\" fill=\"currentColor\" />\n  <circle cx=\"109\" cy=\"109\" r=\"1.5\" fill=\"currentColor\" />\n  <circle cx=\"151\" cy=\"109\" r=\"2.5\" fill=\"currentColor\" />\n  <circle cx=\"193\" cy=\"109\" r=\"3.5\" fill=\"currentColor\" />\n  <circle cx=\"235\" cy=\"109\" r=\"4.5\" fill=\"currentColor\" />\n  <circle cx=\"277\" cy=\"109\" r=\"5.5\" fill=\"currentColor\" />\n  <circle cx=\"319\" cy=\"109\" r=\"6.5\" fill=\"currentColor\" />\n  <circle cx=\"361\" cy=\"109\" r=\"7.5\" fill=\"currentColor\" />\n  <circle cx=\"403\" cy=\"109\" r=\"8.5\" fill=\"currentColor\" />\n  <circle cx=\"445\" cy=\"109\" r=\"9.5\" fill=\"currentColor\" />\n  <circle cx=\"109\" cy=\"151\" r=\"1.5\" fill=\"currentColor\" />\n  <circle cx=\"151\" cy=\"151\" r=\"2.5\" fill=\"currentColor\" />\n  <circle cx=\"193\" cy=\"151\" r=\"3.5\" fill=\"currentColor\" />\n  <circle cx=\"235\" cy=\"151\" r=\"4.5\" fill=\"currentColor\" />\n  <circle cx=\"277\" cy=\"151\" r=\"5.5\" fill=\"currentColor\" />\n  <circle cx=\"319\" cy=\"151\" r=\"6.5\" fill=\"currentColor\" />\n  <circle cx=\"361\" cy=\"151\" r=\"7.5\" fill=\"currentColor\" />\n  <circle cx=\"403\" cy=\"151\" r=\"8.5\" fill=\"currentColor\" />\n  <circle cx=\"445\" cy=\"151\" r=\"9.5\" fill=\"currentColor\" />\n  <circle cx=\"109\" cy=\"193\" r=\"1.5\" fill=\"currentColor\" />\n  <circle cx=\"151\" cy=\"193\" r=\"2.5\" fill=\"currentColor\" />\n  <circle cx=\"193\" cy=\"193\" r=\"3.5\" fill=\"currentColor\" />\n  <circle cx=\"235\" cy=\"193\" r=\"4.5\" fill=\"currentColor\" />\n  <circle cx=\"277\" cy=\"193\" r=\"5.5\" fill=\"currentColor\" />\n  <circle cx=\"319\" cy=\"193\" r=\"6.5\" fill=\"currentColor\" />\n  <circle cx=\"361\" cy=\"193\" r=\"7.5\" fill=\"currentColor\" />\n  <circle cx=\"403\" cy=\"193\" r=\"8.5\" fill=\"currentColor\" />\n  <circle cx=\"445\" cy=\"193\" r=\"9.5\" fill=\"currentColor\" />\n  <circle cx=\"109\" cy=\"235\" r=\"1.5\" fill=\"currentColor\" />\n  <circle cx=\"151\" cy=\"235\" r=\"2.5\" fill=\"currentColor\" />\n  <circle cx=\"193\" cy=\"235\" r=\"3.5\" fill=\"currentColor\" />\n  <circle cx=\"235\" cy=\"235\" r=\"4.5\" fill=\"currentColor\" />\n  <circle cx=\"277\" cy=\"235\" r=\"5.5\" fill=\"currentColor\" />\n  <circle cx=\"319\" cy=\"235\" r=\"6.5\" fill=\"currentColor\" />\n  <circle cx=\"361\" cy=\"235\" r=\"7.5\" fill=\"currentColor\" />\n  <circle cx=\"403\" cy=\"235\" r=\"8.5\" fill=\"currentColor\" />\n  <circle cx=\"445\" cy=\"235\" r=\"9.5\" fill=\"currentColor\" />\n  <circle cx=\"109\" cy=\"277\" r=\"1.5\" fill=\"currentColor\" />\n  <circle cx=\"151\" cy=\"277\" r=\"2.5\" fill=\"currentColor\" />\n  <circle cx=\"193\" cy=\"277\" r=\"3.5\" fill=\"currentColor\" />\n  <circle cx=\"235\" cy=\"277\" r=\"4.5\" fill=\"currentColor\" />\n  <circle cx=\"277\" cy=\"277\" r=\"5.5\" fill=\"currentColor\" />\n  <circle cx=\"319\" cy=\"277\" r=\"6.5\" fill=\"currentColor\" />\n  <circle cx=\"361\" cy=\"277\" r=\"7.5\" fill=\"currentColor\" />\n  <circle cx=\"403\" cy=\"277\" r=\"8.5\" fill=\"currentColor\" />\n  <circle cx=\"445\" cy=\"277\" r=\"9.5\" fill=\"currentColor\" />\n  <circle cx=\"109\" cy=\"319\" r=\"1.5\" fill=\"currentColor\" />\n  <circle cx=\"151\" cy=\"319\" r=\"2.5\" fill=\"currentColor\" />\n  <circle cx=\"193\" cy=\"319\" r=\"3.5\" fill=\"currentColor\" />\n  <circle cx=\"235\" cy=\"319\" r=\"4.5\" fill=\"currentColor\" />\n  <circle cx=\"277\" cy=\"319\" r=\"5.5\" fill=\"currentColor\" />\n  <circle cx=\"319\" cy=\"319\" r=\"6.5\" fill=\"currentColor\" />\n  <circle cx=\"361\" cy=\"319\" r=\"7.5\" fill=\"currentColor\" />\n  <circle cx=\"403\" cy=\"319\" r=\"8.5\" fill=\"currentColor\" />\n  <circle cx=\"445\" cy=\"319\" r=\"9.5\" fill=\"currentColor\" />\n  <circle cx=\"109\" cy=\"361\" r=\"1.5\" fill=\"currentColor\" />\n  <circle cx=\"151\" cy=\"361\" r=\"2.5\" fill=\"currentColor\" />\n  <circle cx=\"193\" cy=\"361\" r=\"3.5\" fill=\"currentColor\" />\n  <circle cx=\"235\" cy=\"361\" r=\"4.5\" fill=\"currentColor\" />\n  <circle cx=\"277\" cy=\"361\" r=\"5.5\" fill=\"currentColor\" />\n  <circle cx=\"319\" cy=\"361\" r=\"6.5\" fill=\"currentColor\" />\n  <circle cx=\"361\" cy=\"361\" r=\"7.5\" fill=\"currentColor\" />\n  <circle cx=\"403\" cy=\"361\" r=\"8.5\" fill=\"currentColor\" />\n  <circle cx=\"445\" cy=\"361\" r=\"9.5\" fill=\"currentColor\" />\n  <circle cx=\"109\" cy=\"403\" r=\"1.5\" fill=\"currentColor\" />\n  <circle cx=\"151\" cy=\"403\" r=\"2.5\" fill=\"currentColor\" />\n  <circle cx=\"193\" cy=\"403\" r=\"3.5\" fill=\"currentColor\" />\n  <circle cx=\"235\" cy=\"403\" r=\"4.5\" fill=\"currentColor\" />\n  <circle cx=\"277\" cy=\"403\" r=\"5.5\" fill=\"currentColor\" />\n  <circle cx=\"319\" cy=\"403\" r=\"6.5\" fill=\"currentColor\" />\n  <circle cx=\"361\" cy=\"403\" r=\"7.5\" fill=\"currentColor\" />\n  <circle cx=\"403\" cy=\"403\" r=\"8.5\" fill=\"currentColor\" />\n  <circle cx=\"445\" cy=\"403\" r=\"9.5\" fill=\"currentColor\" />\n  <circle cx=\"109\" cy=\"445\" r=\"1.5\" fill=\"currentColor\" />\n  <circle cx=\"151\" cy=\"445\" r=\"2.5\" fill=\"currentColor\" />\n  <circle cx=\"193\" cy=\"445\" r=\"3.5\" fill=\"currentColor\" />\n  <circle cx=\"235\" cy=\"445\" r=\"4.5\" fill=\"currentColor\" />\n  <circle cx=\"277\" cy=\"445\" r=\"5.5\" fill=\"currentColor\" />\n  <circle cx=\"319\" cy=\"445\" r=\"6.5\" fill=\"currentColor\" />\n  <circle cx=\"361\" cy=\"445\" r=\"7.5\" fill=\"currentColor\" />\n  <circle cx=\"403\" cy=\"445\" r=\"8.5\" fill=\"currentColor\" />\n  <circle cx=\"445\" cy=\"445\" r=\"9.5\" fill=\"currentColor\" />\n</svg>",
+      "primary_file": "assets/svg/11_halftones_optical_grids/halftone_linear_g10_m10.svg"
+    },
+    {
+      "id": "diamond_halftones",
+      "title": "Diamond Halftone Matrices",
+      "category": "11_halftones_optical_grids",
+      "category_label": "Halftones & Matrix Grids",
+      "count": 12,
+      "description": "Rhombus/diamond raster dot printing matrices.",
+      "tags": [
+        "halftone",
+        "diamond",
+        "screen",
+        "matrix",
+        "raster"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Diamond Halftone Screen\" data-category=\"11_halftones_optical_grids\" data-tags=\"halftone,diamond,screen,optical,matrix\">\n  <title>Diamond Halftone Screen</title>\n  <path d=\"M 151.0 107.74209274033836 L 152.25790725966164 109.0 L 151.0 110.25790725966164 L 149.74209274033836 109.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 193.0 106.85419579527752 L 195.14580420472248 109.0 L 193.0 111.14580420472248 L 190.85419579527752 109.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 235.0 106.36396103067892 L 237.63603896932108 109.0 L 235.0 111.63603896932108 L 232.36396103067892 109.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 277.0 106.36396103067892 L 279.6360389693211 109.0 L 277.0 111.63603896932108 L 274.3639610306789 109.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 319.0 106.85419579527752 L 321.1458042047225 109.0 L 319.0 111.14580420472248 L 316.8541957952775 109.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 361.0 107.74209274033836 L 362.25790725966164 109.0 L 361.0 110.25790725966164 L 359.74209274033836 109.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 109.0 149.74209274033836 L 110.25790725966164 151.0 L 109.0 152.25790725966164 L 107.74209274033836 151.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 151.0 148.36396103067892 L 153.63603896932108 151.0 L 151.0 153.63603896932108 L 148.36396103067892 151.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 193.0 147.24785670536076 L 196.75214329463924 151.0 L 193.0 154.75214329463924 L 189.24785670536076 151.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 235.0 146.5891175622335 L 239.4108824377665 151.0 L 235.0 155.4108824377665 L 230.5891175622335 151.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 277.0 146.5891175622335 L 281.4108824377665 151.0 L 277.0 155.4108824377665 L 272.5891175622335 151.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 319.0 147.24785670536076 L 322.7521432946392 151.0 L 319.0 154.75214329463924 L 315.2478567053608 151.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 361.0 148.36396103067892 L 363.6360389693211 151.0 L 361.0 153.63603896932108 L 358.3639610306789 151.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 403.0 149.74209274033836 L 404.25790725966164 151.0 L 403.0 152.25790725966164 L 401.74209274033836 151.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 109.0 190.85419579527752 L 111.14580420472248 193.0 L 109.0 195.14580420472248 L 106.85419579527752 193.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 151.0 189.24785670536076 L 154.75214329463924 193.0 L 151.0 196.75214329463924 L 147.24785670536076 193.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 193.0 187.81837661840737 L 198.18162338159263 193.0 L 193.0 198.18162338159263 L 187.81837661840737 193.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 235.0 186.84604989415155 L 241.15395010584845 193.0 L 235.0 199.15395010584845 L 228.84604989415155 193.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 277.0 186.84604989415155 L 283.1539501058485 193.0 L 277.0 199.15395010584845 L 270.8460498941515 193.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 319.0 187.81837661840737 L 324.18162338159266 193.0 L 319.0 198.18162338159263 L 313.81837661840734 193.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 361.0 189.24785670536076 L 364.7521432946392 193.0 L 361.0 196.75214329463924 L 357.2478567053608 193.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 403.0 190.85419579527752 L 405.1458042047225 193.0 L 403.0 195.14580420472248 L 400.8541957952775 193.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 109.0 232.36396103067892 L 111.63603896932108 235.0 L 109.0 237.63603896932108 L 106.36396103067892 235.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 151.0 230.5891175622335 L 155.4108824377665 235.0 L 151.0 239.4108824377665 L 146.5891175622335 235.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 193.0 228.84604989415155 L 199.15395010584845 235.0 L 193.0 241.15395010584845 L 186.84604989415155 235.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 235.0 227.2727922061358 L 242.7272077938642 235.0 L 235.0 242.7272077938642 L 227.2727922061358 235.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 277.0 227.2727922061358 L 284.72720779386424 235.0 L 277.0 242.7272077938642 L 269.27279220613576 235.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 319.0 228.84604989415155 L 325.1539501058485 235.0 L 319.0 241.15395010584845 L 312.8460498941515 235.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 361.0 230.5891175622335 L 365.4108824377665 235.0 L 361.0 239.4108824377665 L 356.5891175622335 235.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 403.0 232.36396103067892 L 405.6360389693211 235.0 L 403.0 237.63603896932108 L 400.3639610306789 235.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 109.0 274.3639610306789 L 111.63603896932108 277.0 L 109.0 279.6360389693211 L 106.36396103067892 277.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 151.0 272.5891175622335 L 155.4108824377665 277.0 L 151.0 281.4108824377665 L 146.5891175622335 277.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 193.0 270.8460498941515 L 199.15395010584845 277.0 L 193.0 283.1539501058485 L 186.84604989415155 277.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 235.0 269.27279220613576 L 242.7272077938642 277.0 L 235.0 284.72720779386424 L 227.2727922061358 277.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 277.0 269.27279220613576 L 284.72720779386424 277.0 L 277.0 284.72720779386424 L 269.27279220613576 277.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 319.0 270.8460498941515 L 325.1539501058485 277.0 L 319.0 283.1539501058485 L 312.8460498941515 277.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 361.0 272.5891175622335 L 365.4108824377665 277.0 L 361.0 281.4108824377665 L 356.5891175622335 277.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 403.0 274.3639610306789 L 405.6360389693211 277.0 L 403.0 279.6360389693211 L 400.3639610306789 277.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 109.0 316.8541957952775 L 111.14580420472248 319.0 L 109.0 321.1458042047225 L 106.85419579527752 319.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 151.0 315.2478567053608 L 154.75214329463924 319.0 L 151.0 322.7521432946392 L 147.24785670536076 319.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 193.0 313.81837661840734 L 198.18162338159263 319.0 L 193.0 324.18162338159266 L 187.81837661840737 319.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 235.0 312.8460498941515 L 241.15395010584845 319.0 L 235.0 325.1539501058485 L 228.84604989415155 319.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 277.0 312.8460498941515 L 283.1539501058485 319.0 L 277.0 325.1539501058485 L 270.8460498941515 319.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 319.0 313.81837661840734 L 324.18162338159266 319.0 L 319.0 324.18162338159266 L 313.81837661840734 319.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 361.0 315.2478567053608 L 364.7521432946392 319.0 L 361.0 322.7521432946392 L 357.2478567053608 319.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 403.0 316.8541957952775 L 405.1458042047225 319.0 L 403.0 321.1458042047225 L 400.8541957952775 319.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 109.0 359.74209274033836 L 110.25790725966164 361.0 L 109.0 362.25790725966164 L 107.74209274033836 361.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 151.0 358.3639610306789 L 153.63603896932108 361.0 L 151.0 363.6360389693211 L 148.36396103067892 361.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 193.0 357.2478567053608 L 196.75214329463924 361.0 L 193.0 364.7521432946392 L 189.24785670536076 361.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 235.0 356.5891175622335 L 239.4108824377665 361.0 L 235.0 365.4108824377665 L 230.5891175622335 361.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 277.0 356.5891175622335 L 281.4108824377665 361.0 L 277.0 365.4108824377665 L 272.5891175622335 361.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 319.0 357.2478567053608 L 322.7521432946392 361.0 L 319.0 364.7521432946392 L 315.2478567053608 361.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 361.0 358.3639610306789 L 363.6360389693211 361.0 L 361.0 363.6360389693211 L 358.3639610306789 361.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 403.0 359.74209274033836 L 404.25790725966164 361.0 L 403.0 362.25790725966164 L 401.74209274033836 361.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 151.0 401.74209274033836 L 152.25790725966164 403.0 L 151.0 404.25790725966164 L 149.74209274033836 403.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 193.0 400.8541957952775 L 195.14580420472248 403.0 L 193.0 405.1458042047225 L 190.85419579527752 403.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 235.0 400.3639610306789 L 237.63603896932108 403.0 L 235.0 405.6360389693211 L 232.36396103067892 403.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 277.0 400.3639610306789 L 279.6360389693211 403.0 L 277.0 405.6360389693211 L 274.3639610306789 403.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 319.0 400.8541957952775 L 321.1458042047225 403.0 L 319.0 405.1458042047225 L 316.8541957952775 403.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n  <path d=\"M 361.0 401.74209274033836 L 362.25790725966164 403.0 L 361.0 404.25790725966164 L 359.74209274033836 403.0 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/11_halftones_optical_grids/halftone_diamond_g10_d18.svg"
+    },
+    {
+      "id": "dither_waves",
+      "title": "Wave-Modulated Dither Matrices",
+      "category": "11_halftones_optical_grids",
+      "category_label": "Halftones & Matrix Grids",
+      "count": 18,
+      "description": "Pixelated square dither screens with harmonic wave modulation.",
+      "tags": [
+        "dither",
+        "wave",
+        "matrix",
+        "halftone",
+        "pixels",
+        "grid"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Dither Wave Matrix\" data-category=\"11_halftones_optical_grids\" data-tags=\"dither,wave,matrix,halftone,grid\">\n  <title>Dither Wave Matrix</title>\n  <rect x=\"63.5\" y=\"63.5\" width=\"7\" height=\"7\" fill=\"currentColor\" />\n  <rect x=\"104.42\" y=\"62.42\" width=\"9.16\" height=\"9.16\" fill=\"currentColor\" />\n  <rect x=\"145.44\" y=\"61.44\" width=\"11.11\" height=\"11.11\" fill=\"currentColor\" />\n  <rect x=\"186.67\" y=\"60.67\" width=\"12.66\" height=\"12.66\" fill=\"currentColor\" />\n  <rect x=\"228.17\" y=\"60.17\" width=\"13.66\" height=\"13.66\" fill=\"currentColor\" />\n  <rect x=\"270\" y=\"60\" width=\"14\" height=\"14\" fill=\"currentColor\" />\n  <rect x=\"312.17\" y=\"60.17\" width=\"13.66\" height=\"13.66\" fill=\"currentColor\" />\n  <rect x=\"354.67\" y=\"60.67\" width=\"12.66\" height=\"12.66\" fill=\"currentColor\" />\n  <rect x=\"397.44\" y=\"61.44\" width=\"11.11\" height=\"11.11\" fill=\"currentColor\" />\n  <rect x=\"440.42\" y=\"62.42\" width=\"9.16\" height=\"9.16\" fill=\"currentColor\" />\n  <rect x=\"63.5\" y=\"105.5\" width=\"7\" height=\"7\" fill=\"currentColor\" />\n  <rect x=\"104.47\" y=\"104.47\" width=\"9.06\" height=\"9.06\" fill=\"currentColor\" />\n  <rect x=\"145.54\" y=\"103.54\" width=\"10.91\" height=\"10.91\" fill=\"currentColor\" />\n  <rect x=\"186.81\" y=\"102.81\" width=\"12.39\" height=\"12.39\" fill=\"currentColor\" />\n  <rect x=\"228.33\" y=\"102.33\" width=\"13.33\" height=\"13.33\" fill=\"currentColor\" />\n  <rect x=\"270.17\" y=\"102.17\" width=\"13.66\" height=\"13.66\" fill=\"currentColor\" />\n  <rect x=\"312.33\" y=\"102.33\" width=\"13.33\" height=\"13.33\" fill=\"currentColor\" />\n  <rect x=\"354.81\" y=\"102.81\" width=\"12.39\" height=\"12.39\" fill=\"currentColor\" />\n  <rect x=\"397.54\" y=\"103.54\" width=\"10.91\" height=\"10.91\" fill=\"currentColor\" />\n  <rect x=\"440.47\" y=\"104.47\" width=\"9.06\" height=\"9.06\" fill=\"currentColor\" />\n  <rect x=\"63.5\" y=\"147.5\" width=\"7\" height=\"7\" fill=\"currentColor\" />\n  <rect x=\"104.62\" y=\"146.62\" width=\"8.75\" height=\"8.75\" fill=\"currentColor\" />\n  <rect x=\"145.84\" y=\"145.84\" width=\"10.33\" height=\"10.33\" fill=\"currentColor\" />\n  <rect x=\"187.21\" y=\"145.21\" width=\"11.58\" height=\"11.58\" fill=\"currentColor\" />\n  <rect x=\"228.81\" y=\"144.81\" width=\"12.39\" height=\"12.39\" fill=\"currentColor\" />\n  <rect x=\"270.67\" y=\"144.67\" width=\"12.66\" height=\"12.66\" fill=\"currentColor\" />\n  <rect x=\"312.81\" y=\"144.81\" width=\"12.39\" height=\"12.39\" fill=\"currentColor\" />\n  <rect x=\"355.21\" y=\"145.21\" width=\"11.58\" height=\"11.58\" fill=\"currentColor\" />\n  <rect x=\"397.84\" y=\"145.84\" width=\"10.33\" height=\"10.33\" fill=\"currentColor\" />\n  <rect x=\"440.62\" y=\"146.62\" width=\"8.75\" height=\"8.75\" fill=\"currentColor\" />\n  <rect x=\"63.5\" y=\"189.5\" width=\"7\" height=\"7\" fill=\"currentColor\" />\n  <rect x=\"104.86\" y=\"188.86\" width=\"8.27\" height=\"8.27\" fill=\"currentColor\" />\n  <rect x=\"146.29\" y=\"188.29\" width=\"9.42\" height=\"9.42\" fill=\"currentColor\" />\n  <rect x=\"187.84\" y=\"187.84\" width=\"10.33\" height=\"10.33\" fill=\"currentColor\" />\n  <rect x=\"229.54\" y=\"187.54\" width=\"10.91\" height=\"10.91\" fill=\"currentColor\" />\n  <rect x=\"271.44\" y=\"187.44\" width=\"11.11\" height=\"11.11\" fill=\"currentColor\" />\n  <rect x=\"313.54\" y=\"187.54\" width=\"10.91\" height=\"10.91\" fill=\"currentColor\" />\n  <rect x=\"355.84\" y=\"187.84\" width=\"10.33\" height=\"10.33\" fill=\"currentColor\" />\n  <rect x=\"398.29\" y=\"188.29\" width=\"9.42\" height=\"9.42\" fill=\"currentColor\" />\n  <rect x=\"440.86\" y=\"188.86\" width=\"8.27\" height=\"8.27\" fill=\"currentColor\" />\n  <rect x=\"63.5\" y=\"231.5\" width=\"7\" height=\"7\" fill=\"currentColor\" />\n  <rect x=\"105.17\" y=\"231.17\" width=\"7.67\" height=\"7.67\" fill=\"currentColor\" />\n  <rect x=\"146.86\" y=\"230.86\" width=\"8.27\" height=\"8.27\" fill=\"currentColor\" />\n  <rect x=\"188.62\" y=\"230.62\" width=\"8.75\" height=\"8.75\" fill=\"currentColor\" />\n  <rect x=\"230.47\" y=\"230.47\" width=\"9.06\" height=\"9.06\" fill=\"currentColor\" />\n  <rect x=\"272.42\" y=\"230.42\" width=\"9.16\" height=\"9.16\" fill=\"currentColor\" />\n  <rect x=\"314.47\" y=\"230.47\" width=\"9.06\" height=\"9.06\" fill=\"currentColor\" />\n  <rect x=\"356.62\" y=\"230.62\" width=\"8.75\" height=\"8.75\" fill=\"currentColor\" />\n  <rect x=\"398.86\" y=\"230.86\" width=\"8.27\" height=\"8.27\" fill=\"currentColor\" />\n  <rect x=\"441.17\" y=\"231.17\" width=\"7.67\" height=\"7.67\" fill=\"currentColor\" />\n  <rect x=\"63.5\" y=\"273.5\" width=\"7\" height=\"7\" fill=\"currentColor\" />\n  <rect x=\"105.5\" y=\"273.5\" width=\"7\" height=\"7\" fill=\"currentColor\" />\n  <rect x=\"147.5\" y=\"273.5\" width=\"7\" height=\"7\" fill=\"currentColor\" />\n  <rect x=\"189.5\" y=\"273.5\" width=\"7\" height=\"7\" fill=\"currentColor\" />\n  <rect x=\"231.5\" y=\"273.5\" width=\"7\" height=\"7\" fill=\"currentColor\" />\n  <rect x=\"273.5\" y=\"273.5\" width=\"7\" height=\"7\" fill=\"currentColor\" />\n  <rect x=\"315.5\" y=\"273.5\" width=\"7\" height=\"7\" fill=\"currentColor\" />\n  <rect x=\"357.5\" y=\"273.5\" width=\"7\" height=\"7\" fill=\"currentColor\" />\n  <rect x=\"399.5\" y=\"273.5\" width=\"7\" height=\"7\" fill=\"currentColor\" />\n  <rect x=\"441.5\" y=\"273.5\" width=\"7\" height=\"7\" fill=\"currentColor\" />\n  <rect x=\"63.5\" y=\"315.5\" width=\"7\" height=\"7\" fill=\"currentColor\" />\n  <rect x=\"105.83\" y=\"315.83\" width=\"6.33\" height=\"6.33\" fill=\"currentColor\" />\n  <rect x=\"148.14\" y=\"316.14\" width=\"5.73\" height=\"5.73\" fill=\"currentColor\" />\n  <rect x=\"190.38\" y=\"316.38\" width=\"5.25\" height=\"5.25\" fill=\"currentColor\" />\n  <rect x=\"232.53\" y=\"316.53\" width=\"4.94\" height=\"4.94\" fill=\"currentColor\" />\n  <rect x=\"274.58\" y=\"316.58\" width=\"4.84\" height=\"4.84\" fill=\"currentColor\" />\n  <rect x=\"316.53\" y=\"316.53\" width=\"4.94\" height=\"4.94\" fill=\"currentColor\" />\n  <rect x=\"358.38\" y=\"316.38\" width=\"5.25\" height=\"5.25\" fill=\"currentColor\" />\n  <rect x=\"400.14\" y=\"316.14\" width=\"5.73\" height=\"5.73\" fill=\"currentColor\" />\n  <rect x=\"441.83\" y=\"315.83\" width=\"6.33\" height=\"6.33\" fill=\"currentColor\" />\n  <rect x=\"63.5\" y=\"357.5\" width=\"7\" height=\"7\" fill=\"currentColor\" />\n  <rect x=\"106.14\" y=\"358.14\" width=\"5.73\" height=\"5.73\" fill=\"currentColor\" />\n  <rect x=\"148.71\" y=\"358.71\" width=\"4.58\" height=\"4.58\" fill=\"currentColor\" />\n  <rect x=\"191.16\" y=\"359.16\" width=\"3.67\" height=\"3.67\" fill=\"currentColor\" />\n  <rect x=\"233.46\" y=\"359.46\" width=\"3.09\" height=\"3.09\" fill=\"currentColor\" />\n  <rect x=\"275.56\" y=\"359.56\" width=\"2.89\" height=\"2.89\" fill=\"currentColor\" />\n  <rect x=\"317.46\" y=\"359.46\" width=\"3.09\" height=\"3.09\" fill=\"currentColor\" />\n  <rect x=\"359.16\" y=\"359.16\" width=\"3.67\" height=\"3.67\" fill=\"currentColor\" />\n  <rect x=\"400.71\" y=\"358.71\" width=\"4.58\" height=\"4.58\" fill=\"currentColor\" />\n  <rect x=\"442.14\" y=\"358.14\" width=\"5.73\" height=\"5.73\" fill=\"currentColor\" />\n  <rect x=\"63.5\" y=\"399.5\" width=\"7\" height=\"7\" fill=\"currentColor\" />\n  <rect x=\"106.38\" y=\"400.38\" width=\"5.25\" height=\"5.25\" fill=\"currentColor\" />\n  <rect x=\"149.16\" y=\"401.16\" width=\"3.67\" height=\"3.67\" fill=\"currentColor\" />\n  <rect x=\"191.79\" y=\"401.79\" width=\"2.42\" height=\"2.42\" fill=\"currentColor\" />\n  <rect x=\"234.19\" y=\"402.19\" width=\"1.61\" height=\"1.61\" fill=\"currentColor\" />\n  <rect x=\"318.19\" y=\"402.19\" width=\"1.61\" height=\"1.61\" fill=\"currentColor\" />\n  <rect x=\"359.79\" y=\"401.79\" width=\"2.42\" height=\"2.42\" fill=\"currentColor\" />\n  <rect x=\"401.16\" y=\"401.16\" width=\"3.67\" height=\"3.67\" fill=\"currentColor\" />\n  <rect x=\"442.38\" y=\"400.38\" width=\"5.25\" height=\"5.25\" fill=\"currentColor\" />\n  <rect x=\"63.5\" y=\"441.5\" width=\"7\" height=\"7\" fill=\"currentColor\" />\n  <rect x=\"106.53\" y=\"442.53\" width=\"4.94\" height=\"4.94\" fill=\"currentColor\" />\n  <rect x=\"149.46\" y=\"443.46\" width=\"3.09\" height=\"3.09\" fill=\"currentColor\" />\n  <rect x=\"192.19\" y=\"444.19\" width=\"1.61\" height=\"1.61\" fill=\"currentColor\" />\n  <rect x=\"360.19\" y=\"444.19\" width=\"1.61\" height=\"1.61\" fill=\"currentColor\" />\n  <rect x=\"401.46\" y=\"443.46\" width=\"3.09\" height=\"3.09\" fill=\"currentColor\" />\n  <rect x=\"442.53\" y=\"442.53\" width=\"4.94\" height=\"4.94\" fill=\"currentColor\" />\n</svg>",
+      "primary_file": "assets/svg/11_halftones_optical_grids/halftone_dither_wave_g10_w1_s14.svg"
+    },
+    {
+      "id": "ring_halftones",
+      "title": "Concentric Ring Halftones",
+      "category": "11_halftones_optical_grids",
+      "category_label": "Halftones & Matrix Grids",
+      "count": 15,
+      "description": "Concentric target rings with gradient stroke thicknesses.",
+      "tags": [
+        "rings",
+        "concentric",
+        "halftone",
+        "target",
+        "radar"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Concentric Ring Halftone\" data-category=\"11_halftones_optical_grids\" data-tags=\"halftone,concentric,rings,optical,target\">\n  <title>Concentric Ring Halftone</title>\n  <circle cx=\"256\" cy=\"256\" r=\"21\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"9.25\" />\n  <circle cx=\"256\" cy=\"256\" r=\"42\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"8.5\" />\n  <circle cx=\"256\" cy=\"256\" r=\"63\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"7.75\" />\n  <circle cx=\"256\" cy=\"256\" r=\"84\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"7\" />\n  <circle cx=\"256\" cy=\"256\" r=\"105\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"6.25\" />\n  <circle cx=\"256\" cy=\"256\" r=\"126\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5.5\" />\n  <circle cx=\"256\" cy=\"256\" r=\"147\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4.75\" />\n  <circle cx=\"256\" cy=\"256\" r=\"168\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"256\" cy=\"256\" r=\"189\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3.25\" />\n  <circle cx=\"256\" cy=\"256\" r=\"210\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" />\n</svg>",
+      "primary_file": "assets/svg/11_halftones_optical_grids/halftone_rings_r10_w10.svg"
+    },
+    {
+      "id": "sliced_bars",
+      "title": "Sliced Wave Distortion Bars",
+      "category": "12_abstract_distortions",
+      "category_label": "Abstract Distortions",
+      "count": 64,
+      "description": "Parallel slat bars modulated by sinusoidal phase shifts.",
+      "tags": [
+        "sliced",
+        "bars",
+        "wave",
+        "slats",
+        "distortion",
+        "optical"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Sliced Wave Bars\" data-category=\"12_abstract_distortions\" data-tags=\"abstract,bars,sliced,wave,distortion,optical\">\n  <title>Sliced Wave Bars</title>\n  <rect x=\"77.5\" y=\"52.12\" width=\"357\" height=\"22.75\" fill=\"currentColor\" rx=\"4.55\" ry=\"4.55\" />\n  <rect x=\"93.72\" y=\"87.12\" width=\"357\" height=\"22.75\" fill=\"currentColor\" rx=\"4.55\" ry=\"4.55\" />\n  <rect x=\"104.79\" y=\"122.12\" width=\"357\" height=\"22.75\" fill=\"currentColor\" rx=\"4.55\" ry=\"4.55\" />\n  <rect x=\"107.19\" y=\"157.12\" width=\"357\" height=\"22.75\" fill=\"currentColor\" rx=\"4.55\" ry=\"4.55\" />\n  <rect x=\"100.17\" y=\"192.12\" width=\"357\" height=\"22.75\" fill=\"currentColor\" rx=\"4.55\" ry=\"4.55\" />\n  <rect x=\"85.95\" y=\"227.12\" width=\"357\" height=\"22.75\" fill=\"currentColor\" rx=\"4.55\" ry=\"4.55\" />\n  <rect x=\"69.05\" y=\"262.12\" width=\"357\" height=\"22.75\" fill=\"currentColor\" rx=\"4.55\" ry=\"4.55\" />\n  <rect x=\"54.83\" y=\"297.12\" width=\"357\" height=\"22.75\" fill=\"currentColor\" rx=\"4.55\" ry=\"4.55\" />\n  <rect x=\"47.81\" y=\"332.12\" width=\"357\" height=\"22.75\" fill=\"currentColor\" rx=\"4.55\" ry=\"4.55\" />\n  <rect x=\"50.21\" y=\"367.12\" width=\"357\" height=\"22.75\" fill=\"currentColor\" rx=\"4.55\" ry=\"4.55\" />\n  <rect x=\"61.28\" y=\"402.12\" width=\"357\" height=\"22.75\" fill=\"currentColor\" rx=\"4.55\" ry=\"4.55\" />\n  <rect x=\"77.5\" y=\"437.12\" width=\"357\" height=\"22.75\" fill=\"currentColor\" rx=\"4.55\" ry=\"4.55\" />\n</svg>",
+      "primary_file": "assets/svg/12_abstract_distortions/abstract_sliced_bars_b12_w10_s30_h.svg"
+    },
+    {
+      "id": "twisted_polygons",
+      "title": "Twisted Polygon Vortex Tunnels",
+      "category": "12_abstract_distortions",
+      "category_label": "Abstract Distortions",
+      "count": 45,
+      "description": "Nested 3D polygon vortex tunnels rotating into depth.",
+      "tags": [
+        "vortex",
+        "tunnel",
+        "polygon",
+        "twisted",
+        "3d",
+        "spiral"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Twisted Polygon Vortex\" data-category=\"12_abstract_distortions\" data-tags=\"abstract,vortex,tunnel,polygon,twisted,3d\">\n  <title>Twisted Polygon Vortex</title>\n  <path d=\"M 476.0 256.0 L 146.0 446.53 L 146.0 65.47 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 448.12 303.9 L 118.46 398.43 L 201.42 65.67 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 411.4 338.63 L 106.74 349.27 L 249.86 80.11 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 370.44 359.05 L 109.54 303.59 L 288.02 105.37 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 329.81 365.43 L 124.32 265.21 L 313.86 137.36 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 293.62 359.37 L 147.67 236.9 L 326.71 171.74 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 265.2 343.52 L 175.61 220.21 L 327.19 204.27 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 246.81 321.36 L 203.99 215.37 L 317.19 231.28 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 239.52 296.8 L 228.91 221.33 L 299.57 249.88 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 243.07 273.8 L 247.05 235.9 L 277.88 258.3 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/12_abstract_distortions/abstract_twisted_poly_s3_l10_t14.svg"
+    },
+    {
+      "id": "wave_discs",
+      "title": "Wave-Warped Ripple Discs",
+      "category": "12_abstract_distortions",
+      "category_label": "Abstract Distortions",
+      "count": 30,
+      "description": "Circles deformed by high-frequency harmonic ripples.",
+      "tags": [
+        "disc",
+        "wave",
+        "ripple",
+        "distortion",
+        "circle",
+        "fluid"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Wave Warped Disc\" data-category=\"12_abstract_distortions\" data-tags=\"abstract,disc,wave,ripple,distortion\">\n  <title>Wave Warped Disc</title>\n  <path d=\"M 436 256 C 439.73 258.3 442.73 260.1 446.05 262.64 C 449.37 265.18 451.78 267.16 454.09 269.85 C 456.4 272.54 457.78 274.61 458.66 277.3 C 459.54 279.99 459.62 281.99 458.87 284.51 C 458.12 287.03 456.87 288.83 454.59 291.02 C 452.31 293.21 449.9 294.69 446.44 296.48 C 442.98 298.27 439.81 299.39 435.7 300.8 C 431.59 302.21 428.15 303.03 424.03 304.18 C 419.91 305.33 416.74 305.98 413.21 307.08 C 409.68 308.18 407.25 308.87 404.8 310.16 C 402.35 311.45 400.95 312.4 399.84 314.12 C 398.73 315.84 398.49 317.22 398.72 319.54 C 398.95 321.86 399.75 323.79 401.08 326.76 C 402.41 329.73 403.97 332.2 405.95 335.73 C 407.93 339.26 409.8 342.14 411.88 346 C 413.96 349.86 415.67 352.91 417.27 356.77 C 418.87 360.63 419.97 363.55 420.63 367.04 C 421.29 370.53 421.45 373.01 420.86 375.78 C 420.27 378.55 419.33 380.33 417.43 382.13 C 415.53 383.93 413.54 384.86 410.47 385.62 C 407.4 386.38 404.59 386.46 400.69 386.28 C 396.79 386.1 393.48 385.48 389.22 384.65 C 384.96 383.82 381.58 382.8 377.43 381.74 C 373.28 380.68 370.21 379.66 366.61 378.85 C 363.01 378.04 360.56 377.41 357.79 377.3 C 355.02 377.19 353.34 377.32 351.51 378.25 C 349.68 379.18 348.79 380.27 347.83 382.39 C 346.87 384.51 346.61 386.59 346.27 389.82 C 345.93 393.05 346.05 395.99 346 400.03 C 345.95 404.07 346.13 407.5 346 411.88 C 345.87 416.26 345.82 419.77 345.28 423.91 C 344.74 428.05 344.22 431.13 343.05 434.48 C 341.88 437.83 340.77 440.06 338.88 442.16 C 336.99 444.26 335.29 445.34 332.74 445.95 C 330.19 446.56 328.01 446.37 324.97 445.49 C 321.93 444.61 319.45 443.27 316.16 441.17 C 312.87 439.07 310.33 436.87 307.05 434.02 C 303.77 431.17 301.35 428.6 298.29 425.61 C 295.23 422.62 293.08 420.2 290.37 417.69 C 287.66 415.18 285.84 413.42 283.5 411.94 C 281.16 410.46 279.64 409.73 277.59 409.63 C 275.54 409.53 274.22 410.01 272.33 411.37 C 270.44 412.73 269.17 414.4 267.26 417.03 C 265.35 419.66 263.99 422.25 261.93 425.73 C 259.87 429.21 258.3 432.27 256 436 C 253.7 439.73 251.9 442.73 249.36 446.05 C 246.82 449.37 244.84 451.78 242.15 454.09 C 239.46 456.4 237.39 457.78 234.7 458.66 C 232.01 459.54 230.01 459.62 227.49 458.87 C 224.97 458.12 223.17 456.87 220.98 454.59 C 218.79 452.31 217.31 449.9 215.52 446.44 C 213.73 442.98 212.61 439.81 211.2 435.7 C 209.79 431.59 208.97 428.15 207.82 424.03 C 206.67 419.91 206.02 416.74 204.92 413.21 C 203.82 409.68 203.13 407.25 201.84 404.8 C 200.55 402.35 199.6 400.95 197.88 399.84 C 196.16 398.73 194.78 398.49 192.46 398.72 C 190.14 398.95 188.21 399.75 185.24 401.08 C 182.27 402.41 179.8 403.97 176.27 405.95 C 172.74 407.93 169.86 409.8 166 411.88 C 162.14 413.96 159.09 415.67 155.23 417.27 C 151.37 418.87 148.45 419.97 144.96 420.63 C 141.47 421.29 138.99 421.45 136.22 420.86 C 133.45 420.27 131.67 419.33 129.87 417.43 C 128.07 415.53 127.14 413.54 126.38 410.47 C 125.62 407.4 125.54 404.59 125.72 400.69 C 125.9 396.79 126.52 393.48 127.35 389.22 C 128.18 384.96 129.2 381.58 130.26 377.43 C 131.32 373.28 132.34 370.21 133.15 366.61 C 133.96 363.01 134.59 360.56 134.7 357.79 C 134.81 355.02 134.68 353.34 133.75 351.51 C 132.82 349.68 131.73 348.79 129.61 347.83 C 127.49 346.87 125.41 346.61 122.18 346.27 C 118.95 345.93 116.01 346.05 111.97 346 C 107.93 345.95 104.5 346.13 100.12 346 C 95.74 345.87 92.23 345.82 88.09 345.28 C 83.95 344.74 80.87 344.22 77.52 343.05 C 74.17 341.88 71.94 340.77 69.84 338.88 C 67.74 336.99 66.66 335.29 66.05 332.74 C 65.44 330.19 65.63 328.01 66.51 324.97 C 67.39 321.93 68.73 319.45 70.83 316.16 C 72.93 312.87 75.13 310.33 77.98 307.05 C 80.83 303.77 83.4 301.35 86.39 298.29 C 89.38 295.23 91.8 293.08 94.31 290.37 C 96.82 287.66 98.58 285.84 100.06 283.5 C 101.54 281.16 102.27 279.64 102.37 277.59 C 102.47 275.54 101.99 274.22 100.63 272.33 C 99.27 270.44 97.6 269.17 94.97 267.26 C 92.34 265.35 89.75 263.99 86.27 261.93 C 82.79 259.87 79.73 258.3 76 256 C 72.27 253.7 69.27 251.9 65.95 249.36 C 62.63 246.82 60.22 244.84 57.91 242.15 C 55.6 239.46 54.22 237.39 53.34 234.7 C 52.46 232.01 52.38 230.01 53.13 227.49 C 53.88 224.97 55.13 223.17 57.41 220.98 C 59.69 218.79 62.1 217.31 65.56 215.52 C 69.02 213.73 72.19 212.61 76.3 211.2 C 80.41 209.79 83.85 208.97 87.97 207.82 C 92.09 206.67 95.26 206.02 98.79 204.92 C 102.32 203.82 104.75 203.13 107.2 201.84 C 109.65 200.55 111.05 199.6 112.16 197.88 C 113.27 196.16 113.51 194.78 113.28 192.46 C 113.05 190.14 112.25 188.21 110.92 185.24 C 109.59 182.27 108.03 179.8 106.05 176.27 C 104.07 172.74 102.2 169.86 100.12 166 C 98.04 162.14 96.33 159.09 94.73 155.23 C 93.13 151.37 92.03 148.45 91.37 144.96 C 90.71 141.47 90.55 138.99 91.14 136.22 C 91.73 133.45 92.67 131.67 94.57 129.87 C 96.47 128.07 98.46 127.14 101.53 126.38 C 104.6 125.62 107.41 125.54 111.31 125.72 C 115.21 125.9 118.52 126.52 122.78 127.35 C 127.04 128.18 130.42 129.2 134.57 130.26 C 138.72 131.32 141.79 132.34 145.39 133.15 C 148.99 133.96 151.44 134.59 154.21 134.7 C 156.98 134.81 158.66 134.68 160.49 133.75 C 162.32 132.82 163.21 131.73 164.17 129.61 C 165.13 127.49 165.39 125.41 165.73 122.18 C 166.07 118.95 165.95 116.01 166 111.97 C 166.05 107.93 165.87 104.5 166 100.12 C 166.13 95.74 166.18 92.23 166.72 88.09 C 167.26 83.95 167.78 80.87 168.95 77.52 C 170.12 74.17 171.23 71.94 173.12 69.84 C 175.01 67.74 176.71 66.66 179.26 66.05 C 181.81 65.44 183.99 65.63 187.03 66.51 C 190.07 67.39 192.55 68.73 195.84 70.83 C 199.13 72.93 201.67 75.13 204.95 77.98 C 208.23 80.83 210.65 83.4 213.71 86.39 C 216.77 89.38 218.92 91.8 221.63 94.31 C 224.34 96.82 226.16 98.58 228.5 100.06 C 230.84 101.54 232.36 102.27 234.41 102.37 C 236.46 102.47 237.78 101.99 239.67 100.63 C 241.56 99.27 242.83 97.6 244.74 94.97 C 246.65 92.34 248.01 89.75 250.07 86.27 C 252.13 82.79 253.7 79.73 256 76 C 258.3 72.27 260.1 69.27 262.64 65.95 C 265.18 62.63 267.16 60.22 269.85 57.91 C 272.54 55.6 274.61 54.22 277.3 53.34 C 279.99 52.46 281.99 52.38 284.51 53.13 C 287.03 53.88 288.83 55.13 291.02 57.41 C 293.21 59.69 294.69 62.1 296.48 65.56 C 298.27 69.02 299.39 72.19 300.8 76.3 C 302.21 80.41 303.03 83.85 304.18 87.97 C 305.33 92.09 305.98 95.26 307.08 98.79 C 308.18 102.32 308.87 104.75 310.16 107.2 C 311.45 109.65 312.4 111.05 314.12 112.16 C 315.84 113.27 317.22 113.51 319.54 113.28 C 321.86 113.05 323.79 112.25 326.76 110.92 C 329.73 109.59 332.2 108.03 335.73 106.05 C 339.26 104.07 342.14 102.2 346 100.12 C 349.86 98.04 352.91 96.33 356.77 94.73 C 360.63 93.13 363.55 92.03 367.04 91.37 C 370.53 90.71 373.01 90.55 375.78 91.14 C 378.55 91.73 380.33 92.67 382.13 94.57 C 383.93 96.47 384.86 98.46 385.62 101.53 C 386.38 104.6 386.46 107.41 386.28 111.31 C 386.1 115.21 385.48 118.52 384.65 122.78 C 383.82 127.04 382.8 130.42 381.74 134.57 C 380.68 138.72 379.66 141.79 378.85 145.39 C 378.04 148.99 377.41 151.44 377.3 154.21 C 377.19 156.98 377.32 158.66 378.25 160.49 C 379.18 162.32 380.27 163.21 382.39 164.17 C 384.51 165.13 386.59 165.39 389.82 165.73 C 393.05 166.07 395.99 165.95 400.03 166 C 404.07 166.05 407.5 165.87 411.88 166 C 416.26 166.13 419.77 166.18 423.91 166.72 C 428.05 167.26 431.13 167.78 434.48 168.95 C 437.83 170.12 440.06 171.23 442.16 173.12 C 444.26 175.01 445.34 176.71 445.95 179.26 C 446.56 181.81 446.37 183.99 445.49 187.03 C 444.61 190.07 443.27 192.55 441.17 195.84 C 439.07 199.13 436.87 201.67 434.02 204.95 C 431.17 208.23 428.6 210.65 425.61 213.71 C 422.62 216.77 420.2 218.92 417.69 221.63 C 415.18 224.34 413.42 226.16 411.94 228.5 C 410.46 230.84 409.73 232.36 409.63 234.41 C 409.53 236.46 410.01 237.78 411.37 239.67 C 412.73 241.56 414.4 242.83 417.03 244.74 C 419.66 246.65 422.25 248.01 425.73 250.07 C 429.21 252.13 432.27 253.7 436 256 Z\" fill=\"currentColor\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/12_abstract_distortions/abstract_wave_disc_w12_a25_h1.svg"
+    },
+    {
+      "id": "moire_rings",
+      "title": "Moire Interference Rings",
+      "category": "12_abstract_distortions",
+      "category_label": "Abstract Distortions",
+      "count": 9,
+      "description": "Overlapping concentric ring sets creating optical moire patterns.",
+      "tags": [
+        "moire",
+        "interference",
+        "rings",
+        "optical",
+        "illusion"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Moire Interference Rings\" data-category=\"12_abstract_distortions\" data-tags=\"abstract,moire,interference,optical,rings\">\n  <title>Moire Interference Rings</title>\n  <circle cx=\"243.5\" cy=\"256\" r=\"17.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"243.5\" cy=\"256\" r=\"35\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"243.5\" cy=\"256\" r=\"52.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"243.5\" cy=\"256\" r=\"70\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"243.5\" cy=\"256\" r=\"87.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"243.5\" cy=\"256\" r=\"105\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"243.5\" cy=\"256\" r=\"122.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"243.5\" cy=\"256\" r=\"140\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"243.5\" cy=\"256\" r=\"157.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"243.5\" cy=\"256\" r=\"175\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"243.5\" cy=\"256\" r=\"192.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"243.5\" cy=\"256\" r=\"210\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"268.5\" cy=\"256\" r=\"17.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"268.5\" cy=\"256\" r=\"35\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"268.5\" cy=\"256\" r=\"52.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"268.5\" cy=\"256\" r=\"70\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"268.5\" cy=\"256\" r=\"87.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"268.5\" cy=\"256\" r=\"105\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"268.5\" cy=\"256\" r=\"122.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"268.5\" cy=\"256\" r=\"140\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"268.5\" cy=\"256\" r=\"157.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"268.5\" cy=\"256\" r=\"175\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"268.5\" cy=\"256\" r=\"192.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n  <circle cx=\"268.5\" cy=\"256\" r=\"210\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" />\n</svg>",
+      "primary_file": "assets/svg/12_abstract_distortions/abstract_moire_rings_r12_o25.svg"
+    },
+    {
+      "id": "string_art",
+      "title": "Parabolic String Art Hyperbolas",
+      "category": "12_abstract_distortions",
+      "category_label": "Abstract Distortions",
+      "count": 6,
+      "description": "Geometric string art hyperbolic curve envelopes.",
+      "tags": [
+        "string_art",
+        "parabolic",
+        "lines",
+        "hyperbola",
+        "wireframe"
+      ],
+      "primary_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\" fill=\"none\" data-title=\"Parabolic String Art\" data-category=\"12_abstract_distortions\" data-tags=\"abstract,string_art,parabolic,hyperbolic,wireframe,lines\">\n  <title>Parabolic String Art</title>\n  <path d=\"M 56.0 56.0 L 456.0 56.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 456.0 456.0 L 56.0 456.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 81.0 56.0 L 456.0 81.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 431.0 456.0 L 56.0 431.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 106.0 56.0 L 456.0 106.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 406.0 456.0 L 56.0 406.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 131.0 56.0 L 456.0 131.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 381.0 456.0 L 56.0 381.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 156.0 56.0 L 456.0 156.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 356.0 456.0 L 56.0 356.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 181.0 56.0 L 456.0 181.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 331.0 456.0 L 56.0 331.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 206.0 56.0 L 456.0 206.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 306.0 456.0 L 56.0 306.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 231.0 56.0 L 456.0 231.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 281.0 456.0 L 56.0 281.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 56.0 L 456.0 256.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 256.0 456.0 L 56.0 256.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 281.0 56.0 L 456.0 281.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 231.0 456.0 L 56.0 231.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 306.0 56.0 L 456.0 306.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 206.0 456.0 L 56.0 206.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 331.0 56.0 L 456.0 331.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 181.0 456.0 L 56.0 181.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 356.0 56.0 L 456.0 356.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 156.0 456.0 L 56.0 156.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 381.0 56.0 L 456.0 381.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 131.0 456.0 L 56.0 131.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 406.0 56.0 L 456.0 406.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 106.0 456.0 L 56.0 106.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 431.0 56.0 L 456.0 431.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 81.0 456.0 L 56.0 81.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 456.0 56.0 L 456.0 456.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n  <path d=\"M 56.0 456.0 L 56.0 56.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill-rule=\"evenodd\" />\n</svg>",
+      "primary_file": "assets/svg/12_abstract_distortions/abstract_string_art_l16_w2.svg"
+    }
+  ]
+}

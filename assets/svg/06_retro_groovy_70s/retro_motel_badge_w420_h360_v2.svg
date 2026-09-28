@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none" data-title="Retro Motel Badge" data-category="06_retro_groovy_70s" data-tags="retro,motel,lozenge,badge,diamond,vintage">
+  <title>Retro Motel Badge</title>
+  <path d="M 256 76 C 382 76 466 148 466 256 C 466 364 382 436 256 436 C 130 436 46 364 46 256 C 46 148 130 76 256 76 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 256 103 C 363.1 103 434.5 164.2 434.5 256 C 434.5 347.8 363.1 409 256 409 C 148.9 409 77.5 347.8 77.5 256 C 77.5 164.2 148.9 103 256 103 Z" fill="none" stroke="currentColor" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" />
+</svg>

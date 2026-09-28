@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none" data-title="Brutalist HUD Crosshair" data-category="02_neo_brutalist_hud" data-tags="brutalist,hud,reticle,crosshair,target">
+  <title>Brutalist HUD Crosshair</title>
+  <circle cx="256" cy="256" r="60" fill="none" stroke="currentColor" stroke-width="6" />
+  <circle cx="256" cy="256" r="140" fill="none" stroke="currentColor" stroke-width="6" />
+  <circle cx="256" cy="256" r="210" fill="none" stroke="currentColor" stroke-width="6" />
+  <path d="M 311.0 256.0 L 476.0 256.0" fill="currentColor" stroke="currentColor" stroke-width="6" stroke-linecap="square" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 283.5 303.63 L 366.0 446.53" fill="currentColor" stroke="currentColor" stroke-width="6" stroke-linecap="square" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 228.5 303.63 L 146.0 446.53" fill="currentColor" stroke="currentColor" stroke-width="6" stroke-linecap="square" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 201.0 256.0 L 36.0 256.0" fill="currentColor" stroke="currentColor" stroke-width="6" stroke-linecap="square" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 228.5 208.37 L 146.0 65.47" fill="currentColor" stroke="currentColor" stroke-width="6" stroke-linecap="square" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 283.5 208.37 L 366.0 65.47" fill="currentColor" stroke="currentColor" stroke-width="6" stroke-linecap="square" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 456.0 256.0 L 476.0 256.0" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 449.19 307.76 L 468.5 312.94" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 429.21 356.0 L 446.53 366.0" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 397.42 397.42 L 411.56 411.56" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 356.0 429.21 L 366.0 446.53" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 307.76 449.19 L 312.94 468.5" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 256.0 456.0 L 256.0 476.0" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 204.24 449.19 L 199.06 468.5" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 156.0 429.21 L 146.0 446.53" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 114.58 397.42 L 100.44 411.56" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 82.79 356.0 L 65.47 366.0" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 62.81 307.76 L 43.5 312.94" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 56.0 256.0 L 36.0 256.0" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 62.81 204.24 L 43.5 199.06" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 82.79 156.0 L 65.47 146.0" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 114.58 114.58 L 100.44 100.44" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 156.0 82.79 L 146.0 65.47" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 204.24 62.81 L 199.06 43.5" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 256.0 56.0 L 256.0 36.0" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 307.76 62.81 L 312.94 43.5" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 356.0 82.79 L 366.0 65.47" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 397.42 114.58 L 411.56 100.44" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 429.21 156.0 L 446.53 146.0" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 449.19 204.24 L 468.5 199.06" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" />
+</svg>

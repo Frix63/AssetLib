@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none" data-title="Compass Pointer Needle" data-category="09_arrows_pointers_accents" data-tags="compass,needle,pointer,navigation,faceted,3d">
+  <title>Compass Pointer Needle</title>
+  <path d="M 256.0 256.0 L 256.0 46.0 L 226.0 256.0 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 256.0 256.0 L 256.0 466.0 L 286.0 256.0 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 256.0 46.0 L 286.0 256.0 L 256.0 466.0 L 226.0 256.0 Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="10" fill-rule="evenodd" />
+  <path d="M 256.0 46.0 L 256.0 466.0" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="butt" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 226.0 256.0 L 286.0 256.0" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="butt" stroke-linejoin="round" fill-rule="evenodd" />
+</svg>

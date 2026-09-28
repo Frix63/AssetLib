@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none" data-title="Viewfinder Corner Frame" data-category="02_neo_brutalist_hud" data-tags="hud,viewfinder,brackets,frame,camera">
+  <title>Viewfinder Corner Frame</title>
+  <path d="M 66.0 156.0 L 66.0 106.0 L 106.0 66.0 L 156.0 66.0" fill="currentColor" stroke="currentColor" stroke-width="20" stroke-linecap="square" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 356.0 66.0 L 406.0 66.0 L 446.0 106.0 L 446.0 156.0" fill="currentColor" stroke="currentColor" stroke-width="20" stroke-linecap="square" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 446.0 356.0 L 446.0 406.0 L 406.0 446.0 L 356.0 446.0" fill="currentColor" stroke="currentColor" stroke-width="20" stroke-linecap="square" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 156.0 446.0 L 106.0 446.0 L 66.0 406.0 L 66.0 356.0" fill="currentColor" stroke="currentColor" stroke-width="20" stroke-linecap="square" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 232.0 256.0 L 280.0 256.0 M 256.0 232.0 L 256.0 280.0" fill="currentColor" stroke="currentColor" stroke-width="15" stroke-linecap="square" stroke-linejoin="round" fill-rule="evenodd" />
+</svg>

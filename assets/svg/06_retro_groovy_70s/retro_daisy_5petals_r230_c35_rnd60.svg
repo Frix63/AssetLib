@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none" data-title="Retro Groovy Daisy" data-category="06_retro_groovy_70s" data-tags="retro,groovy,flower,daisy,70s,psychedelic">
+  <title>Retro Groovy Daisy</title>
+  <path d="M 330.07 215.28 C 351.26 244.45 487.66 242.86 486 256 C 484.34 269.14 338.81 284.69 317.62 313.86 C 296.43 343.03 340.08 472.26 327.07 474.74 C 314.06 477.22 254.3 343.62 220.01 332.48 C 185.72 321.34 76.31 402.8 69.93 391.19 C 63.55 379.58 172.14 281.46 172.14 245.41 C 172.14 209.36 60.86 130.47 69.93 120.81 C 79 111.15 205.87 184.11 240.16 172.97 C 274.45 161.83 315.08 31.62 327.07 37.26 C 339.06 42.9 308.88 186.11 330.07 215.28 Z M 175.5 256.0 A 80.5 80.5 0 1 0 336.5 256.0 A 80.5 80.5 0 1 0 175.5 256.0 Z" fill="currentColor" fill-rule="evenodd" />
+  <circle cx="256" cy="256" r="48.3" fill="currentColor" />
+</svg>

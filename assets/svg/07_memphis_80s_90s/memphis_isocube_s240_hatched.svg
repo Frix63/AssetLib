@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none" data-title="Isometric Memphis Cube" data-category="07_memphis_80s_90s" data-tags="memphis,isometric,cube,3d,geometric,pop">
+  <title>Isometric Memphis Cube</title>
+  <path d="M 256.0 256.0 L 463.8460969082653 136.0 L 256.0 16.0 L 48.15390309173472 136.0 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 290.6410161513775 276.0 L 290.6410161513775 476.0" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="butt" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 325.28203230275506 296.0 L 325.28203230275506 456.0" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="butt" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 359.92304845413264 316.0 L 359.92304845413264 436.0" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="butt" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 394.56406460551017 336.0 L 394.56406460551017 416.0" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="butt" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 429.20508075688775 356.0 L 429.20508075688775 396.0" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="butt" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 256.0 16.0 L 463.8460969082653 136.0 L 463.8460969082653 376.0 L 256.0 496.0 L 48.15390309173472 376.0 L 48.15390309173472 136.0 Z" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="10" fill-rule="evenodd" />
+  <path d="M 256.0 256.0 L 256.0 16.0" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="butt" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 256.0 256.0 L 48.15390309173472 376.0" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="butt" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 256.0 256.0 L 463.8460969082653 376.0" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="butt" stroke-linejoin="round" fill-rule="evenodd" />
+</svg>

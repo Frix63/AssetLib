@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none" data-title="Memphis Confetti Cluster" data-category="07_memphis_80s_90s" data-tags="memphis,confetti,burst,scatter,pop">
+  <title>Memphis Confetti Cluster</title>
+  <path d="M 290.1 268.45 L 297.29 236.36 L 329.38 243.55 L 322.19 275.64 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 223.99 221.22 L 173.6 217.19 L 202.29 175.57 Z" fill="currentColor" fill-rule="evenodd" />
+  <rect x="246.92" y="344.93" width="34.44" height="7.58" fill="currentColor" />
+  <rect x="260.35" y="331.5" width="7.58" height="34.44" fill="currentColor" />
+  <path d="M 307.9 191.8 L 309.88 148.45 L 346.43 171.85 Z" fill="currentColor" fill-rule="evenodd" />
+  <rect x="102.08" y="264.47" width="71.18" height="24.91" fill="currentColor" rx="12.46" ry="12.46" />
+  <rect x="335.45" y="315.58" width="63.24" height="22.13" fill="currentColor" rx="11.07" ry="11.07" />
+  <rect x="207.13" y="116.06" width="23.92" height="5.26" fill="currentColor" />
+  <rect x="216.46" y="106.73" width="5.26" height="23.92" fill="currentColor" />
+  <circle cx="185.94" cy="390.89" r="14.45" fill="currentColor" />
+</svg>

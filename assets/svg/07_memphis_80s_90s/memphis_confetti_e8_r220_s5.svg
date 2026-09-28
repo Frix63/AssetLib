@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none" data-title="Memphis Confetti Cluster" data-category="07_memphis_80s_90s" data-tags="memphis,confetti,burst,scatter,pop">
+  <title>Memphis Confetti Cluster</title>
+  <circle cx="329.89" cy="256" r="17.45" fill="currentColor" />
+  <path d="M 207.86 186.41 L 163.61 209.95 L 165.35 159.87 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 253.77 395.79 L 254.9 370.08 L 280.61 371.21 L 279.48 396.92 Z" fill="currentColor" fill-rule="evenodd" />
+  <rect x="330.68" y="135.37" width="30.48" height="6.71" fill="currentColor" />
+  <rect x="342.57" y="123.48" width="6.71" height="30.48" fill="currentColor" />
+  <rect x="61.16" y="273.53" width="64.28" height="22.5" fill="currentColor" rx="11.25" ry="11.25" />
+  <path d="M 385.82 366.07 L 395.8 330.25 L 431.62 340.23 L 421.64 376.05 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 193.33 85.03 L 187.42 55.28 L 217.17 49.37 L 223.08 79.12 Z" fill="currentColor" fill-rule="evenodd" />
+  <rect x="145.68" y="438.4" width="27.99" height="6.16" fill="currentColor" />
+  <rect x="156.59" y="427.49" width="6.16" height="27.99" fill="currentColor" />
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none" data-title="Wireframe Tech Globe" data-category="02_neo_brutalist_hud" data-tags="hud,wireframe,globe,sphere,3d,grid">
+  <title>Wireframe Tech Globe</title>
+  <circle cx="256" cy="256" r="220" fill="none" stroke="currentColor" stroke-width="8" />
+  <ellipse cx="256.0" cy="256.0" rx="220" ry="67.98" fill="none" stroke="currentColor" stroke-width="5" />
+  <ellipse cx="256.0" cy="256.0" rx="220" ry="129.31" fill="none" stroke="currentColor" stroke-width="5" />
+  <ellipse cx="256.0" cy="256.0" rx="220" ry="177.98" fill="none" stroke="currentColor" stroke-width="5" />
+  <ellipse cx="256.0" cy="256.0" rx="220" ry="209.23" fill="none" stroke="currentColor" stroke-width="5" />
+  <ellipse cx="256.0" cy="256.0" rx="56.94" ry="220" fill="none" stroke="currentColor" stroke-width="5" />
+  <ellipse cx="256.0" cy="256.0" rx="110" ry="220" fill="none" stroke="currentColor" stroke-width="5" />
+  <ellipse cx="256.0" cy="256.0" rx="155.56" ry="220" fill="none" stroke="currentColor" stroke-width="5" />
+  <ellipse cx="256.0" cy="256.0" rx="190.53" ry="220" fill="none" stroke="currentColor" stroke-width="5" />
+  <ellipse cx="256.0" cy="256.0" rx="212.5" ry="220" fill="none" stroke="currentColor" stroke-width="5" />
+  <path d="M 36.0 256.0 L 476.0 256.0" fill="currentColor" stroke="currentColor" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 256.0 36.0 L 256.0 476.0" fill="currentColor" stroke="currentColor" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" />
+</svg>

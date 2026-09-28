@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none" data-title="Tech Barcode Badge" data-category="02_neo_brutalist_hud" data-tags="hud,barcode,badge,tech,data">
+  <title>Tech Barcode Badge</title>
+  <rect x="84" y="144" width="344" height="224" fill="none" stroke="currentColor" stroke-width="6" />
+  <rect x="96" y="156" width="22.07" height="200" fill="currentColor" />
+  <rect x="129.1" y="156" width="44.14" height="200" fill="currentColor" />
+  <rect x="195.31" y="156" width="11.03" height="200" fill="currentColor" />
+  <rect x="217.38" y="156" width="44.14" height="200" fill="currentColor" />
+  <rect x="283.59" y="156" width="22.07" height="200" fill="currentColor" />
+  <rect x="316.69" y="156" width="44.14" height="200" fill="currentColor" />
+  <rect x="371.86" y="156" width="22.07" height="200" fill="currentColor" />
+</svg>

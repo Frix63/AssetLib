@@ -1,0 +1,31 @@
+# AssetLib
+
+> Free procedural SVG vector asset library and live parametric design studio.
+
+AssetLib is an open collection of 2,069+ curated vector graphics spanning 12 distinct aesthetic movements, designed for graphic designers, creative coders, and UI/UX developers. Every asset is available as clean raw SVG, transparent PNG, and live editable procedural math parameters.
+
+## Core Aesthetics & Collections
+- **Y2K & Cyber Stars**: 4-point to 32-point pinch stars, cutout stars, faceted 3D stars, compass stars, lens flare sparkles. URL: `https://www.chris-creative.com/assetlib/category/01_y2k_cyber_stars`
+- **Brutalist HUD & Tech UI**: Targeting crosshairs, viewfinder corner brackets, 3D wireframe globes, Swiss crosses, segmented radar dials. URL: `https://www.chris-creative.com/assetlib/category/02_brutalist_hud`
+- **Acid Graphics & Cyber Sigils**: Bilateral cyber-sigilism crests, molten liquid chrome talons, hyperspace spiral vortexes, neo-tribal razor barbs. URL: `https://www.chris-creative.com/assetlib/category/03_acid_cyber_sigils`
+- **Bauhaus & Swiss Modernism**: Cathedral arches, stadium pill capsules, stepped ziggurats, modular quadrant grids, concentric semicircles, diagonal stripe blocks. URL: `https://www.chris-creative.com/assetlib/category/04_bauhaus_swiss`
+- **Organic & Botanical Silhouettes**: Fluid river pebbles, Matisse leaf cutouts, ginkgo fan leaves, fluid organic ribbons. URL: `https://www.chris-creative.com/assetlib/category/05_organic_botanical`
+- **Retro 70s & Groovy Pop**: Groovy daisies, starburst sale badges, roadside motel lozenges, melting badges, rainbow arches. URL: `https://www.chris-creative.com/assetlib/category/06_retro_groovy`
+- **Memphis & 80s Postmodernism**: Zigzag shockwaves, squiggle noodles, isometric 3D cubes, floating confetti clusters. URL: `https://www.chris-creative.com/assetlib/category/07_memphis_pop`
+- **Badges, Seals & Certificates**: Scalloped award seals, perforated postage stamps, rosette ribbons, admission ticket stubs. URL: `https://www.chris-creative.com/assetlib/category/08_badges_seals`
+- **Arrows & Navigation Accents**: Chunky brutalist directional arrows, flow swooshes, speech dialog bubbles, faceted compass needles. URL: `https://www.chris-creative.com/assetlib/category/09_arrows_accents`
+- **Sacred Geometry & Guilloche**: Mathematical rhodonea rose curves, hypotrochoid spirographs, Lissajous harmonic knots, Flower of Life, Metatron's Cube. URL: `https://www.chris-creative.com/assetlib/category/10_sacred_guilloche`
+- **Halftones & Screen Tones**: Radial dot screens, linear halftone angles, diamond matrices, dither waves, concentric ring halftones. URL: `https://www.chris-creative.com/assetlib/category/11_halftones`
+- **Abstract Distortions**: Sliced wave bars, twisted polygon vortex tunnels, wave-warped ripple discs, moire interference rings, parabolic string art. URL: `https://www.chris-creative.com/assetlib/category/12_abstract_distortions`
+
+## Key Capabilities
+- **Live Parametric Studio**: Over 1,175 shapes feature real-time procedural sliders (points, density, arms, frequency, twist, stroke weight).
+- **Export Options**: One-click Copy SVG, Copy JSX / React component, Download SVG, Download PNG (512x512 to 2048x2048).
+- **Zero Dependencies**: Generated directly from mathematical algorithms without external fonts or raster dependencies.
+
+## Licensing
+- **License**: Creative Commons Zero (CC0 1.0 Universal) / Public Domain Dedication.
+- **Commercial Use**: 100% free for commercial and personal work with no attribution required.
+
+## Full Catalog
+For the complete index of all 59 groups and archetype pages, see `https://www.chris-creative.com/assetlib/llms-full.txt`.

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none" data-title="Radar Gauge Dial" data-category="02_neo_brutalist_hud" data-tags="hud,radar,dial,gauge,circular">
+  <title>Radar Gauge Dial</title>
+  <path d="M 425.8 264.34 A 170 170 0 0 1 416.06 313.27 L 371.24 297.24 A 122.39999999999999 122.39999999999999 0 0 0 378.25 262.01 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 409.68 328.68 A 170 170 0 0 1 381.96 370.17 L 346.69 338.2 A 122.39999999999999 122.39999999999999 0 0 0 366.65 308.33 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 370.17 381.96 A 170 170 0 0 1 328.68 409.68 L 308.33 366.65 A 122.39999999999999 122.39999999999999 0 0 0 338.2 346.69 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 313.27 416.06 A 170 170 0 0 1 264.34 425.8 L 262.01 378.25 A 122.39999999999999 122.39999999999999 0 0 0 297.24 371.24 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 247.66 425.8 A 170 170 0 0 1 198.73 416.06 L 214.76 371.24 A 122.39999999999999 122.39999999999999 0 0 0 249.99 378.25 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 183.32 409.68 A 170 170 0 0 1 141.83 381.96 L 173.8 346.69 A 122.39999999999999 122.39999999999999 0 0 0 203.67 366.65 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 130.04 370.17 A 170 170 0 0 1 102.32 328.68 L 145.35 308.33 A 122.39999999999999 122.39999999999999 0 0 0 165.31 338.2 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 95.94 313.27 A 170 170 0 0 1 86.2 264.34 L 133.75 262.01 A 122.39999999999999 122.39999999999999 0 0 0 140.76 297.24 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 86.2 247.66 A 170 170 0 0 1 95.94 198.73 L 140.76 214.76 A 122.39999999999999 122.39999999999999 0 0 0 133.75 249.99 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 102.32 183.32 A 170 170 0 0 1 130.04 141.83 L 165.31 173.8 A 122.39999999999999 122.39999999999999 0 0 0 145.35 203.67 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 141.83 130.04 A 170 170 0 0 1 183.32 102.32 L 203.67 145.35 A 122.39999999999999 122.39999999999999 0 0 0 173.8 165.31 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 198.73 95.94 A 170 170 0 0 1 247.66 86.2 L 249.99 133.75 A 122.39999999999999 122.39999999999999 0 0 0 214.76 140.76 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 264.34 86.2 A 170 170 0 0 1 313.27 95.94 L 297.24 140.76 A 122.39999999999999 122.39999999999999 0 0 0 262.01 133.75 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 328.68 102.32 A 170 170 0 0 1 370.17 130.04 L 338.2 165.31 A 122.39999999999999 122.39999999999999 0 0 0 308.33 145.35 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 381.96 141.83 A 170 170 0 0 1 409.68 183.32 L 366.65 203.67 A 122.39999999999999 122.39999999999999 0 0 0 346.69 173.8 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 416.06 198.73 A 170 170 0 0 1 425.8 247.66 L 378.25 249.99 A 122.39999999999999 122.39999999999999 0 0 0 371.24 214.76 Z" fill="currentColor" fill-rule="evenodd" />
+  <circle cx="256" cy="256" r="34" fill="currentColor" />
+</svg>

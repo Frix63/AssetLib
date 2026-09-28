@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none" data-title="Curved Flow Swoosh Arrow" data-category="09_arrows_pointers_accents" data-tags="arrow,swoosh,curve,flow,loop,cycle">
+  <title>Curved Flow Swoosh Arrow</title>
+  <path d="M 396.0 256.0 A 140 140 0 0 1 256.0 396.0" fill="none" stroke="currentColor" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 218.0 396.0 L 265.5 418.0 L 254.1 396.0 L 265.5 374.0 Z" fill="currentColor" fill-rule="evenodd" />
+</svg>

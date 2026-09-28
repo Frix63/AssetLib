@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none" data-title="Isometric Memphis Cube" data-category="07_memphis_80s_90s" data-tags="memphis,isometric,cube,3d,geometric,pop">
+  <title>Isometric Memphis Cube</title>
+  <path d="M 256.0 96.0 L 394.5640646055102 176.0 L 394.5640646055102 336.0 L 256.0 416.0 L 117.4359353944898 336.0 L 117.4359353944898 176.0 Z" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="10" fill-rule="evenodd" />
+  <path d="M 256.0 256.0 L 256.0 96.0" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="butt" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 256.0 256.0 L 117.4359353944898 336.0" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="butt" stroke-linejoin="round" fill-rule="evenodd" />
+  <path d="M 256.0 256.0 L 394.5640646055102 336.0" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="butt" stroke-linejoin="round" fill-rule="evenodd" />
+</svg>

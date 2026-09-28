@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none" data-title="Radar Gauge Dial" data-category="02_neo_brutalist_hud" data-tags="hud,radar,dial,gauge,circular">
+  <title>Radar Gauge Dial</title>
+  <path d="M 425.18 272.66 A 170 170 0 0 1 387.41 363.85 L 350.62 333.65 A 122.39999999999999 122.39999999999999 0 0 0 377.81 268.0 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 363.85 387.41 A 170 170 0 0 1 272.66 425.18 L 268.0 377.81 A 122.39999999999999 122.39999999999999 0 0 0 333.65 350.62 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 239.34 425.18 A 170 170 0 0 1 148.15 387.41 L 178.35 350.62 A 122.39999999999999 122.39999999999999 0 0 0 244.0 377.81 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 124.59 363.85 A 170 170 0 0 1 86.82 272.66 L 134.19 268.0 A 122.39999999999999 122.39999999999999 0 0 0 161.38 333.65 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 86.82 239.34 A 170 170 0 0 1 124.59 148.15 L 161.38 178.35 A 122.39999999999999 122.39999999999999 0 0 0 134.19 244.0 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 148.15 124.59 A 170 170 0 0 1 239.34 86.82 L 244.0 134.19 A 122.39999999999999 122.39999999999999 0 0 0 178.35 161.38 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 272.66 86.82 A 170 170 0 0 1 363.85 124.59 L 333.65 161.38 A 122.39999999999999 122.39999999999999 0 0 0 268.0 134.19 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 387.41 148.15 A 170 170 0 0 1 425.18 239.34 L 377.81 244.0 A 122.39999999999999 122.39999999999999 0 0 0 350.62 178.35 Z" fill="currentColor" fill-rule="evenodd" />
+  <circle cx="256" cy="256" r="34" fill="currentColor" />
+</svg>

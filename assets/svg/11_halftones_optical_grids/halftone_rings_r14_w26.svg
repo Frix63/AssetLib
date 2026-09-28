@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none" data-title="Concentric Ring Halftone" data-category="11_halftones_optical_grids" data-tags="halftone,concentric,rings,optical,target">
+  <title>Concentric Ring Halftone</title>
+  <circle cx="256" cy="256" r="15" fill="none" stroke="currentColor" stroke-width="24.61" />
+  <circle cx="256" cy="256" r="30" fill="none" stroke="currentColor" stroke-width="23.21" />
+  <circle cx="256" cy="256" r="45" fill="none" stroke="currentColor" stroke-width="21.82" />
+  <circle cx="256" cy="256" r="60" fill="none" stroke="currentColor" stroke-width="20.43" />
+  <circle cx="256" cy="256" r="75" fill="none" stroke="currentColor" stroke-width="19.04" />
+  <circle cx="256" cy="256" r="90" fill="none" stroke="currentColor" stroke-width="17.64" />
+  <circle cx="256" cy="256" r="105" fill="none" stroke="currentColor" stroke-width="16.25" />
+  <circle cx="256" cy="256" r="120" fill="none" stroke="currentColor" stroke-width="14.86" />
+  <circle cx="256" cy="256" r="135" fill="none" stroke="currentColor" stroke-width="13.46" />
+  <circle cx="256" cy="256" r="150" fill="none" stroke="currentColor" stroke-width="12.07" />
+  <circle cx="256" cy="256" r="165" fill="none" stroke="currentColor" stroke-width="10.68" />
+  <circle cx="256" cy="256" r="180" fill="none" stroke="currentColor" stroke-width="9.29" />
+  <circle cx="256" cy="256" r="195" fill="none" stroke="currentColor" stroke-width="7.89" />
+  <circle cx="256" cy="256" r="210" fill="none" stroke="currentColor" stroke-width="6.5" />
+</svg>

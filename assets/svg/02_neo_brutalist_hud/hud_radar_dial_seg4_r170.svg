@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none" data-title="Radar Gauge Dial" data-category="02_neo_brutalist_hud" data-tags="hud,radar,dial,gauge,circular">
+  <title>Radar Gauge Dial</title>
+  <path d="M 422.73 289.17 A 170 170 0 0 1 289.17 422.73 L 279.88 376.05 A 122.39999999999999 122.39999999999999 0 0 0 376.05 279.88 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 222.83 422.73 A 170 170 0 0 1 89.27 289.17 L 135.95 279.88 A 122.39999999999999 122.39999999999999 0 0 0 232.12 376.05 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 89.27 222.83 A 170 170 0 0 1 222.83 89.27 L 232.12 135.95 A 122.39999999999999 122.39999999999999 0 0 0 135.95 232.12 Z" fill="currentColor" fill-rule="evenodd" />
+  <path d="M 289.17 89.27 A 170 170 0 0 1 422.73 222.83 L 376.05 232.12 A 122.39999999999999 122.39999999999999 0 0 0 279.88 135.95 Z" fill="currentColor" fill-rule="evenodd" />
+  <circle cx="256" cy="256" r="34" fill="currentColor" />
+</svg>

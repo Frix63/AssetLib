@@ -1,0 +1,418 @@
+# AssetLib Full Group Index
+
+Generated on 2026-09-28. Total assets: 2101 across 59 archetype groups.
+
+## Archetype Groups Directory
+
+### Negative Space Cutout Stars
+- **URL**: https://www.chris-creative.com/assetlib/group/cutout_stars
+- **Category**: Y2K & Cyber Stars
+- **Styles**: 9
+- **Description**: Stars with circular and geometric negative space central cutouts.
+- **Tags**: star, cutout, donut, hole, y2k, cyber
+
+### Y2K Cyber Pinch Stars
+- **URL**: https://www.chris-creative.com/assetlib/group/pinch_stars
+- **Category**: Y2K & Cyber Stars
+- **Styles**: 72
+- **Description**: Curved pinch astroid cyber stars with inward curving flare edges.
+- **Tags**: star, pinch, astroid, sparkle, flare, y2k
+
+### Sharp Geometric Stars
+- **URL**: https://www.chris-creative.com/assetlib/group/sharp_stars
+- **Category**: Y2K & Cyber Stars
+- **Styles**: 44
+- **Description**: Crisp straight-edged star polygons with varying point counts and inner ratios.
+- **Tags**: star, sharp, polygon, geometric, point
+
+### Faceted Chrome 3D Stars
+- **URL**: https://www.chris-creative.com/assetlib/group/faceted_stars
+- **Category**: Y2K & Cyber Stars
+- **Styles**: 15
+- **Description**: 3D metallic chrome stars with alternating shaded facets meeting at center.
+- **Tags**: star, chrome, 3d, faceted, metallic
+
+### Compass Cyber Stars
+- **URL**: https://www.chris-creative.com/assetlib/group/compass_stars
+- **Category**: Y2K & Cyber Stars
+- **Styles**: 9
+- **Description**: 8-point directional compass stars with primary and secondary arms.
+- **Tags**: star, compass, navigation, sparkle, 8-point
+
+### Anamorphic Lens Flare Sparkles
+- **URL**: https://www.chris-creative.com/assetlib/group/lens_sparkles
+- **Category**: Y2K & Cyber Stars
+- **Styles**: 15
+- **Description**: Asymmetrical anamorphic flares and horizontal sparkle crosses.
+- **Tags**: sparkle, lens, flare, anamorphic, star
+
+### Hollow Outline Cyber Stars
+- **URL**: https://www.chris-creative.com/assetlib/group/outline_stars
+- **Category**: Y2K & Cyber Stars
+- **Styles**: 18
+- **Description**: Contoured stroke wireframe cyber stars.
+- **Tags**: star, outline, stroke, hollow, cyber
+
+### HUD Targeting Reticles & Crosshairs
+- **URL**: https://www.chris-creative.com/assetlib/group/crosshairs
+- **Category**: Neo-Brutalist HUD
+- **Styles**: 48
+- **Description**: Precision crosshairs, mil-dot sniper sights, and concentric targeting reticles.
+- **Tags**: crosshair, reticle, cross, target, aim, hud
+
+### Viewfinder & Camera Corner Frames
+- **URL**: https://www.chris-creative.com/assetlib/group/viewfinders
+- **Category**: Neo-Brutalist HUD
+- **Styles**: 54
+- **Description**: Focus brackets, camera viewfinders, and chamfered border frames.
+- **Tags**: viewfinder, frame, brackets, camera, hud, corners
+
+### Wireframe 3D Projection Globes
+- **URL**: https://www.chris-creative.com/assetlib/group/wireframe_globes
+- **Category**: Neo-Brutalist HUD
+- **Styles**: 32
+- **Description**: 3D isometric latitude and longitude globe wireframes.
+- **Tags**: globe, sphere, wireframe, 3d, grid, world, earth
+
+### Brutalist Swiss Crosses & Pluses
+- **URL**: https://www.chris-creative.com/assetlib/group/swiss_pluses
+- **Category**: Neo-Brutalist HUD
+- **Styles**: 18
+- **Description**: Heavy brutalist pluses, Swiss medical crosses, and plus clusters.
+- **Tags**: cross, plus, swiss, brutalist, medic, hud
+
+### Segmented Radar Dials & Gauges
+- **URL**: https://www.chris-creative.com/assetlib/group/radar_dials
+- **Category**: Neo-Brutalist HUD
+- **Styles**: 12
+- **Description**: Circular segmented arc gauges and sci-fi telemetry dials.
+- **Tags**: radar, dial, gauge, hud, circle, speedometer
+
+### Tech Barcode & Data Badges
+- **URL**: https://www.chris-creative.com/assetlib/group/barcode_badges
+- **Category**: Neo-Brutalist HUD
+- **Styles**: 24
+- **Description**: Industrial barcode stripes and cyber data identifier frames.
+- **Tags**: barcode, badge, tech, data, label, hud
+
+### Gothic Cyber Sigils & Crests
+- **URL**: https://www.chris-creative.com/assetlib/group/sigil_crests
+- **Category**: Acid & Cyber Sigils
+- **Styles**: 180
+- **Description**: Bilateral symmetrical cyber-sigilism emblems and gothic thorn wings.
+- **Tags**: sigil, crest, gothic, tribal, acid, wings, thorn
+
+### Liquid Chrome Spikes & Molten Talons
+- **URL**: https://www.chris-creative.com/assetlib/group/liquid_talons
+- **Category**: Acid & Cyber Sigils
+- **Styles**: 48
+- **Description**: Molten chrome liquid droplets, twisted spikes, and fluid talons.
+- **Tags**: chrome, liquid, talon, claw, spike, molten, acid
+
+### Hyperspace Spiral Vortexes
+- **URL**: https://www.chris-creative.com/assetlib/group/spiral_vortexes
+- **Category**: Acid & Cyber Sigils
+- **Styles**: 72
+- **Description**: Multi-arm logarithmic spiral warps and black hole vortexes.
+- **Tags**: vortex, spiral, warp, hyperspace, blackhole, twirl
+
+### Neo-Tribal Razor Barbs
+- **URL**: https://www.chris-creative.com/assetlib/group/neo_tribal_barbs
+- **Category**: Acid & Cyber Sigils
+- **Styles**: 9
+- **Description**: Barbed razor blades and neo-tribal cross emblems.
+- **Tags**: tribal, barb, blade, razor, acid, cyber
+
+### Modernist Cathedral & Tunnel Arches
+- **URL**: https://www.chris-creative.com/assetlib/group/cathedral_arches
+- **Category**: Bauhaus & Swiss Style
+- **Styles**: 36
+- **Description**: Solid and cutout portal arches with modernist proportions.
+- **Tags**: arch, cathedral, portal, tunnel, bauhaus, architecture
+
+### Modernist Stadium & Pill Capsules
+- **URL**: https://www.chris-creative.com/assetlib/group/stadium_pills
+- **Category**: Bauhaus & Swiss Style
+- **Styles**: 9
+- **Description**: Rounded stadium capsules in horizontal, vertical, and angled orientations.
+- **Tags**: pill, capsule, stadium, bauhaus, geometric
+
+### Stepped Ziggurats & Pyramids
+- **URL**: https://www.chris-creative.com/assetlib/group/stepped_pyramids
+- **Category**: Bauhaus & Swiss Style
+- **Styles**: 40
+- **Description**: Multi-level geometric stepped pyramids and inverse ziggurats.
+- **Tags**: pyramid, ziggurat, stepped, stairs, bauhaus
+
+### Modular Bauhaus Quadrant Grids
+- **URL**: https://www.chris-creative.com/assetlib/group/quadrant_grids
+- **Category**: Bauhaus & Swiss Style
+- **Styles**: 36
+- **Description**: Modular compositions combining quarter-circles, diagonal slices, and blocks.
+- **Tags**: grid, modular, quadrant, bauhaus, composition
+
+### Concentric Modernist Semicircles
+- **URL**: https://www.chris-creative.com/assetlib/group/concentric_semicircles
+- **Category**: Bauhaus & Swiss Style
+- **Styles**: 10
+- **Description**: Nested concentric semicircle arcs in 4 orientations.
+- **Tags**: semicircle, rainbow, concentric, arcs, bauhaus
+
+### Bauhaus Diagonal Striped Blocks
+- **URL**: https://www.chris-creative.com/assetlib/group/diagonal_stripes
+- **Category**: Bauhaus & Swiss Style
+- **Styles**: 8
+- **Description**: Geometric diagonal hazard and composition stripe blocks.
+- **Tags**: stripes, bars, block, lines, hazard, bauhaus
+
+### Organic Fluid Blobs & River Pebbles
+- **URL**: https://www.chris-creative.com/assetlib/group/organic_blobs
+- **Category**: Organic & Botanical
+- **Styles**: 36
+- **Description**: Smooth Fourier harmonic amoebas and natural river stone silhouettes.
+- **Tags**: blob, amoeba, pebble, stone, fluid, organic, smooth
+
+### Matisse Botanical Leaf Cutouts
+- **URL**: https://www.chris-creative.com/assetlib/group/botanical_leaves
+- **Category**: Organic & Botanical
+- **Styles**: 32
+- **Description**: Stylized multi-lobed foliage and Matisse-inspired organic leaves.
+- **Tags**: leaf, botanical, matisse, plant, foliage, flora, cutout
+
+### Ginkgo Biloba Fan Leaves
+- **URL**: https://www.chris-creative.com/assetlib/group/ginkgo_leaves
+- **Category**: Organic & Botanical
+- **Styles**: 18
+- **Description**: Notched ginkgo biloba fan fronds with natural stem lines.
+- **Tags**: ginkgo, leaf, fan, botanical, plant, nature
+
+### Fluid Organic Ribbons & Streamers
+- **URL**: https://www.chris-creative.com/assetlib/group/wavy_ribbons
+- **Category**: Organic & Botanical
+- **Styles**: 72
+- **Description**: Wavy sinusoidal fluid ribbons in horizontal and vertical flows.
+- **Tags**: ribbon, wave, streamer, fluid, organic, strip
+
+### Retro Groovy Daisy Flowers
+- **URL**: https://www.chris-creative.com/assetlib/group/groovy_daisies
+- **Category**: Retro Groovy 70s
+- **Styles**: 84
+- **Description**: Iconic 70s cartoon flower daisies with rounded petals and central discs.
+- **Tags**: flower, daisy, petal, retro, groovy, 70s, sunflower
+
+### Retro Starburst Sale Badges
+- **URL**: https://www.chris-creative.com/assetlib/group/starburst_badges
+- **Category**: Retro Groovy 70s
+- **Styles**: 48
+- **Description**: Scalloped and pointed starburst explosion discount stickers (12 to 32 points).
+- **Tags**: starburst, badge, sale, sticker, discount, retro, burst
+
+### Roadside Motel Sign Lozenges
+- **URL**: https://www.chris-creative.com/assetlib/group/motel_lozenges
+- **Category**: Retro Groovy 70s
+- **Styles**: 12
+- **Description**: Vintage diamond lozenges and double-bordered retro roadside signs.
+- **Tags**: motel, lozenge, badge, diamond, retro, vintage
+
+### Melting Psychedelic Badges
+- **URL**: https://www.chris-creative.com/assetlib/group/melting_badges
+- **Category**: Retro Groovy 70s
+- **Styles**: 24
+- **Description**: Liquid melting circle badges with gravity sag distortion.
+- **Tags**: melting, psychedelic, liquid, wavy, badge, retro
+
+### Retro 70s Concentric Rainbow Arches
+- **URL**: https://www.chris-creative.com/assetlib/group/rainbow_arches
+- **Category**: Retro Groovy 70s
+- **Styles**: 16
+- **Description**: Multi-band groovy rainbow arches.
+- **Tags**: rainbow, arch, retro, 70s, groovy, stripes
+
+### Memphis Zigzag Shockwaves
+- **URL**: https://www.chris-creative.com/assetlib/group/zigzag_shockwaves
+- **Category**: Memphis 80s/90s Pop
+- **Styles**: 72
+- **Description**: 80s pop geometric jagged shockwave stripes.
+- **Tags**: zigzag, shockwave, jagged, memphis, 80s, 90s
+
+### Memphis Squiggle Noodles
+- **URL**: https://www.chris-creative.com/assetlib/group/squiggle_noodles
+- **Category**: Memphis 80s/90s Pop
+- **Styles**: 72
+- **Description**: Playful 90s squiggle snakes and wavy vector noodles.
+- **Tags**: squiggle, noodle, wave, snake, memphis, 80s
+
+### Isometric 3D Memphis Cubes
+- **URL**: https://www.chris-creative.com/assetlib/group/isometric_cubes
+- **Category**: Memphis 80s/90s Pop
+- **Styles**: 16
+- **Description**: Isometric 3-facet shaded geometric pop cubes.
+- **Tags**: cube, isometric, 3d, memphis, box, geometric
+
+### Floating Geometric Confetti Clusters
+- **URL**: https://www.chris-creative.com/assetlib/group/confetti_clusters
+- **Category**: Memphis 80s/90s Pop
+- **Styles**: 40
+- **Description**: Scatter bursts of geometric confetti shapes.
+- **Tags**: confetti, scatter, burst, pop, memphis, party
+
+### Scalloped Certificate Seals
+- **URL**: https://www.chris-creative.com/assetlib/group/scalloped_seals
+- **Category**: Badges, Seals & Labels
+- **Styles**: 144
+- **Description**: Circular certificate flower seals with 8 to 48 flutes.
+- **Tags**: seal, scallop, certificate, stamp, badge, rosette
+
+### Perforated Postage Stamps
+- **URL**: https://www.chris-creative.com/assetlib/group/postage_stamps
+- **Category**: Badges, Seals & Labels
+- **Styles**: 15
+- **Description**: Perforated postal stamps with edge teeth in various aspect ratios.
+- **Tags**: stamp, postage, perforated, mail, letter, vintage, badge
+
+### Award Rosette Ribbons
+- **URL**: https://www.chris-creative.com/assetlib/group/rosette_ribbons
+- **Category**: Badges, Seals & Labels
+- **Styles**: 16
+- **Description**: Award rosettes with pleated heads and dual notched ribbon tails.
+- **Tags**: rosette, ribbon, award, medal, winner, badge
+
+### Admission Ticket Stubs & Coupons
+- **URL**: https://www.chris-creative.com/assetlib/group/ticket_stubs
+- **Category**: Badges, Seals & Labels
+- **Styles**: 24
+- **Description**: Admit-one coupon tickets with circular cutout notches.
+- **Tags**: ticket, stub, coupon, admission, pass, voucher
+
+### Chunky Brutalist Arrows
+- **URL**: https://www.chris-creative.com/assetlib/group/brutalist_arrows
+- **Category**: Arrows, Pointers & Accents
+- **Styles**: 18
+- **Description**: Heavy editorial navigation block arrows with sharp triangular heads.
+- **Tags**: arrow, pointer, direction, navigation, brutalist, cursor
+
+### Curved Flow & Swoosh Arrows
+- **URL**: https://www.chris-creative.com/assetlib/group/swoosh_arrows
+- **Category**: Arrows, Pointers & Accents
+- **Styles**: 36
+- **Description**: Circular arc directional arrows, loops, and flow indicators.
+- **Tags**: arrow, swoosh, curve, loop, cycle, flow, pointer
+
+### Modern Speech & Dialog Bubbles
+- **URL**: https://www.chris-creative.com/assetlib/group/speech_bubbles
+- **Category**: Arrows, Pointers & Accents
+- **Styles**: 24
+- **Description**: Rounded speech balloons and message callout bubbles.
+- **Tags**: speech, bubble, callout, chat, message, dialog, quote
+
+### Faceted 3D Compass Needles
+- **URL**: https://www.chris-creative.com/assetlib/group/compass_needles
+- **Category**: Arrows, Pointers & Accents
+- **Styles**: 4
+- **Description**: Faceted 3D navigation pointers and compass needles.
+- **Tags**: compass, needle, pointer, navigation, faceted, north
+
+### Mathematical Rhodonea Rose Curves
+- **URL**: https://www.chris-creative.com/assetlib/group/rhodonea_roses
+- **Category**: Sacred Geometry & Guilloche
+- **Styles**: 57
+- **Description**: Harmonic rose curves generated by polar equations r = cos(k theta).
+- **Tags**: rose, curve, rhodonea, guilloche, math, flower
+
+### Hypotrochoid Spirographs
+- **URL**: https://www.chris-creative.com/assetlib/group/spirographs
+- **Category**: Sacred Geometry & Guilloche
+- **Styles**: 24
+- **Description**: Mathematical guilloche roulettes traced by rolling circles.
+- **Tags**: spirograph, guilloche, hypotrochoid, roulette, generative
+
+### Lissajous Harmonic Curves
+- **URL**: https://www.chris-creative.com/assetlib/group/lissajous_curves
+- **Category**: Sacred Geometry & Guilloche
+- **Styles**: 84
+- **Description**: Complex harmonic frequency knots and oscilloscope waveforms.
+- **Tags**: lissajous, curve, knot, harmonic, math, wave
+
+### Sacred Flower & Seed of Life
+- **URL**: https://www.chris-creative.com/assetlib/group/sacred_flower
+- **Category**: Sacred Geometry & Guilloche
+- **Styles**: 4
+- **Description**: Overlapping circular geometric mandalas and sacred lattices.
+- **Tags**: sacred, geometry, flower_of_life, seed_of_life, mandala
+
+### Metatron's Cube Sacred Geometry
+- **URL**: https://www.chris-creative.com/assetlib/group/metatron_cube
+- **Category**: Sacred Geometry & Guilloche
+- **Styles**: 3
+- **Description**: 13-node Metatron's cube wireframe projections.
+- **Tags**: metatron, cube, sacred, geometry, mandala, wireframe
+
+### Radial Dot Halftones
+- **URL**: https://www.chris-creative.com/assetlib/group/radial_halftones
+- **Category**: Halftones & Matrix Grids
+- **Styles**: 79
+- **Description**: Concentric radial screens with distance-scaled dot gradients.
+- **Tags**: halftone, radial, dots, screen, gradient, circle
+
+### Linear Halftone Screens
+- **URL**: https://www.chris-creative.com/assetlib/group/linear_halftones
+- **Category**: Halftones & Matrix Grids
+- **Styles**: 10
+- **Description**: Directional gradient halftone screens in horizontal, vertical, and diagonal.
+- **Tags**: halftone, linear, screen, dots, gradient, print
+
+### Diamond Halftone Matrices
+- **URL**: https://www.chris-creative.com/assetlib/group/diamond_halftones
+- **Category**: Halftones & Matrix Grids
+- **Styles**: 12
+- **Description**: Rhombus/diamond raster dot printing matrices.
+- **Tags**: halftone, diamond, screen, matrix, raster
+
+### Wave-Modulated Dither Matrices
+- **URL**: https://www.chris-creative.com/assetlib/group/dither_waves
+- **Category**: Halftones & Matrix Grids
+- **Styles**: 18
+- **Description**: Pixelated square dither screens with harmonic wave modulation.
+- **Tags**: dither, wave, matrix, halftone, pixels, grid
+
+### Concentric Ring Halftones
+- **URL**: https://www.chris-creative.com/assetlib/group/ring_halftones
+- **Category**: Halftones & Matrix Grids
+- **Styles**: 15
+- **Description**: Concentric target rings with gradient stroke thicknesses.
+- **Tags**: rings, concentric, halftone, target, radar
+
+### Sliced Wave Distortion Bars
+- **URL**: https://www.chris-creative.com/assetlib/group/sliced_bars
+- **Category**: Abstract Distortions
+- **Styles**: 64
+- **Description**: Parallel slat bars modulated by sinusoidal phase shifts.
+- **Tags**: sliced, bars, wave, slats, distortion, optical
+
+### Twisted Polygon Vortex Tunnels
+- **URL**: https://www.chris-creative.com/assetlib/group/twisted_polygons
+- **Category**: Abstract Distortions
+- **Styles**: 45
+- **Description**: Nested 3D polygon vortex tunnels rotating into depth.
+- **Tags**: vortex, tunnel, polygon, twisted, 3d, spiral
+
+### Wave-Warped Ripple Discs
+- **URL**: https://www.chris-creative.com/assetlib/group/wave_discs
+- **Category**: Abstract Distortions
+- **Styles**: 30
+- **Description**: Circles deformed by high-frequency harmonic ripples.
+- **Tags**: disc, wave, ripple, distortion, circle, fluid
+
+### Moire Interference Rings
+- **URL**: https://www.chris-creative.com/assetlib/group/moire_rings
+- **Category**: Abstract Distortions
+- **Styles**: 9
+- **Description**: Overlapping concentric ring sets creating optical moire patterns.
+- **Tags**: moire, interference, rings, optical, illusion
+
+### Parabolic String Art Hyperbolas
+- **URL**: https://www.chris-creative.com/assetlib/group/string_art
+- **Category**: Abstract Distortions
+- **Styles**: 6
+- **Description**: Geometric string art hyperbolic curve envelopes.
+- **Tags**: string_art, parabolic, lines, hyperbola, wireframe
