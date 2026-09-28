@@ -4,6 +4,38 @@
   "cleanUrls": true,
   "rewrites": [
     {
+      "source": "/assetlib/assets/(.*)",
+      "destination": "/assets/$1"
+    },
+    {
+      "source": "/assetlib/downloads/(.*)",
+      "destination": "/downloads/$1"
+    },
+    {
+      "source": "/assetlib/llms.txt",
+      "destination": "/llms.txt"
+    },
+    {
+      "source": "/assetlib/llms-full.txt",
+      "destination": "/llms-full.txt"
+    },
+    {
+      "source": "/assetlib/sitemap.xml",
+      "destination": "/sitemap.xml"
+    },
+    {
+      "source": "/assetlib/robots.txt",
+      "destination": "/robots.txt"
+    },
+    {
+      "source": "/assetlib/(.*)",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/assetlib",
+      "destination": "/index.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }

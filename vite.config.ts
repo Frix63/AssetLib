@@ -91,6 +91,7 @@ function csvEmailSaverPlugin(): Plugin {
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/assetlib/',
   plugins: [react(), csvEmailSaverPlugin()],
   server: {
     port: 3000,
