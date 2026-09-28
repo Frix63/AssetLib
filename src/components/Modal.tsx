@@ -95,10 +95,10 @@ export const Modal: React.FC = () => {
 
           <div className="modal-actions">
             {modalItems.length > 1 && (
-              <>
-                <button className="btn" onClick={prevModal}>&larr; PREV</button>
-                <button className="btn" onClick={nextModal}>NEXT &rarr;</button>
-              </>
+              <div className="modal-nav-group">
+                <button className="btn" onClick={prevModal} aria-label="Previous shape">&larr; PREV</button>
+                <button className="btn" onClick={nextModal} aria-label="Next shape">NEXT &rarr;</button>
+              </div>
             )}
 
             {canEdit && (
@@ -121,11 +121,11 @@ export const Modal: React.FC = () => {
                 PNG
               </a>
             )}
-            <button className="btn" onClick={closeModal}>&#x2715; CLOSE</button>
+            <button className="btn modal-close-btn" onClick={closeModal}>&#x2715; CLOSE</button>
           </div>
         </div>
 
-        <div className="modal-body">
+        <div className={`modal-body ${isStudioOpen ? 'studio-open' : ''}`}>
           <div className="stage-area">
             {isStudioOpen && (
               <div className="stage-toolbar">

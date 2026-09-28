@@ -29,12 +29,15 @@ body {
   font-size: 13px;
   line-height: 1.35;
   height: 100vh;
+  height: 100dvh;
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  -webkit-text-size-adjust: 100%;
 }
 #root {
   height: 100vh;
+  height: 100dvh;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -54,8 +57,23 @@ header {
 .top-left {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 10px;
   flex: 1;
+}
+.brand-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+.mobile-menu-btn {
+  display: none;
+}
+.desktop-btn-label {
+  display: inline;
+}
+.mobile-btn-label {
+  display: none;
 }
 .brand-title {
   font-family: 'Rubik Doodle Shadow', cursive, sans-serif;
@@ -177,6 +195,17 @@ aside {
   overflow-y: auto;
   min-height: 0;
   padding: 2px;
+}
+.sidebar-top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sidebar-close-btn {
+  display: none;
+}
+.mobile-nav-backdrop {
+  display: none;
 }
 .sidebar-header {
   padding: 8px 12px;
@@ -687,4 +716,370 @@ main {
 .drawer-footer .btn:hover {
   background: var(--fg);
   color: var(--bg);
+}
+
+/* ============================================================
+   RESPONSIVE DESIGN & MOBILE OPTIMIZATIONS
+   ============================================================ */
+
+/* MODAL CONTAINERS DEFAULT STYLES */
+.info-modal-backdrop, .download-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  padding: 16px;
+}
+.info-modal-container {
+  background: var(--bg);
+  color: var(--fg);
+  width: 100%;
+  max-width: 680px;
+  max-height: 90vh;
+  max-height: 90dvh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border: 2px solid var(--fg);
+  padding: 0;
+}
+.info-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--hover-bg);
+  gap: 8px;
+}
+.info-modal-content {
+  padding: 24px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  -webkit-overflow-scrolling: touch;
+}
+.download-modal-container {
+  background: var(--bg);
+  color: var(--fg);
+  width: 100%;
+  max-width: 520px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border: 2px solid var(--fg);
+  max-height: 90vh;
+  max-height: 90dvh;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Touch devices: show card edit/zoom buttons clearly without needing mouse hover */
+@media (hover: none) {
+  .card-edit-btn,
+  .card-zoom-btn {
+    opacity: 0.75;
+  }
+}
+
+/* TABLET BREAKPOINT (<= 992px) */
+@media (max-width: 992px) {
+  aside {
+    width: 220px;
+  }
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  }
+}
+
+/* MOBILE & TABLET PORTRAIT BREAKPOINT (<= 768px) */
+@media (max-width: 768px) {
+  header {
+    height: auto;
+    flex-wrap: wrap;
+    padding: 8px 10px;
+    gap: 8px;
+    border-bottom: 1px solid var(--hover-bg);
+  }
+  .top-left {
+    order: 1;
+    flex: 1 1 auto;
+    gap: 8px;
+  }
+  .mobile-menu-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 8px;
+    font-size: 11px;
+    font-weight: 800;
+    border: 1px solid var(--fg);
+    height: 30px;
+  }
+  .top-right {
+    order: 2;
+    flex: 0 0 auto;
+    gap: 3px;
+  }
+  .top-right .btn {
+    height: 30px;
+    padding: 3px 6px;
+    font-size: 11px;
+  }
+  .top-center {
+    order: 3;
+    width: 100%;
+    max-width: 100%;
+    flex: 1 1 100%;
+    margin: 0;
+  }
+  .search-input {
+    max-width: 100%;
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+
+  /* SIDEBAR AS SLIDE-OUT DRAWER ON MOBILE */
+  aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: min(300px, 85vw);
+    height: 100%;
+    height: 100dvh;
+    z-index: 2500;
+    transform: translateX(-100%);
+    transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+    box-shadow: 6px 0 30px rgba(0, 0, 0, 0.7);
+    border-right: 2px solid var(--fg);
+    background: var(--bg);
+    padding: 0;
+  }
+  aside.mobile-open {
+    transform: translateX(0);
+  }
+  .sidebar-top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--hover-bg);
+  }
+  .sidebar-header {
+    padding: 0;
+    opacity: 0.8;
+  }
+  .sidebar-close-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    color: var(--fg);
+    font-size: 22px;
+    font-weight: 700;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    border: none;
+    line-height: 1;
+  }
+  .sidebar-close-btn:hover {
+    background: var(--hover-bg);
+  }
+  .nav-item {
+    padding: 10px 14px;
+    font-size: 12px;
+  }
+  .sidebar-footer {
+    padding: 14px;
+  }
+  .mobile-nav-backdrop {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 2400;
+    backdrop-filter: blur(2px);
+  }
+
+  /* MAIN CONTENT */
+  main {
+    padding: 0;
+    -webkit-overflow-scrolling: touch;
+  }
+  .view-header {
+    padding: 8px 10px;
+    font-size: 11px;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  /* MODAL VIEW ON MOBILE */
+  .modal-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--hover-bg);
+  }
+  .modal-actions {
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  .modal-actions .btn {
+    height: 32px;
+    font-size: 11px;
+    padding: 4px 8px;
+    flex: 1 1 auto;
+    min-width: calc(25% - 4px);
+  }
+  .modal-nav-group {
+    display: flex;
+    gap: 4px;
+    flex: 1 1 100%;
+  }
+  .modal-nav-group .btn {
+    flex: 1;
+  }
+  .modal-close-btn {
+    order: 10;
+    flex: 1 1 100%;
+    font-weight: 800;
+    background: var(--hover-bg);
+  }
+
+  /* MODAL BODY WITH LIVE STUDIO DRAWER */
+  .modal-body.studio-open {
+    flex-direction: column;
+    overflow-y: auto;
+  }
+  .modal-body.studio-open .stage-area {
+    min-height: 240px;
+    max-height: 40vh;
+    flex-shrink: 0;
+    padding: 8px;
+  }
+  .modal-body.studio-open .svg-canvas {
+    width: min(32vh, 70vw);
+    height: min(32vh, 70vw);
+  }
+  .modal-body.studio-open .editor-drawer {
+    width: 100%;
+    flex: 1;
+    max-height: 60vh;
+    border-top: 2px solid var(--fg);
+    padding: 10px;
+  }
+  .stage-toolbar {
+    top: 6px;
+    left: 8px;
+    right: 8px;
+    flex-wrap: wrap;
+    gap: 3px;
+  }
+  .stage-toolbar .btn {
+    height: 22px;
+    font-size: 9px;
+    padding: 1px 5px;
+  }
+
+  /* MODAL BODY WITHOUT STUDIO */
+  .modal-body:not(.studio-open) .stage-area {
+    flex: 1;
+    padding: 12px;
+  }
+  .modal-body:not(.studio-open) .svg-canvas {
+    width: min(65vh, 85vw);
+    height: min(65vh, 85vw);
+  }
+}
+
+/* SMARTPHONE BREAKPOINT (<= 640px) */
+@media (max-width: 640px) {
+  .desktop-btn-label {
+    display: none;
+  }
+  .mobile-btn-label {
+    display: inline;
+  }
+
+  /* HIGH DENSITY 2-COLUMN BRUTALIST GRID */
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+    padding: 2px;
+  }
+  .card {
+    min-height: 195px;
+  }
+  .preview {
+    padding: 10px;
+  }
+  .preview svg {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  .card-footer {
+    padding: 6px 8px;
+    gap: 2px;
+  }
+  .card-title {
+    font-size: 11px;
+  }
+  .card-sub {
+    font-size: 9px;
+  }
+  .card-actions .btn {
+    height: 22px;
+    font-size: 9px;
+    padding: 1px 3px;
+    font-weight: 700;
+  }
+
+  /* MODALS SIZING */
+  .info-modal-header {
+    padding: 12px 14px;
+  }
+  .info-modal-content {
+    padding: 14px;
+    gap: 16px;
+  }
+  .download-modal-container {
+    padding: 18px 14px;
+  }
+}
+
+/* COMPACT PHONE BREAKPOINT (<= 440px) */
+@media (max-width: 440px) {
+  .chris-creative-by {
+    display: none;
+  }
+  .chris-creative-logo {
+    height: 11px;
+  }
+  .brand-title {
+    font-size: 18px;
+  }
+  .mobile-menu-text {
+    display: none;
+  }
+  .mobile-menu-btn {
+    padding: 4px 6px;
+  }
+  .top-right .btn {
+    padding: 3px 5px;
+    font-size: 10px;
+  }
+}
+
+/* ULTRA NARROW DEVICES (<= 330px) */
+@media (max-width: 330px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
 }

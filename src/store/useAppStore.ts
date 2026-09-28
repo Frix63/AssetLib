@@ -48,6 +48,7 @@ interface AppState {
   activeCollection: CollectionItem | null;
   searchQuery: string;
   theme: 'dark' | 'light';
+  isMobileNavOpen: boolean;
 
   // Modal & Studio State
   isModalOpen: boolean;
@@ -83,6 +84,8 @@ interface AppState {
   setSearchQuery: (query: string) => void;
   toggleTheme: () => void;
   showToast: (msg: string) => void;
+  toggleMobileNav: (force?: boolean) => void;
+  closeMobileNav: () => void;
 
   // Modal Actions
   openModal: (item: AssetItem | CollectionItem, openStudio?: boolean, list?: (AssetItem | CollectionItem)[]) => void;
@@ -122,6 +125,7 @@ export const useAppStore = create<AppState>((set, get) => ({
   activeCollection: null,
   searchQuery: '',
   theme: 'dark',
+  isMobileNavOpen: false,
 
   isModalOpen: false,
   isDownloadModalOpen: false,
@@ -239,7 +243,7 @@ export const useAppStore = create<AppState>((set, get) => ({
   },
 
   setActiveCategory: (cat: string, pushUrl = true) => {
-    set({ activeCategory: cat, activeCollection: null, viewMode: 'groups' });
+    set({ activeCategory: cat, activeCollection: null, viewMode: 'groups', isMobileNavOpen: false });
     if (pushUrl) {
       if (cat === 'all') {
         navigateToHome();
@@ -259,7 +263,7 @@ export const useAppStore = create<AppState>((set, get) => ({
   },
 
   setViewMode: (mode, pushUrl = true) => {
-    set({ viewMode: mode });
+    set({ viewMode: mode, isMobileNavOpen: false });
     if (pushUrl) {
       if (mode === 'all') {
         navigateToAll();
@@ -291,7 +295,7 @@ export const useAppStore = create<AppState>((set, get) => ({
 
   setActiveCollection: async (col, pushUrl = true) => {
     if (!col) {
-      set({ activeCollection: null, viewMode: 'groups' });
+      set({ activeCollection: null, viewMode: 'groups', isMobileNavOpen: false });
       if (pushUrl) {
         const cat = get().activeCategory;
         if (cat !== 'all') {
@@ -311,7 +315,8 @@ export const useAppStore = create<AppState>((set, get) => ({
     set({
       activeCollection: col,
       activeCategory: col.category,
-      viewMode: 'group_detail'
+      viewMode: 'group_detail',
+      isMobileNavOpen: false
     });
 
     if (pushUrl) {
@@ -345,6 +350,14 @@ export const useAppStore = create<AppState>((set, get) => ({
       }
     }, 2400);
   },
+
+  toggleMobileNav: (force?: boolean) => {
+    set(state => ({
+      isMobileNavOpen: force !== undefined ? force : !state.isMobileNavOpen
+    }));
+  },
+
+  closeMobileNav: () => set({ isMobileNavOpen: false }),
 
   openModal: (item, openStudio = false, list) => {
     const items = list && list.length > 0 ? list : [item];

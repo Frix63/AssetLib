@@ -22,50 +22,15 @@ export const InfoModal: React.FC = () => {
 
   return (
     <div
-      className="modal-backdrop"
-      style={{
-        position: 'fixed',
-        top: 0,
-        left: 0,
-        right: 0,
-        bottom: 0,
-        background: 'rgba(0, 0, 0, 0.85)',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        zIndex: 9999,
-        padding: '16px'
-      }}
+      className="modal-backdrop info-modal-backdrop"
       onClick={closeInfoModal}
     >
       <div
-        className="modal-container"
-        style={{
-          background: 'var(--bg)',
-          color: 'var(--fg)',
-          width: '100%',
-          maxWidth: '680px',
-          maxHeight: '90vh',
-          display: 'flex',
-          flexDirection: 'column',
-          position: 'relative',
-          borderRadius: 0,
-          boxShadow: 'none',
-          border: 'none',
-          padding: '0'
-        }}
+        className="modal-container info-modal-container"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Modal Top Bar */}
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'space-between',
-            alignItems: 'center',
-            padding: '20px 24px',
-            borderBottom: '1px solid var(--hover-bg)'
-          }}
-        >
+        <div className="info-modal-header">
           <div style={{ display: 'flex', gap: '8px' }}>
             <button
               className={`btn ${isLicense ? 'active' : ''}`}
@@ -93,7 +58,7 @@ export const InfoModal: React.FC = () => {
         </div>
 
         {/* Modal Scrollable Content */}
-        <div style={{ padding: '24px', overflowY: 'auto', display: 'flex', flexDirection: 'column', gap: '20px' }}>
+        <div className="info-modal-content">
           {isLicense ? (
             <>
               <div>

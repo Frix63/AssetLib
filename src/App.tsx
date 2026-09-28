@@ -11,6 +11,8 @@ import { Toast } from './components/Toast';
 export const App: React.FC = () => {
   const loadInitialData = useAppStore(state => state.loadInitialData);
   const syncFromUrl = useAppStore(state => state.syncFromUrl);
+  const isMobileNavOpen = useAppStore(state => state.isMobileNavOpen);
+  const closeMobileNav = useAppStore(state => state.closeMobileNav);
 
   useEffect(() => {
     loadInitialData();
@@ -31,6 +33,13 @@ export const App: React.FC = () => {
         <Sidebar />
         <CardGrid />
       </div>
+      {isMobileNavOpen && (
+        <div
+          className="mobile-nav-backdrop"
+          onClick={closeMobileNav}
+          aria-hidden="true"
+        />
+      )}
       <Modal />
       <MasterDownloadModal />
       <InfoModal />

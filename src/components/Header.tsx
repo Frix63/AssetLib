@@ -6,11 +6,13 @@ export const Header: React.FC = () => {
   const {
     viewMode,
     searchQuery,
+    isMobileNavOpen,
     setViewMode,
     setSearchQuery,
     setActiveCategory,
     setActiveCollection,
     toggleTheme,
+    toggleMobileNav,
     openDownloadModal
   } = useAppStore();
 
@@ -24,7 +26,31 @@ export const Header: React.FC = () => {
   return (
     <header>
       <div className="top-left">
-        <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+        <button
+          className={`btn mobile-menu-btn ${isMobileNavOpen ? 'active' : ''}`}
+          onClick={() => toggleMobileNav()}
+          aria-label="Toggle categories navigation"
+          title="Categories"
+        >
+          <svg
+            width="13"
+            height="13"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            style={{ display: 'block' }}
+          >
+            <line x1="3" y1="6" x2="21" y2="6" />
+            <line x1="3" y1="12" x2="21" y2="12" />
+            <line x1="3" y1="18" x2="21" y2="18" />
+          </svg>
+          <span className="mobile-menu-text">CATEGORIES</span>
+        </button>
+
+        <div className="brand-group">
           <div className="brand-title" onClick={handleBrandClick}>
             AssetLib
           </div>
@@ -67,7 +93,8 @@ export const Header: React.FC = () => {
           title="Download all 2,069 assets in one ZIP pack"
           style={{ letterSpacing: '0.5px' }}
         >
-          DOWNLOAD ALL
+          <span className="desktop-btn-label">DOWNLOAD ALL</span>
+          <span className="mobile-btn-label">DL ALL</span>
         </button>
         <button
           className={`btn ${viewMode === 'groups' ? 'active' : ''}`}
@@ -85,7 +112,8 @@ export const Header: React.FC = () => {
             setViewMode('all');
           }}
         >
-          ALL SHAPES
+          <span className="desktop-btn-label">ALL SHAPES</span>
+          <span className="mobile-btn-label">ALL</span>
         </button>
         <button className="btn" onClick={toggleTheme}>
           B/W

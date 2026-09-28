@@ -115,37 +115,11 @@ export const MasterDownloadModal: React.FC = () => {
 
   return (
     <div
-      className="modal-backdrop"
-      style={{
-        position: 'fixed',
-        top: 0,
-        left: 0,
-        right: 0,
-        bottom: 0,
-        background: 'rgba(0, 0, 0, 0.85)',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        zIndex: 9999,
-        padding: '16px'
-      }}
+      className="modal-backdrop download-modal-backdrop"
       onClick={closeDownloadModal}
     >
       <div
-        className="modal-container"
-        style={{
-          background: 'var(--bg)',
-          color: 'var(--fg)',
-          width: '100%',
-          maxWidth: '520px',
-          padding: '28px',
-          display: 'flex',
-          flexDirection: 'column',
-          position: 'relative',
-          borderRadius: 0,
-          boxShadow: 'none',
-          border: 'none'
-        }}
+        className="modal-container download-modal-container"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}
