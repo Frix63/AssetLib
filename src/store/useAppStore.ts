@@ -14,6 +14,8 @@ import {
   navigateToCategory,
   navigateToAll,
   navigateToHome,
+  navigateToLicense,
+  navigateToFaq,
   getAssetUrl
 } from '../core/router';
 
@@ -50,6 +52,7 @@ interface AppState {
   // Modal & Studio State
   isModalOpen: boolean;
   isDownloadModalOpen: boolean;
+  activeInfoModal: 'license' | 'faq' | null;
   modalItems: (AssetItem | CollectionItem)[];
   currentModalIndex: number;
   isStudioOpen: boolean;
@@ -86,6 +89,8 @@ interface AppState {
   closeModal: () => void;
   openDownloadModal: () => void;
   closeDownloadModal: () => void;
+  openInfoModal: (type: 'license' | 'faq') => void;
+  closeInfoModal: () => void;
   nextModal: () => void;
   prevModal: () => void;
   toggleStudio: (force?: boolean) => void;
@@ -120,6 +125,7 @@ export const useAppStore = create<AppState>((set, get) => ({
 
   isModalOpen: false,
   isDownloadModalOpen: false,
+  activeInfoModal: null,
   modalItems: [],
   currentModalIndex: 0,
   isStudioOpen: false,
@@ -164,8 +170,18 @@ export const useAppStore = create<AppState>((set, get) => ({
 
   syncFromUrl: async (pushState = false) => {
     const { summary } = get();
-    if (!summary) return;
     const route = getRouteFromLocation();
+    if (route.type === 'license') {
+      set({ activeInfoModal: 'license' });
+      return;
+    }
+
+    if (route.type === 'faq') {
+      set({ activeInfoModal: 'faq' });
+      return;
+    }
+
+    if (!summary) return;
 
     if (route.type === 'group' && route.groupId) {
       const col = summary.collections.find(c => c.id.toLowerCase() === route.groupId);
@@ -402,6 +418,23 @@ export const useAppStore = create<AppState>((set, get) => ({
 
   openDownloadModal: () => set({ isDownloadModalOpen: true }),
   closeDownloadModal: () => set({ isDownloadModalOpen: false }),
+
+  openInfoModal: (type) => {
+    set({ activeInfoModal: type });
+    if (type === 'license') {
+      navigateToLicense();
+    } else {
+      navigateToFaq();
+    }
+  },
+
+  closeInfoModal: () => {
+    set({ activeInfoModal: null });
+    const route = getRouteFromLocation();
+    if (route.type === 'license' || route.type === 'faq') {
+      navigateToHome();
+    }
+  },
 
   nextModal: () => {
     const { modalItems, currentModalIndex } = get();

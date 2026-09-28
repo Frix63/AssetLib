@@ -2,7 +2,7 @@ import React from 'react';
 import { useAppStore } from '../store/useAppStore';
 
 export const Sidebar: React.FC = () => {
-  const { summary, activeCategory, setActiveCategory } = useAppStore();
+  const { summary, activeCategory, setActiveCategory, openInfoModal } = useAppStore();
 
   const categories = summary?.categories || {};
   const totalShapes = summary?.total_shapes || 0;
@@ -30,6 +30,24 @@ export const Sidebar: React.FC = () => {
           </li>
         ))}
       </ul>
+
+      <div className="sidebar-footer">
+        <button
+          className="sidebar-link-btn"
+          onClick={() => openInfoModal('license')}
+          title="Commercial License & Terms"
+        >
+          LICENSE
+        </button>
+        <span style={{ opacity: 0.3 }}>&bull;</span>
+        <button
+          className="sidebar-link-btn"
+          onClick={() => openInfoModal('faq')}
+          title="Designer FAQ & Usage Guide"
+        >
+          FAQ
+        </button>
+      </div>
     </aside>
   );
 };

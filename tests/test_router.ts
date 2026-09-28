@@ -60,6 +60,31 @@ assert.deepStrictEqual(
   'Should parse /assetlib/all'
 );
 
+// 1c. License & FAQ subpage tests
+assert.deepStrictEqual(
+  parseRoute('/license', '', ''),
+  { type: 'license' },
+  'Should parse /license'
+);
+
+assert.deepStrictEqual(
+  parseRoute('/faq', '', ''),
+  { type: 'faq' },
+  'Should parse /faq'
+);
+
+assert.deepStrictEqual(
+  parseRoute('/assetlib/license', '', ''),
+  { type: 'license' },
+  'Should parse /assetlib/license'
+);
+
+assert.deepStrictEqual(
+  parseRoute('/assetlib/faq', '', ''),
+  { type: 'faq' },
+  'Should parse /assetlib/faq'
+);
+
 // 2. Hash & Search Fallback Parsing
 assert.deepStrictEqual(
   parseRoute('/', '#/group/spiral_vortexes', ''),

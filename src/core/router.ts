@@ -1,5 +1,5 @@
 export interface RouteState {
-  type: 'group' | 'category' | 'all' | 'home';
+  type: 'group' | 'category' | 'all' | 'home' | 'license' | 'faq';
   groupId?: string;
   categoryId?: string;
 }
@@ -18,6 +18,16 @@ export function getAssetUrl(relPath: string): string {
 export function parseRoute(pathname: string = '', hash: string = '', search: string = ''): RouteState {
   // Strip optional /assetlib subfolder prefix if present
   const cleanPath = pathname.replace(/^\/assetlib(?:\/|$)/i, '/') || '/';
+
+  // Pathname check: /license
+  if (/^\/license\/?$/i.test(cleanPath)) {
+    return { type: 'license' };
+  }
+
+  // Pathname check: /faq
+  if (/^\/faq\/?$/i.test(cleanPath)) {
+    return { type: 'faq' };
+  }
 
   // 1. Pathname check: /group/:id or /groups/:id
   const groupMatch = cleanPath.match(/^\/(?:group|groups)\/([a-zA-Z0-9_-]+)\/?$/i);
@@ -125,5 +135,29 @@ export function navigateToHome(): void {
   }
   if (typeof document !== 'undefined') {
     document.title = 'AssetLib';
+  }
+}
+
+export function navigateToLicense(): void {
+  if (typeof window === 'undefined') return;
+  const base = getBasePath();
+  const target = `${base}/license`;
+  if (window.location.pathname !== target) {
+    window.history.pushState({ type: 'license' }, '', target);
+  }
+  if (typeof document !== 'undefined') {
+    document.title = 'Commercial License & Usage Rights • AssetLib';
+  }
+}
+
+export function navigateToFaq(): void {
+  if (typeof window === 'undefined') return;
+  const base = getBasePath();
+  const target = `${base}/faq`;
+  if (window.location.pathname !== target) {
+    window.history.pushState({ type: 'faq' }, '', target);
+  }
+  if (typeof document !== 'undefined') {
+    document.title = 'Designer FAQ & Tool Guide • AssetLib';
   }
 }

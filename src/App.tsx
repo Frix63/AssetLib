@@ -5,6 +5,7 @@ import { Sidebar } from './components/Sidebar';
 import { CardGrid } from './components/CardGrid';
 import { Modal } from './components/Modal';
 import { MasterDownloadModal } from './components/MasterDownloadModal';
+import { InfoModal } from './components/InfoModal';
 import { Toast } from './components/Toast';
 
 export const App: React.FC = () => {
@@ -32,6 +33,7 @@ export const App: React.FC = () => {
       </div>
       <Modal />
       <MasterDownloadModal />
+      <InfoModal />
       <Toast />
     </>
   );

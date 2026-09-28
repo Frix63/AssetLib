@@ -16,7 +16,9 @@ const lastMod = new Date().toISOString().split('T')[0];
 // 1. Generate Sitemap XML
 const urls = [
   { loc: `${domain}/`, priority: '1.0', changefreq: 'daily' },
-  { loc: `${domain}/all`, priority: '0.8', changefreq: 'weekly' }
+  { loc: `${domain}/all`, priority: '0.8', changefreq: 'weekly' },
+  { loc: `${domain}/license`, priority: '0.9', changefreq: 'monthly' },
+  { loc: `${domain}/faq`, priority: '0.9', changefreq: 'monthly' }
 ];
 
 // Categories

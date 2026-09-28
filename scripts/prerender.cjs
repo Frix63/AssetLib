@@ -135,6 +135,106 @@ renderPage({
 });
 generatedCount++;
 
+// 2b. Commercial License Page (/license)
+renderPage({
+  relPath: 'license',
+  title: 'Commercial License & Usage Rights — Free Design Assets | AssetLib',
+  description: '100% free commercial license for all 2,069+ AssetLib vector shapes and design assets. CC0 Public Domain dedication for client work, streetwear, logos, merchandise, and web projects.',
+  keywords: 'free vector commercial license, free design assets commercial use, cc0 vectors, vector pack client work, assetlib license, copyright free vectors',
+  canonicalUrl: `${domain}/license`,
+  jsonLd: {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: 'Commercial License & Usage Rights',
+    url: `${domain}/license`,
+    description: 'Commercial license details for AssetLib vector assets and design shapes under CC0 1.0 Universal.',
+    license: 'https://creativecommons.org/publicdomain/zero/1.0/'
+  },
+  crawlerHtml: `
+    <main style="padding:24px;">
+      <h1>Commercial License &amp; Usage Rights — 100% Free</h1>
+      <p>All 2,069+ vector shapes on AssetLib are dedicated to the public domain under Creative Commons Zero (CC0 1.0 Universal).</p>
+      <section>
+        <h2>What You Can Do:</h2>
+        <ul>
+          <li>Use in paying client projects, logos, and brand identity systems without royalties.</li>
+          <li>Print on physical merchandise, streetwear apparel, album covers, posters, and packaging.</li>
+          <li>Integrate into digital websites, Figma design files, mobile apps, and templates.</li>
+          <li>No attribution, backlinks, or licensing fees required.</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Restrictions:</h2>
+        <p>You may not re-upload the entire raw unmodified asset archive to sell as a standalone stock vector pack on commercial marketplaces.</p>
+      </section>
+    </main>
+  `
+});
+generatedCount++;
+
+// 2c. Designer FAQ Page (/faq)
+renderPage({
+  relPath: 'faq',
+  title: 'Designer FAQ & Tool Guide — Free Vector Shapes | AssetLib',
+  description: 'Frequently asked questions for graphic designers: how shapes are constructed with clean vector code, Figma & Illustrator integration, file formats, and commercial rights.',
+  keywords: 'free vector figma, illustrator svg import, how to use vector pack, clean bezier svg, commercial design vectors, assetlib faq',
+  canonicalUrl: `${domain}/faq`,
+  jsonLd: {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'How are the shapes constructed?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Every asset is generated through exact geometric code and procedural vector algorithms—never autotraced from pixelated bitmaps. This ensures pure, lightweight SVG geometry with clean bezier curves, zero artifact points, and perfect scalability across print and screen.'
+        }
+      },
+      {
+        '@type': 'Question',
+        name: 'How do I copy shapes directly into Figma or Adobe Illustrator?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Click on any shape to open the inspection modal, then click "COPY SVG". In Figma or Illustrator, press Ctrl+V (or Cmd+V) on your canvas. The shape will paste instantly as native vector paths with fully editable anchor points and fills.'
+        }
+      },
+      {
+        '@type': 'Question',
+        name: 'What file formats are included?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'All shapes are provided in clean SVG vector code, 300 DPI high-resolution transparent PNG (from 512px up to 2048px), and a complete master ZIP download containing all 2,069 assets in categorized folders.'
+        }
+      },
+      {
+        '@type': 'Question',
+        name: 'Can I use these shapes for commercial client projects?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Yes, 100%. All assets are released under Creative Commons Zero (CC0 Public Domain). You can use them freely in commercial client projects, apparel, album covers, and digital products with no royalties or fees.'
+        }
+      }
+    ]
+  },
+  crawlerHtml: `
+    <main style="padding:24px;">
+      <h1>Designer FAQ &amp; Vector Tool Guide</h1>
+      <dl>
+        <dt><strong>How are the shapes constructed?</strong></dt>
+        <dd>Every asset is generated through exact geometric code and procedural vector algorithms—never autotraced from pixelated bitmaps. This ensures pure, lightweight SVG geometry with clean bezier curves, zero artifact points, and perfect scalability.</dd>
+        <dt><strong>How do I copy shapes directly into Figma or Adobe Illustrator?</strong></dt>
+        <dd>Click any shape, select "COPY SVG", and paste directly onto your Figma or Illustrator canvas with Ctrl+V / Cmd+V.</dd>
+        <dt><strong>What file formats are provided?</strong></dt>
+        <dd>Clean, scalable SVG and 300 DPI transparent PNG.</dd>
+        <dt><strong>Can I use these for commercial client projects?</strong></dt>
+        <dd>Yes, 100% free under CC0 Public Domain.</dd>
+      </dl>
+    </main>
+  `
+});
+generatedCount++;
+
 // 3. Category pages (/category/:id)
 Object.entries(summary.categories || {}).forEach(([catId, catInfo]) => {
   const catTitle = catInfo.title;
